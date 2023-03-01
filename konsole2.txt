@@ -1,0 +1,2449 @@
+[ny@localhost ~]$ ssh -Y -p 9 niyu@210.45.75.194
+niyu@210.45.75.194's password: 
+Last login: Thu Feb 23 21:31:25 2023 from 210.45.75.194
+[niyu@localhost-localdomain ~]$ ls
+anaconda3  Downloads  Pictures     software   Videos
+Desktop    local      Public       Templates  workspace
+Documents  Music      restart.ffp  tools
+[niyu@localhost-localdomain ~]$ cd workspace/
+[niyu@localhost-localdomain ~/workspace]$ ls
+2_molecular_probe  Param_Opt                   POPG berger 参数.zip
+berger             ParamOpt_Tutorial.tgz       script
+DSA                POPG_Berger_last-frame.gro  test
+[niyu@localhost-localdomain ~/workspace]$ cd 2_molecular_probe/
+[niyu@localhost-localdomain 2_molecular_probe]$ ls
+1_POPG_SA  bak
+[niyu@localhost-localdomain 2_molecular_probe]$ df -h
+文件系统        容量  已用  可用 已用% 挂载点
+devtmpfs        7.7G     0  7.7G    0% /dev
+tmpfs           7.7G     0  7.7G    0% /dev/shm
+tmpfs           7.7G   11M  7.7G    1% /run
+tmpfs           7.7G     0  7.7G    0% /sys/fs/cgroup
+/dev/sda4       394G   23G  352G    6% /
+/dev/sda2       3.9G  244M  3.4G    7% /boot
+/dev/sda3       3.1T  2.9T   22G  100% /home
+tmpfs           1.6G   32K  1.6G    1% /run/user/1003
+[niyu@localhost-localdomain 2_molecular_probe]$ ls
+1_POPG_SA  bak
+[niyu@localhost-localdomain 2_molecular_probe]$ cd 
+[niyu@localhost-localdomain ~]$ lks
+lks: Command not found.
+[niyu@localhost-localdomain ~]$ cd 2
+2: 没有那个文件或目录.
+[niyu@localhost-localdomain ~]$ ls
+anaconda3  Downloads  Pictures     software   Videos
+Desktop    local      Public       Templates  workspace
+Documents  Music      restart.ffp  tools
+[niyu@localhost-localdomain ~]$ cd workspace/
+[niyu@localhost-localdomain ~/workspace]$ cd 1
+1: 没有那个文件或目录.
+[niyu@localhost-localdomain ~/workspace]$ ls
+2_molecular_probe  Param_Opt                   POPG berger 参数.zip
+berger             ParamOpt_Tutorial.tgz       script
+DSA                POPG_Berger_last-frame.gro  test
+[niyu@localhost-localdomain ~/workspace]$ cd 2_molecular_probe/
+[niyu@localhost-localdomain 2_molecular_probe]$ ls
+1_POPG_SA  bak
+[niyu@localhost-localdomain 2_molecular_probe]$ cd 1_POPG_SA/
+[niyu@localhost-localdomain 1_POPG_SA]$ ls
+1_modeling_simulation_parameter_test  bak
+[niyu@localhost-localdomain 1_POPG_SA]$ cd 1_modeling_simulation_parameter_test/
+[niyu@localhost-localdomain 1_modeling_simulation_parameter_test]$ ls
+1_size_my_berger_mdp_cutoff_test         3_8nm_mymdp_C36_1.2_1.0
+2_8nm_mymdp_cutoff-1.2_rvdw_switch_test
+[niyu@localhost-localdomain 1_modeling_simulation_parameter_test]$ cd 1_size_my_berger_mdp_cutoff_test/
+[niyu@localhost-localdomain 1_size_my_berger_mdp_cutoff_test]$ ls
+1_8nm_PGSA_mymdp           4_10nm_PGSA_berger_1.4_mdp
+2_8nm_PGSA_berger_1.4_mdp  5_10nm_PGSA_berger_1.2_mdp
+3_10nm_PGSA_mymdp
+[niyu@localhost-localdomain 1_size_my_berger_mdp_cutoff_test]$ cd 1_8nm_PGSA_mymdp/
+[niyu@localhost-localdomain 1_8nm_PGSA_mymdp]$ ls
+charmm-gui-6989648975
+[niyu@localhost-localdomain 1_8nm_PGSA_mymdp]$ cd charmm-gui-6989648975/
+[niyu@localhost-localdomain charmm-gui-6989648975]$ lws
+lws: Command not found.
+[niyu@localhost-localdomain charmm-gui-6989648975]$ cd gromacs/
+[niyu@localhost-localdomain gromacs]$ ls
+cd16DSA_DOXYL.pdb                 #step6.2_equilibration.xtc.1#
+analysis                        step6.3_equilibration.cpt
+charmm36-jul2021.ff             step6.3_equilibration.edr
+index.ndx                       step6.3_equilibration.gro
+mdout.mdp                       step6.3_equilibration.log
+out.gro                         step6.3_equilibration.mdp
+PG_12DSA                        step6.3_equilibration.tpr
+PG_16DSA                        step6.3_equilibration.trr
+PG_5DSA                         step6.3_equilibration.xtc
+popg_127_doxyl_align.pdb        step6.4_equilibration.cpt
+POPG_DSA                        step6.4_equilibration.edr
+POPG_DSA_2                      step6.4_equilibration.gro
+POPG_DSA_208                    step6.4_equilibration.log
+POPG_DSA_3                      step6.4_equilibration.mdp
+POPG_DSA_4                      step6.4_equilibration.tpr
+POPG_DSA_new                    step6.4_equilibration.trr
+POPG_POPG                       step6.4_equilibration.xtc
+POPG_SA_fit_start.pdb           step6.5_equilibration.cpt
+POPG_SA_start.pdb               step6.5_equilibration.edr
+POPG_SA_start.xtc               step6.5_equilibration.gro
+README                          step6.5_equilibration.log
+step5_input.gro                 step6.5_equilibration.mdp
+step5_input.pdb                 step6.5_equilibration.tpr
+step5_input.psf                 step6.5_equilibration.trr
+step6.0_minimization.edr        step6.5_equilibration.xtc
+#step6.0_minimization.edr.1#    step6.6_equilibration.cpt
+step6.0_minimization.gro        step6.6_equilibration.edr
+#step6.0_minimization.gro.1#    step6.6_equilibration.gro
+step6.0_minimization.log        step6.6_equilibration.log
+#step6.0_minimization.log.1#    step6.6_equilibration.mdp
+step6.0_minimization.mdp        step6.6_equilibration.tpr
+step6.0_minimization.tpr        step6.6_equilibration.trr
+#step6.0_minimization.tpr.1#    step6.6_equilibration.xtc
+step6.0_minimization.trr        step7_1.cpt
+#step6.0_minimization.trr.1#    step7_1.edr
+step6.1_equilibration.cpt       step7_1.gro
+step6.1_equilibration.edr       step7_1.log
+#step6.1_equilibration.edr.1#   step7_1_prev.cpt
+step6.1_equilibration.gro       step7_1.tpr
+#step6.1_equilibration.gro.1#   step7_1.trr
+step6.1_equilibration.log       step7_1.xtc
+#step6.1_equilibration.log.1#   step7_2_127.pdb
+step6.1_equilibration.mdp       step7_2_207_STE.gro
+step6.1_equilibration_prev.cpt  step7_2.cpt
+step6.1_equilibration.tpr       step7_2.edr
+#step6.1_equilibration.tpr.1#   step7_2.gro
+step6.1_equilibration.trr       step7_2.log
+#step6.1_equilibration.trr.1#   step7_2_new.pdb
+step6.1_equilibration.xtc       step7_2.pdb
+#step6.1_equilibration.xtc.1#   #step7_2.pdb.1#
+step6.2_equilibration.cpt       step7_2_prev.cpt
+step6.2_equilibration.edr       step7_2_STE207.pdb
+#step6.2_equilibration.edr.1#   step7_2.tpr
+step6.2_equilibration.gro       step7_2.trr
+#step6.2_equilibration.gro.1#   step7_2.xtc
+step6.2_equilibration.log       step7_3.edr
+#step6.2_equilibration.log.1#   step7_3.log
+step6.2_equilibration.mdp       step7_3.tpr
+step6.2_equilibration_prev.cpt  step7_3.trr
+step6.2_equilibration.tpr       step7_3.xtc
+#step6.2_equilibration.tpr.1#   step7_production.mdp
+step6.2_equilibration.trr       thickness
+#step6.2_equilibration.trr.1#   topol.top
+step6.2_equilibration.xtc       toppar
+[niyu@localhost-localdomain gromacs]$ cd PO
+POPG_DSA/              POPG_DSA_4/            POPG_SA_start.pdb 
+POPG_DSA_2/            POPG_DSA_new/          POPG_SA_start.xtc 
+POPG_DSA_208/          POPG_POPG/             
+POPG_DSA_3/            POPG_SA_fit_start.pdb  
+[niyu@localhost-localdomain gromacs]$ cd PG_1
+PG_12DSA/ PG_16DSA/ 
+[niyu@localhost-localdomain gromacs]$ cd PG_16DSA/
+[niyu@localhost-localdomain PG_16DSA]$ ls
+em_2ste.sh               molecule_niyu.prm
+em_2ste_v3.edr           molecule_niyu_v2.prm
+em_2ste_v3.gro           molecule_niyu_v3.itp
+em_2ste_v3.tpr           molecule_niyu_v3.prm
+#em_2ste_v3.tpr.1#       molecule_ny.itp
+em_2ste_v3.trr           molecule_ny_itp.bak
+em.mdp                   molecule.prm
+em.sh                    npt_2ste.sh
+em_v2.sh                 npt_2ste_v3.edr
+em_v3.sh                 npt_2ste_v3.gro
+extract_gmx.sh           npt_2ste_v3.tpr
+forcefield.itp           npt_2ste_v3.trr
+lipid_rs_1ste_2.ndx      npt_em.sh
+md_2ste.sh               npt.mdp
+md_2ste_v3_16ns.gro      npt.sh
+#md_2ste_v3_16ns.gro.1#  npt_v2.sh
+md_2ste_v3.cpt           npt_v3.sh
+md_2ste_v3.edr           nvt_2.mdp
+md_2ste_v3.gro           nvt_2ste.sh
+md_2ste_v3.log           nvt_2ste_v3.edr
+md_2ste_v3.part0002.edr  nvt_2ste_v3.gro
+md_2ste_v3.part0002.gro  nvt_2ste_v3.tpr
+md_2ste_v3.part0002.log  nvt_2ste_v3.trr
+md_2ste_v3.part0002.trr  nvt_em.sh
+md_2ste_v3.part0002.xtc  nvt.mdp
+md_2ste_v3.pdb           nvt.sh
+md_2ste_v3_prev.cpt      nvt_v2.sh
+md_2ste_v3.tpr           nvt_v3.sh
+md_2ste_v3.trr           posi
+md_2ste_v3_v2.cpt        run.sh
+md_2ste_v3_v2.pdb        state.cpt
+md_2ste_v3_v2_prev.cpt   state_prev.cpt
+md_2ste_v3_v2.tpr        STE_207_DOXYL_new_align.pdb
+md_2ste_v3.xtc           step6.0_minimization.mdp
+md.log                   step6.1_equilibration.mdp
+#md.log.1#               step6.2_equilibration.mdp
+#md.log.2#               step6.3_equilibration.mdp
+#md.log.3#               step6.4_equilibration.mdp
+md.mdp                   step6.5_equilibration.mdp
+mdout.mdp                step6.6_equilibration.mdp
+md.sh                    step7_2_new.gro
+md_v2.sh                 step7_production.mdp
+md_v3.sh                 test.mol2
+molecule_bk.prm          topol.top
+molecule.itp             toppar
+[niyu@localhost-localdomain PG_16DSA]$ vim mo
+molecule_bk.prm       molecule_niyu_v2.prm  molecule_ny.itp 
+molecule.itp          molecule_niyu_v3.itp  molecule_ny_itp.bak 
+molecule_niyu.prm     molecule_niyu_v3.prm  molecule.prm 
+[niyu@localhost-localdomain PG_16DSA]$ vim molecule_ny.itp 
+[niyu@localhost-localdomain PG_16DSA]$ cp mo
+molecule_bk.prm       molecule_niyu_v2.prm  molecule_ny.itp 
+molecule.itp          molecule_niyu_v3.itp  molecule_ny_itp.bak 
+molecule_niyu.prm     molecule_niyu_v3.prm  molecule.prm 
+[niyu@localhost-localdomain PG_16DSA]$ cp molecule_ny.itp  molecule_ny02032023.itp
+[niyu@localhost-localdomain PG_16DSA]$ vim mo
+molecule_bk.prm          molecule_niyu_v3.prm 
+molecule.itp             molecule_ny02032023.itp 
+molecule_niyu.prm        molecule_ny.itp 
+molecule_niyu_v2.prm     molecule_ny_itp.bak 
+molecule_niyu_v3.itp     molecule.prm 
+[niyu@localhost-localdomain PG_16DSA]$ vim molecule_ny
+molecule_ny02032023.itp  molecule_ny_itp.bak 
+molecule_ny.itp          
+[niyu@localhost-localdomain PG_16DSA]$ vim molecule_ny.itp 
+[niyu@localhost-localdomain PG_16DSA]$ vim top
+topol.top  toppar/    
+[niyu@localhost-localdomain PG_16DSA]$ vim topol.top 
+[niyu@localhost-localdomain PG_16DSA]$ vim mo
+molecule_bk.prm          molecule_niyu_v3.prm 
+molecule.itp             molecule_ny02032023.itp 
+molecule_niyu.prm        molecule_ny.itp 
+molecule_niyu_v2.prm     molecule_ny_itp.bak 
+molecule_niyu_v3.itp     molecule.prm 
+[niyu@localhost-localdomain PG_16DSA]$ vim molecule_niy
+molecule_niyu.prm     molecule_niyu_v3.itp  
+molecule_niyu_v2.prm  molecule_niyu_v3.prm  
+[niyu@localhost-localdomain PG_16DSA]$ vim molecule_niyu.prm 
+[niyu@localhost-localdomain PG_16DSA]$ vim test.mol2 
+em_2ste.sh*                  md_2ste_v3_v2_prev.cpt       npt_v3.sh*                          
+em_2ste_v3.edr               md_2ste_v3_v2.tpr            nvt_2.mdp                           
+em_2ste_v3.gro               md_2ste_v3.xtc               nvt_2ste.sh*                        
+em_2ste_v3.tpr               md.log                       nvt_2ste_v3.edr                     
+#em_2ste_v3.tpr.1#           #md.log.1#                   nvt_2ste_v3.gro                     
+em_2ste_v3.trr               #md.log.2#                   nvt_2ste_v3.tpr                     
+em.mdp                       #md.log.3#                   nvt_2ste_v3.trr                     
+em.sh*                       md.mdp                       nvt_em.sh*                          
+em_v2.sh*                    mdout.mdp                    nvt.mdp                             
+em_v3.sh*                    md.sh*                       nvt.sh*                             
+extract_gmx.sh*              md_v2.sh*                    nvt_v2.sh*                          
+forcefield.itp               md_v3.sh*                    nvt_v3.sh*                          
+lipid_rs_1ste_2.ndx          molecule_bk.prm              posi/                               
+md_2ste.sh*                  molecule.itp                 run.sh*                             
+md_2ste_v3_16ns.gro          molecule_niyu.prm            state.cpt                           
+#md_2ste_v3_16ns.gro.1#      molecule_niyu_v2.prm         state_prev.cpt                      
+md_2ste_v3.cpt               molecule_niyu_v3.itp         STE_207_DOXYL_new_align.pdb         
+md_2ste_v3.edr               molecule_niyu_v3.prm         step6.0_minimization.mdp 
+md_2ste_v3.gro               molecule_ny02032023.itp      step6.1_equilibration.mdp 
+md_2ste_v3.log               molecule_ny.itp              step6.2_equilibration.mdp 
+md_2ste_v3.part0002.edr      molecule_ny_itp.bak          step6.3_equilibration.mdp 
+md_2ste_v3.part0002.gro      molecule.prm                 step6.4_equilibration.mdp 
+md_2ste_v3.part0002.log      npt_2ste.sh*                 step6.5_equilibration.mdp 
+md_2ste_v3.part0002.trr      npt_2ste_v3.edr              step6.6_equilibration.mdp 
+md_2ste_v3.part0002.xtc      npt_2ste_v3.gro              step7_2_new.gro 
+md_2ste_v3.pdb               npt_2ste_v3.tpr              step7_production.mdp 
+md_2ste_v3_prev.cpt          npt_2ste_v3.trr              test.mol2 
+md_2ste_v3.tpr               npt_em.sh*                   topol.top 
+md_2ste_v3.trr               npt.mdp                      toppar/
+md_2ste_v3_v2.cpt            npt.sh*                      
+md_2ste_v3_v2.pdb            npt_v2.sh*                   
+[niyu@localhost-localdomain PG_16DSA]$ pwd
+/home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+[niyu@localhost-localdomain PG_16DSA]$ vim tes
+test.mol2  test.prm   
+[niyu@localhost-localdomain PG_16DSA]$ vim moletest.prm  
+molecule_bk.prm          molecule_niyu_v3.itp     molecule_ny_itp.bak 
+molecule.itp             molecule_niyu_v3.prm     molecule.prm 
+molecule_niyu.prm        molecule_ny02032023.itp  
+molecule_niyu_v2.prm     molecule_ny.itp          
+[niyu@localhost-localdomain PG_16DSA]$ vim molecule_niyutest.prm
+molecule_niyu.prm     molecule_niyu_v2.prm  molecule_niyu_v3.itp  molecule_niyu_v3.prm 
+[niyu@localhost-localdomain PG_16DSA]$ vim molecule_niyu.prm  test.prm   -o
+还有 2 个文件等待编辑
+[niyu@localhost-localdomain PG_16DSA]$ vim molecule_niyu.prm test.prm -o
+还有 2 个文件等待编辑
+[niyu@localhost-localdomain PG_16DSA]$ vim molecule_niyu.prm test.prm -o
+还有 2 个文件等待编辑
+[niyu@localhost-localdomain PG_16DSA]$ ls
+em_2ste.sh               md_2ste_v3_v2_prev.cpt   npt_v3.sh
+em_2ste_v3.edr           md_2ste_v3_v2.tpr        nvt_2.mdp
+em_2ste_v3.gro           md_2ste_v3.xtc           nvt_2ste.sh
+em_2ste_v3.tpr           md.log                   nvt_2ste_v3.edr
+#em_2ste_v3.tpr.1#       #md.log.1#               nvt_2ste_v3.gro
+em_2ste_v3.trr           #md.log.2#               nvt_2ste_v3.tpr
+em.mdp                   #md.log.3#               nvt_2ste_v3.trr
+em.sh                    md.mdp                   nvt_em.sh
+em_v2.sh                 mdout.mdp                nvt.mdp
+em_v3.sh                 md.sh                    nvt.sh
+extract_gmx.sh           md_v2.sh                 nvt_v2.sh
+forcefield.itp           md_v3.sh                 nvt_v3.sh
+lipid_rs_1ste_2.ndx      molecule_bk.prm          posi
+md_2ste.sh               molecule.itp             run.sh
+md_2ste_v3_16ns.gro      molecule_niyu.prm        state.cpt
+#md_2ste_v3_16ns.gro.1#  molecule_niyu_v2.prm     state_prev.cpt
+md_2ste_v3.cpt           molecule_niyu_v3.itp     STE_207_DOXYL_new_align.pdb
+md_2ste_v3.edr           molecule_niyu_v3.prm     step6.0_minimization.mdp
+md_2ste_v3.gro           molecule_ny02032023.itp  step6.1_equilibration.mdp
+md_2ste_v3.log           molecule_ny.itp          step6.2_equilibration.mdp
+md_2ste_v3.part0002.edr  molecule_ny_itp.bak      step6.3_equilibration.mdp
+md_2ste_v3.part0002.gro  molecule.prm             step6.4_equilibration.mdp
+md_2ste_v3.part0002.log  npt_2ste.sh              step6.5_equilibration.mdp
+md_2ste_v3.part0002.trr  npt_2ste_v3.edr          step6.6_equilibration.mdp
+md_2ste_v3.part0002.xtc  npt_2ste_v3.gro          step7_2_new.gro
+md_2ste_v3.pdb           npt_2ste_v3.tpr          step7_production.mdp
+md_2ste_v3_prev.cpt      npt_2ste_v3.trr          test.mol2
+md_2ste_v3.tpr           npt_em.sh                test.prm
+md_2ste_v3.trr           npt.mdp                  topol.top
+md_2ste_v3_v2.cpt        npt.sh                   toppar
+md_2ste_v3_v2.pdb        npt_v2.sh
+[niyu@localhost-localdomain PG_16DSA]$ vim topol.top 
+[niyu@localhost-localdomain PG_16DSA]$ 
+[niyu@localhost-localdomain PG_16DSA]$ vim mo
+molecule_bk.prm          molecule_niyu_v3.itp     molecule_ny_itp.bak 
+molecule.itp             molecule_niyu_v3.prm     molecule.prm 
+molecule_niyu.prm        molecule_ny02032023.itp  
+molecule_niyu_v2.prm     molecule_ny.itp          
+[niyu@localhost-localdomain PG_16DSA]$ vim mo
+molecule_bk.prm          molecule_niyu_v3.itp     molecule_ny_itp.bak 
+molecule.itp             molecule_niyu_v3.prm     molecule.prm 
+molecule_niyu.prm        molecule_ny02032023.itp  
+molecule_niyu_v2.prm     molecule_ny.itp          
+[niyu@localhost-localdomain PG_16DSA]$ vim molecule_n
+molecule_niyu.prm        molecule_niyu_v3.prm     molecule_ny_itp.bak 
+molecule_niyu_v2.prm     molecule_ny02032023.itp  
+molecule_niyu_v3.itp     molecule_ny.itp          
+[niyu@localhost-localdomain PG_16DSA]$ vim topol.top
+[niyu@localhost-localdomain PG_16DSA]$ cp em_v3.sh  em_v4.sh
+[niyu@localhost-localdomain PG_16DSA]$ cp nvt_v3.sh nvt_v4.sh
+[niyu@localhost-localdomain PG_16DSA]$ cp md_v3.sh md_v4.sh
+[niyu@localhost-localdomain PG_16DSA]$ cp npt_v3.sh npt_v4.sh
+[niyu@localhost-localdomain PG_16DSA]$ vim *4.sh -o md.mdp -o
+还有 5 个文件等待编辑
+[niyu@localhost-localdomain PG_16DSA]$ ./em_v4.sh 
+./em_v4.sh:行3: gmx: 未找到命令
+./em_v4.sh:行4: gmx: 未找到命令
+[niyu@localhost-localdomain PG_16DSA]$ bash
+./(base) [niyu@localhost-localdomain PG_16DSA]$ ./em_v4.sh 
+                      :-) GROMACS - gmx grompp, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx grompp -f em.mdp -c step7_2_new.gro -p topol.top -o em_2ste_v4.tpr -r step7_2_new.gro -n lipid_rs_1ste_2.ndx -maxwarn 31
+
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file em.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Setting the LD random seed to -23068689
+
+Generated 524 of the 528 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+
+Generated 451 of the 528 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'POPG'
+
+Excluding 3 bonded neighbours molecule type 'DSA'
+
+Excluding 3 bonded neighbours molecule type 'STE'
+
+Excluding 1 bonded neighbours molecule type 'SOD'
+
+Excluding 1 bonded neighbours molecule type 'CLA'
+
+Excluding 2 bonded neighbours molecule type 'TIP3'
+
+NOTE 2 [file topol.top, line 32]:
+  System has non-zero total charge: 0.146000
+  Total charge should normally be an integer. See
+  http://www.gromacs.org/Documentation/Floating_Point_Arithmetic
+  for discussion on how close it should be to an integer.
+  
+
+
+
+WARNING 1 [file topol.top, line 32]:
+  You are using Ewald electrostatics in a system with net charge. This can
+  lead to severe artifacts, such as ions moving into regions with low
+  dielectric, due to the uniform background charge. We suggest to
+  neutralize your system with counter ions, possibly in combination with a
+  physiological salt concentration.
+
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+J. S. Hub, B. L. de Groot, H. Grubmueller, G. Groenhof
+Quantifying Artifacts in Ewald Simulations of Inhomogeneous Systems with a Net
+Charge
+J. Chem. Theory Comput. 10 (2014) pp. 381-393
+-------- -------- --- Thank You --- -------- --------
+
+Number of degrees of freedom in T-Coupling group rest is 123240.00
+
+The largest distance between excluded atoms is 0.417 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 72x72x60, spacing 0.116 0.116 0.112
+
+Estimate for the relative computational load of the PME mesh part: 0.11
+
+This run will generate roughly 4 Mb of data
+
+There were 2 notes
+
+There was 1 warning
+
+GROMACS reminds you: "This type of advanced sampling techniques... which are not so advanced, really." (Viveca Lindahl, on AWH, at her thesis defense.)
+
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx mdrun -v -s em_2ste_v4.tpr -c em_2ste_v4.gro -e em_2ste_v4.edr -o em_2ste_v4.trr
+
+
+Back Off! I just backed up md.log to ./#md.log.4#
+Reading file em_2ste_v4.tpr, VERSION 2022.3 (single precision)
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the CPU
+Using 1 MPI thread
+Using 16 OpenMP threads 
+
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+03
+   Number of steps    =        50000
+Step=    0, Dmax= 1.0e-02 nm, Epot=  9.75330e+10 Fmax= 2.44847e+13, atom= 26166
+Step=    1, Dmax= 1.0e-02 nm, Epot=  5.02295e+09 Fmax= 1.14568e+12, atom= 26209
+Step=    2, Dmax= 1.2e-02 nm, Epot=  6.14449e+08 Fmax= 5.32212e+10, atom= 26166
+Step=    3, Dmax= 1.4e-02 nm, Epot=  1.64149e+08 Fmax= 4.85539e+09, atom= 4820
+Step=    4, Dmax= 1.7e-02 nm, Epot=  2.50659e+07 Fmax= 4.37473e+08, atom= 4812
+Step=    5, Dmax= 2.1e-02 nm, Epot=  4.33016e+06 Fmax= 4.39688e+07, atom= 26209
+Step=    6, Dmax= 2.5e-02 nm, Epot=  6.92212e+05 Fmax= 6.42343e+06, atom= 16629
+Step=    7, Dmax= 3.0e-02 nm, Epot=  9.10921e+02 Fmax= 3.38496e+06, atom= 4812
+Step=    8, Dmax= 3.6e-02 nm, Epot= -6.56099e+04 Fmax= 6.22198e+06, atom= 4812
+Step=    9, Dmax= 4.3e-02 nm, Epot= -1.61234e+05 Fmax= 2.47186e+06, atom= 4812
+Step=   10, Dmax= 5.2e-02 nm, Epot= -2.23607e+05 Fmax= 9.86192e+05, atom= 26225
+Step=   11, Dmax= 6.2e-02 nm, Epot= -2.44687e+05 Fmax= 4.30020e+06, atom= 26225
+Step=   13, Dmax= 3.7e-02 nm, Epot= -2.83822e+05 Fmax= 5.51672e+05, atom= 4812
+Step=   14, Dmax= 4.5e-02 nm, Epot= -2.98741e+05 Fmax= 5.15325e+05, atom= 26225
+Step=   15, Dmax= 5.3e-02 nm, Epot= -3.08220e+05 Fmax= 6.56474e+05, atom= 4822
+Step=   16, Dmax= 6.4e-02 nm, Epot= -3.12970e+05 Fmax= 4.50781e+05, atom= 4822
+Step=   18, Dmax= 3.9e-02 nm, Epot= -3.27937e+05 Fmax= 1.24513e+05, atom= 48226
+Step=   19, Dmax= 4.6e-02 nm, Epot= -3.44362e+05 Fmax= 1.71532e+05, atom= 26228
+Step=   20, Dmax= 5.5e-02 nm, Epot= -3.56643e+05 Fmax= 4.78390e+04, atom= 26226
+Step=   21, Dmax= 6.7e-02 nm, Epot= -3.73578e+05 Fmax= 3.70962e+05, atom= 4822
+Step=   22, Dmax= 8.0e-02 nm, Epot= -3.77465e+05 Fmax= 2.23430e+05, atom= 26212
+Step=   24, Dmax= 4.8e-02 nm, Epot= -3.83644e+05 Fmax= 1.00707e+05, atom= 26225
+Step=   25, Dmax= 5.8e-02 nm, Epot= -3.90788e+05 Fmax= 8.69960e+04, atom= 26225
+Step=   26, Dmax= 6.9e-02 nm, Epot= -3.94328e+05 Fmax= 1.50257e+05, atom= 4822
+Step=   28, Dmax= 4.1e-02 nm, Epot= -3.98212e+05 Fmax= 4.13518e+04, atom= 26226
+Step=   29, Dmax= 5.0e-02 nm, Epot= -4.05936e+05 Fmax= 3.07232e+04, atom= 26226
+Step=   30, Dmax= 6.0e-02 nm, Epot= -4.13434e+05 Fmax= 4.21276e+04, atom= 26225
+Step=   31, Dmax= 7.2e-02 nm, Epot= -4.17367e+05 Fmax= 1.90702e+05, atom= 26225
+Step=   32, Dmax= 8.6e-02 nm, Epot= -4.19984e+05 Fmax= 3.89537e+04, atom= 26225
+Step=   34, Dmax= 5.2e-02 nm, Epot= -4.24886e+05 Fmax= 1.01091e+04, atom= 26225
+Step=   35, Dmax= 6.2e-02 nm, Epot= -4.31632e+05 Fmax= 2.09917e+05, atom= 26225
+Step=   36, Dmax= 7.4e-02 nm, Epot= -4.35335e+05 Fmax= 1.03902e+05, atom= 26225
+Step=   37, Dmax= 8.9e-02 nm, Epot= -4.36142e+05 Fmax= 6.37566e+04, atom= 26225
+Step=   38, Dmax= 1.1e-01 nm, Epot= -4.38847e+05 Fmax= 5.99874e+04, atom= 26225
+Step=   40, Dmax= 6.4e-02 nm, Epot= -4.41359e+05 Fmax= 1.15162e+04, atom= 26225
+Step=   42, Dmax= 3.8e-02 nm, Epot= -4.44575e+05 Fmax= 2.61928e+04, atom= 26225
+Step=   43, Dmax= 4.6e-02 nm, Epot= -4.46245e+05 Fmax= 1.87484e+04, atom= 26225
+Step=   44, Dmax= 5.5e-02 nm, Epot= -4.47680e+05 Fmax= 4.02791e+04, atom= 26225
+Step=   45, Dmax= 6.6e-02 nm, Epot= -4.49237e+05 Fmax= 2.54440e+04, atom= 26225
+Step=   47, Dmax= 4.0e-02 nm, Epot= -4.50923e+05 Fmax= 1.10592e+04, atom= 26208
+Step=   48, Dmax= 4.8e-02 nm, Epot= -4.51266e+05 Fmax= 4.21056e+04, atom= 26229
+Step=   49, Dmax= 5.7e-02 nm, Epot= -4.53913e+05 Fmax= 1.96104e+04, atom= 26208
+Step=   51, Dmax= 3.4e-02 nm, Epot= -4.55046e+05 Fmax= 1.62411e+04, atom= 26229
+Step=   52, Dmax= 4.1e-02 nm, Epot= -4.55411e+05 Fmax= 2.65716e+04, atom= 26208
+Step=   53, Dmax= 5.0e-02 nm, Epot= -4.56025e+05 Fmax= 2.40050e+04, atom= 26208
+Step=   55, Dmax= 3.0e-02 nm, Epot= -4.57507e+05 Fmax= 1.41822e+04, atom= 4732
+Step=   57, Dmax= 1.8e-02 nm, Epot= -4.58257e+05 Fmax= 1.13835e+04, atom= 4732
+Step=   58, Dmax= 2.1e-02 nm, Epot= -4.58327e+05 Fmax= 2.01793e+04, atom= 4732
+Step=   59, Dmax= 2.6e-02 nm, Epot= -4.59096e+05 Fmax= 1.68087e+04, atom= 4732
+Step=   61, Dmax= 1.5e-02 nm, Epot= -4.60125e+05 Fmax= 5.89057e+03, atom= 4732
+Step=   62, Dmax= 1.9e-02 nm, Epot= -4.60209e+05 Fmax= 2.01968e+04, atom= 4732
+Step=   63, Dmax= 2.2e-02 nm, Epot= -4.61321e+05 Fmax= 1.23548e+04, atom= 4732
+Step=   65, Dmax= 1.3e-02 nm, Epot= -4.61975e+05 Fmax= 6.68276e+03, atom= 4732
+Step=   66, Dmax= 1.6e-02 nm, Epot= -4.62012e+05 Fmax= 1.70928e+04, atom= 4732
+Step=   67, Dmax= 1.9e-02 nm, Epot= -4.62893e+05 Fmax= 1.04614e+04, atom= 4732
+Step=   69, Dmax= 1.2e-02 nm, Epot= -4.63466e+05 Fmax= 6.53532e+03, atom= 4732
+Step=   70, Dmax= 1.4e-02 nm, Epot= -4.63640e+05 Fmax= 1.30213e+04, atom= 4732
+Step=   71, Dmax= 1.7e-02 nm, Epot= -4.64165e+05 Fmax= 1.13382e+04, atom= 4732
+Step=   73, Dmax= 1.0e-02 nm, Epot= -4.64830e+05 Fmax= 2.86261e+03, atom= 4732
+Step=   74, Dmax= 1.2e-02 nm, Epot= -4.65076e+05 Fmax= 1.53963e+04, atom= 4732
+Step=   75, Dmax= 1.4e-02 nm, Epot= -4.66145e+05 Fmax= 5.15682e+03, atom= 4732
+Step=   77, Dmax= 8.6e-03 nm, Epot= -4.66441e+05 Fmax= 7.66831e+03, atom= 4732
+Step=   78, Dmax= 1.0e-02 nm, Epot= -4.66794e+05 Fmax= 7.00411e+03, atom= 4732
+Step=   79, Dmax= 1.2e-02 nm, Epot= -4.66856e+05 Fmax= 1.13050e+04, atom= 4732
+Step=   80, Dmax= 1.5e-02 nm, Epot= -4.67261e+05 Fmax= 9.96520e+03, atom= 4732
+Step=   82, Dmax= 8.9e-03 nm, Epot= -4.67948e+05 Fmax= 3.16521e+03, atom= 4732
+Step=   83, Dmax= 1.1e-02 nm, Epot= -4.67987e+05 Fmax= 1.16691e+04, atom= 4732
+Step=   84, Dmax= 1.3e-02 nm, Epot= -4.68725e+05 Fmax= 7.16031e+03, atom= 4732
+Step=   86, Dmax= 7.7e-03 nm, Epot= -4.69158e+05 Fmax= 3.79272e+03, atom= 4732
+Step=   88, Dmax= 4.6e-03 nm, Epot= -4.69457e+05 Fmax= 3.13755e+03, atom= 4732
+Step=   89, Dmax= 5.5e-03 nm, Epot= -4.69736e+05 Fmax= 4.57858e+03, atom= 4732
+Step=   90, Dmax= 6.7e-03 nm, Epot= -4.69994e+05 Fmax= 5.32183e+03, atom= 4732
+Step=   91, Dmax= 8.0e-03 nm, Epot= -4.70211e+05 Fmax= 5.99729e+03, atom= 4732
+Step=   92, Dmax= 9.6e-03 nm, Epot= -4.70301e+05 Fmax= 8.15378e+03, atom= 4732
+Step=   93, Dmax= 1.1e-02 nm, Epot= -4.70502e+05 Fmax= 8.31701e+03, atom= 4723
+Step=   95, Dmax= 6.9e-03 nm, Epot= -4.71217e+05 Fmax= 1.82672e+03, atom= 4732
+Step=   96, Dmax= 8.3e-03 nm, Epot= -4.71220e+05 Fmax= 9.59241e+03, atom= 4723
+Step=   97, Dmax= 9.9e-03 nm, Epot= -4.72044e+05 Fmax= 4.89294e+03, atom= 4732
+Step=   99, Dmax= 6.0e-03 nm, Epot= -4.72347e+05 Fmax= 3.80918e+03, atom= 4723
+Step=  100, Dmax= 7.2e-03 nm, Epot= -4.72371e+05 Fmax= 6.44119e+03, atom= 4723
+Step=  101, Dmax= 8.6e-03 nm, Epot= -4.72636e+05 Fmax= 6.17235e+03, atom= 4723
+Step=  103, Dmax= 5.2e-03 nm, Epot= -4.73168e+05 Fmax= 1.41967e+03, atom= 18185
+Step=  104, Dmax= 6.2e-03 nm, Epot= -4.73305e+05 Fmax= 7.51295e+03, atom= 18185
+Step=  105, Dmax= 7.4e-03 nm, Epot= -4.73945e+05 Fmax= 3.52080e+03, atom= 18185
+Step=  107, Dmax= 4.4e-03 nm, Epot= -4.74178e+05 Fmax= 2.99621e+03, atom= 18185
+Step=  108, Dmax= 5.3e-03 nm, Epot= -4.74306e+05 Fmax= 4.98453e+03, atom= 18185
+Step=  109, Dmax= 6.4e-03 nm, Epot= -4.74552e+05 Fmax= 4.42522e+03, atom= 18185
+Step=  110, Dmax= 7.7e-03 nm, Epot= -4.74554e+05 Fmax= 7.02783e+03, atom= 18185
+Step=  111, Dmax= 9.2e-03 nm, Epot= -4.74807e+05 Fmax= 6.54642e+03, atom= 18185
+Step=  113, Dmax= 5.5e-03 nm, Epot= -4.75295e+05 Fmax= 1.69523e+03, atom= 18185
+Step=  114, Dmax= 6.6e-03 nm, Epot= -4.75364e+05 Fmax= 7.96021e+03, atom= 18185
+Step=  115, Dmax= 8.0e-03 nm, Epot= -4.75905e+05 Fmax= 3.89564e+03, atom= 18185
+Step=  117, Dmax= 4.8e-03 nm, Epot= -4.76114e+05 Fmax= 3.12022e+03, atom= 18185
+Step=  118, Dmax= 5.7e-03 nm, Epot= -4.76221e+05 Fmax= 5.44901e+03, atom= 18185
+Step=  119, Dmax= 6.9e-03 nm, Epot= -4.76446e+05 Fmax= 4.67527e+03, atom= 18185
+Step=  121, Dmax= 4.1e-03 nm, Epot= -4.76707e+05 Fmax= 1.48321e+03, atom= 18185
+Step=  122, Dmax= 5.0e-03 nm, Epot= -4.76937e+05 Fmax= 5.70989e+03, atom= 18185
+Step=  123, Dmax= 6.0e-03 nm, Epot= -4.77227e+05 Fmax= 3.14723e+03, atom= 18185
+Step=  124, Dmax= 7.1e-03 nm, Epot= -4.77233e+05 Fmax= 7.32293e+03, atom= 18185
+Step=  125, Dmax= 8.6e-03 nm, Epot= -4.77538e+05 Fmax= 5.41817e+03, atom= 18185
+Step=  127, Dmax= 5.1e-03 nm, Epot= -4.77805e+05 Fmax= 2.13729e+03, atom= 18185
+Step=  128, Dmax= 6.2e-03 nm, Epot= -4.77887e+05 Fmax= 7.10310e+03, atom= 18185
+Step=  129, Dmax= 7.4e-03 nm, Epot= -4.78220e+05 Fmax= 3.79065e+03, atom= 18185
+Step=  131, Dmax= 4.4e-03 nm, Epot= -4.78396e+05 Fmax= 2.83287e+03, atom= 18185
+Step=  132, Dmax= 5.3e-03 nm, Epot= -4.78519e+05 Fmax= 4.97542e+03, atom= 18185
+Step=  133, Dmax= 6.4e-03 nm, Epot= -4.78693e+05 Fmax= 4.54546e+03, atom= 18185
+Step=  134, Dmax= 7.7e-03 nm, Epot= -4.78752e+05 Fmax= 6.73992e+03, atom= 18185
+Step=  135, Dmax= 9.2e-03 nm, Epot= -4.78897e+05 Fmax= 6.95140e+03, atom= 18185
+Step=  137, Dmax= 5.5e-03 nm, Epot= -4.79225e+05 Fmax= 1.17701e+03, atom= 18185
+Step=  138, Dmax= 6.6e-03 nm, Epot= -4.79458e+05 Fmax= 8.84387e+03, atom= 18185
+Step=  139, Dmax= 8.0e-03 nm, Epot= -4.79892e+05 Fmax= 2.87176e+03, atom= 18185
+Step=  141, Dmax= 4.8e-03 nm, Epot= -4.80020e+05 Fmax= 4.25640e+03, atom= 18185
+Step=  142, Dmax= 5.7e-03 nm, Epot= -4.80160e+05 Fmax= 4.16358e+03, atom= 18185
+Step=  143, Dmax= 6.9e-03 nm, Epot= -4.80239e+05 Fmax= 6.07348e+03, atom= 18185
+Step=  144, Dmax= 8.3e-03 nm, Epot= -4.80375e+05 Fmax= 6.07278e+03, atom= 18185
+Step=  146, Dmax= 5.0e-03 nm, Epot= -4.80617e+05 Fmax= 1.29500e+03, atom= 18185
+Step=  147, Dmax= 5.9e-03 nm, Epot= -4.80848e+05 Fmax= 7.32609e+03, atom= 18185
+Step=  148, Dmax= 7.1e-03 nm, Epot= -4.81122e+05 Fmax= 3.27375e+03, atom= 18185
+Step=  150, Dmax= 4.3e-03 nm, Epot= -4.81250e+05 Fmax= 3.00257e+03, atom= 18185
+Step=  151, Dmax= 5.1e-03 nm, Epot= -4.81363e+05 Fmax= 4.65448e+03, atom= 18185
+Step=  152, Dmax= 6.2e-03 nm, Epot= -4.81492e+05 Fmax= 4.40342e+03, atom= 18185
+Step=  153, Dmax= 7.4e-03 nm, Epot= -4.81556e+05 Fmax= 6.59419e+03, atom= 18185
+Step=  154, Dmax= 8.9e-03 nm, Epot= -4.81683e+05 Fmax= 6.46885e+03, atom= 18185
+Step=  156, Dmax= 5.3e-03 nm, Epot= -4.81905e+05 Fmax= 1.44832e+03, atom= 18185
+Step=  157, Dmax= 6.4e-03 nm, Epot= -4.82087e+05 Fmax= 7.84841e+03, atom= 18185
+Step=  158, Dmax= 7.7e-03 nm, Epot= -4.82344e+05 Fmax= 3.54309e+03, atom= 18185
+Step=  160, Dmax= 4.6e-03 nm, Epot= -4.82461e+05 Fmax= 3.21011e+03, atom= 18185
+Step=  161, Dmax= 5.5e-03 nm, Epot= -4.82562e+05 Fmax= 5.01314e+03, atom= 18185
+Step=  162, Dmax= 6.6e-03 nm, Epot= -4.82677e+05 Fmax= 4.72987e+03, atom= 18185
+Step=  163, Dmax= 7.9e-03 nm, Epot= -4.82731e+05 Fmax= 7.08462e+03, atom= 18185
+Step=  164, Dmax= 9.5e-03 nm, Epot= -4.82849e+05 Fmax= 6.96357e+03, atom= 18185
+Step=  166, Dmax= 5.7e-03 nm, Epot= -4.83062e+05 Fmax= 1.54454e+03, atom= 18185
+Step=  167, Dmax= 6.9e-03 nm, Epot= -4.83213e+05 Fmax= 8.46966e+03, atom= 18185
+Step=  168, Dmax= 8.2e-03 nm, Epot= -4.83463e+05 Fmax= 3.77306e+03, atom= 18185
+Step=  170, Dmax= 4.9e-03 nm, Epot= -4.83570e+05 Fmax= 3.49191e+03, atom= 18185
+Step=  171, Dmax= 5.9e-03 nm, Epot= -4.83659e+05 Fmax= 5.33937e+03, atom= 18185
+Step=  172, Dmax= 7.1e-03 nm, Epot= -4.83764e+05 Fmax= 5.13938e+03, atom= 18185
+Step=  173, Dmax= 8.5e-03 nm, Epot= -4.83809e+05 Fmax= 7.55285e+03, atom= 18185
+Step=  174, Dmax= 1.0e-02 nm, Epot= -4.83911e+05 Fmax= 7.55392e+03, atom= 18185
+Step=  176, Dmax= 6.2e-03 nm, Epot= -4.84120e+05 Fmax= 1.58982e+03, atom= 18185
+Step=  177, Dmax= 7.4e-03 nm, Epot= -4.84254e+05 Fmax= 9.19033e+03, atom= 18185
+Step=  178, Dmax= 8.9e-03 nm, Epot= -4.84500e+05 Fmax= 3.96779e+03, atom= 18185
+Step=  180, Dmax= 5.3e-03 nm, Epot= -4.84598e+05 Fmax= 3.84678e+03, atom= 18185
+Step=  181, Dmax= 6.4e-03 nm, Epot= -4.84676e+05 Fmax= 5.63807e+03, atom= 18185
+Step=  182, Dmax= 7.7e-03 nm, Epot= -4.84772e+05 Fmax= 5.63146e+03, atom= 18185
+Step=  183, Dmax= 9.2e-03 nm, Epot= -4.84811e+05 Fmax= 8.00461e+03, atom= 18185
+Step=  184, Dmax= 1.1e-02 nm, Epot= -4.84897e+05 Fmax= 8.24003e+03, atom= 18185
+Step=  186, Dmax= 6.6e-03 nm, Epot= -4.85108e+05 Fmax= 1.58725e+03, atom= 18185
+Step=  187, Dmax= 7.9e-03 nm, Epot= -4.85229e+05 Fmax= 1.00124e+04, atom= 18185
+Step=  188, Dmax= 9.5e-03 nm, Epot= -4.85478e+05 Fmax= 4.13075e+03, atom= 18185
+Step=  190, Dmax= 5.7e-03 nm, Epot= -4.85565e+05 Fmax= 4.27441e+03, atom= 18185
+Step=  191, Dmax= 6.9e-03 nm, Epot= -4.85637e+05 Fmax= 5.91363e+03, atom= 18185
+Step=  192, Dmax= 8.2e-03 nm, Epot= -4.85719e+05 Fmax= 6.20560e+03, atom= 18185
+Step=  193, Dmax= 9.9e-03 nm, Epot= -4.85758e+05 Fmax= 8.44598e+03, atom= 18185
+Step=  194, Dmax= 1.2e-02 nm, Epot= -4.85826e+05 Fmax= 9.02179e+03, atom= 18185
+Step=  196, Dmax= 7.1e-03 nm, Epot= -4.86039e+05 Fmax= 1.54097e+03, atom= 18185
+Step=  197, Dmax= 8.5e-03 nm, Epot= -4.86159e+05 Fmax= 1.09365e+04, atom= 18185
+Step=  198, Dmax= 1.0e-02 nm, Epot= -4.86414e+05 Fmax= 4.26602e+03, atom= 18185
+Step=  200, Dmax= 6.1e-03 nm, Epot= -4.86493e+05 Fmax= 4.77400e+03, atom= 18185
+Step=  201, Dmax= 7.4e-03 nm, Epot= -4.86559e+05 Fmax= 6.17019e+03, atom= 18185
+Step=  202, Dmax= 8.8e-03 nm, Epot= -4.86627e+05 Fmax= 6.86244e+03, atom= 18185
+Step=  203, Dmax= 1.1e-02 nm, Epot= -4.86664e+05 Fmax= 8.88143e+03, atom= 18185
+Step=  204, Dmax= 1.3e-02 nm, Epot= -4.86712e+05 Fmax= 9.90111e+03, atom= 18185
+Step=  206, Dmax= 7.6e-03 nm, Epot= -4.86933e+05 Fmax= 1.45337e+03, atom= 18185
+Step=  207, Dmax= 9.2e-03 nm, Epot= -4.87059e+05 Fmax= 1.19639e+04, atom= 18185
+Step=  208, Dmax= 1.1e-02 nm, Epot= -4.87323e+05 Fmax= 4.37841e+03, atom= 18185
+Step=  210, Dmax= 6.6e-03 nm, Epot= -4.87392e+05 Fmax= 5.34457e+03, atom= 18185
+Step=  211, Dmax= 7.9e-03 nm, Epot= -4.87454e+05 Fmax= 6.41357e+03, atom= 18185
+Step=  212, Dmax= 9.5e-03 nm, Epot= -4.87510e+05 Fmax= 7.60116e+03, atom= 18185
+Step=  213, Dmax= 1.1e-02 nm, Epot= -4.87548e+05 Fmax= 9.31767e+03, atom= 18185
+Step=  214, Dmax= 1.4e-02 nm, Epot= -4.87578e+05 Fmax= 1.08788e+04, atom= 18185
+Step=  216, Dmax= 8.2e-03 nm, Epot= -4.87806e+05 Fmax= 1.32740e+03, atom= 18185
+Step=  217, Dmax= 9.9e-03 nm, Epot= -4.87954e+05 Fmax= 1.30968e+04, atom= 18185
+Step=  218, Dmax= 1.2e-02 nm, Epot= -4.88228e+05 Fmax= 4.47198e+03, atom= 18185
+Step=  220, Dmax= 7.1e-03 nm, Epot= -4.88288e+05 Fmax= 5.98571e+03, atom= 18185
+Step=  221, Dmax= 8.5e-03 nm, Epot= -4.88349e+05 Fmax= 6.64874e+03, atom= 18185
+Step=  222, Dmax= 1.0e-02 nm, Epot= -4.88390e+05 Fmax= 8.42161e+03, atom= 18185
+Step=  223, Dmax= 1.2e-02 nm, Epot= -4.88431e+05 Fmax= 9.76176e+03, atom= 18185
+Step=  224, Dmax= 1.5e-02 nm, Epot= -4.88441e+05 Fmax= 1.19546e+04, atom= 18185
+Step=  226, Dmax= 8.8e-03 nm, Epot= -4.88677e+05 Fmax= 1.16829e+03, atom= 18185
+Step=  227, Dmax= 1.1e-02 nm, Epot= -4.88864e+05 Fmax= 1.43327e+04, atom= 18185
+Step=  228, Dmax= 1.3e-02 nm, Epot= -4.89146e+05 Fmax= 4.55544e+03, atom= 18185
+Step=  230, Dmax= 7.6e-03 nm, Epot= -4.89195e+05 Fmax= 6.69271e+03, atom= 18185
+Step=  231, Dmax= 9.2e-03 nm, Epot= -4.89257e+05 Fmax= 6.88496e+03, atom= 18185
+Step=  232, Dmax= 1.1e-02 nm, Epot= -4.89282e+05 Fmax= 9.32012e+03, atom= 18185
+Step=  233, Dmax= 1.3e-02 nm, Epot= -4.89329e+05 Fmax= 1.02239e+04, atom= 18185
+Step=  235, Dmax= 7.9e-03 nm, Epot= -4.89492e+05 Fmax= 1.42301e+03, atom= 18185
+Step=  236, Dmax= 9.5e-03 nm, Epot= -4.89602e+05 Fmax= 1.27326e+04, atom= 18185
+Step=  237, Dmax= 1.1e-02 nm, Epot= -4.89823e+05 Fmax= 4.04833e+03, atom= 18185
+Step=  239, Dmax= 6.8e-03 nm, Epot= -4.89873e+05 Fmax= 6.09116e+03, atom= 18185
+Step=  240, Dmax= 8.2e-03 nm, Epot= -4.89935e+05 Fmax= 5.99850e+03, atom= 18185
+Step=  241, Dmax= 9.8e-03 nm, Epot= -4.89961e+05 Fmax= 8.59146e+03, atom= 18185
+Step=  242, Dmax= 1.2e-02 nm, Epot= -4.90016e+05 Fmax= 8.82788e+03, atom= 18185
+Step=  244, Dmax= 7.1e-03 nm, Epot= -4.90144e+05 Fmax= 1.69311e+03, atom= 18185
+Step=  245, Dmax= 8.5e-03 nm, Epot= -4.90228e+05 Fmax= 1.07938e+04, atom= 18185
+Step=  246, Dmax= 1.0e-02 nm, Epot= -4.90387e+05 Fmax= 4.35060e+03, atom= 18185
+Step=  248, Dmax= 6.1e-03 nm, Epot= -4.90444e+05 Fmax= 4.66972e+03, atom= 18185
+Step=  249, Dmax= 7.3e-03 nm, Epot= -4.90490e+05 Fmax= 6.22700e+03, atom= 18185
+Step=  250, Dmax= 8.8e-03 nm, Epot= -4.90543e+05 Fmax= 6.77244e+03, atom= 18185
+Step=  251, Dmax= 1.1e-02 nm, Epot= -4.90568e+05 Fmax= 8.90777e+03, atom= 18185
+Step=  252, Dmax= 1.3e-02 nm, Epot= -4.90611e+05 Fmax= 9.82200e+03, atom= 18185
+Step=  254, Dmax= 7.6e-03 nm, Epot= -4.90750e+05 Fmax= 1.48884e+03, atom= 18185
+Step=  255, Dmax= 9.1e-03 nm, Epot= -4.90851e+05 Fmax= 1.19307e+04, atom= 18185
+Step=  256, Dmax= 1.1e-02 nm, Epot= -4.91024e+05 Fmax= 4.35104e+03, atom= 18185
+Step=  258, Dmax= 6.6e-03 nm, Epot= -4.91075e+05 Fmax= 5.34935e+03, atom= 18185
+Step=  259, Dmax= 7.9e-03 nm, Epot= -4.91121e+05 Fmax= 6.35994e+03, atom= 18185
+Step=  260, Dmax= 9.5e-03 nm, Epot= -4.91164e+05 Fmax= 7.61785e+03, atom= 18185
+Step=  261, Dmax= 1.1e-02 nm, Epot= -4.91193e+05 Fmax= 9.23524e+03, atom= 18185
+Step=  262, Dmax= 1.4e-02 nm, Epot= -4.91215e+05 Fmax= 1.09037e+04, atom= 18185
+Step=  264, Dmax= 8.2e-03 nm, Epot= -4.91371e+05 Fmax= 1.25713e+03, atom= 18185
+Step=  265, Dmax= 9.8e-03 nm, Epot= -4.91500e+05 Fmax= 1.31600e+04, atom= 18185
+Step=  266, Dmax= 1.2e-02 nm, Epot= -4.91692e+05 Fmax= 4.34536e+03, atom= 18185
+Step=  268, Dmax= 7.1e-03 nm, Epot= -4.91736e+05 Fmax= 6.08722e+03, atom= 18185
+Step=  269, Dmax= 8.5e-03 nm, Epot= -4.91783e+05 Fmax= 6.49713e+03, atom= 18185
+Step=  270, Dmax= 1.0e-02 nm, Epot= -4.91809e+05 Fmax= 8.53256e+03, atom= 18185
+Step=  271, Dmax= 1.2e-02 nm, Epot= -4.91846e+05 Fmax= 9.58271e+03, atom= 18185
+Step=  272, Dmax= 1.5e-02 nm, Epot= -4.91848e+05 Fmax= 1.20715e+04, atom= 18185
+Step=  273, Dmax= 1.8e-02 nm, Epot= -4.91851e+05 Fmax= 1.40116e+04, atom= 18185
+Step=  275, Dmax= 1.1e-02 nm, Epot= -4.92074e+05 Fmax= 1.53433e+03, atom= 18185
+Step=  277, Dmax= 6.3e-03 nm, Epot= -4.92165e+05 Fmax= 7.89206e+03, atom= 18185
+Step=  278, Dmax= 7.6e-03 nm, Epot= -4.92251e+05 Fmax= 3.32370e+03, atom= 18185
+Step=  279, Dmax= 9.1e-03 nm, Epot= -4.92256e+05 Fmax= 1.01904e+04, atom= 18185
+Step=  280, Dmax= 1.1e-02 nm, Epot= -4.92363e+05 Fmax= 5.95317e+03, atom= 18185
+Step=  282, Dmax= 6.6e-03 nm, Epot= -4.92426e+05 Fmax= 3.79084e+03, atom= 18185
+Step=  283, Dmax= 7.9e-03 nm, Epot= -4.92453e+05 Fmax= 7.83735e+03, atom= 18185
+Step=  284, Dmax= 9.5e-03 nm, Epot= -4.92518e+05 Fmax= 6.18762e+03, atom= 18185
+Step=  286, Dmax= 5.7e-03 nm, Epot= -4.92584e+05 Fmax= 2.17861e+03, atom= 18185
+Step=  287, Dmax= 6.8e-03 nm, Epot= -4.92634e+05 Fmax= 7.93398e+03, atom= 18185
+Step=  288, Dmax= 8.2e-03 nm, Epot= -4.92716e+05 Fmax= 4.11810e+03, atom= 18185
+Step=  290, Dmax= 4.9e-03 nm, Epot= -4.92764e+05 Fmax= 3.15765e+03, atom= 18185
+Step=  291, Dmax= 5.9e-03 nm, Epot= -4.92808e+05 Fmax= 5.51536e+03, atom= 18185
+Step=  292, Dmax= 7.1e-03 nm, Epot= -4.92857e+05 Fmax= 4.95579e+03, atom= 18185
+Step=  293, Dmax= 8.5e-03 nm, Epot= -4.92882e+05 Fmax= 7.54740e+03, atom= 18185
+Step=  294, Dmax= 1.0e-02 nm, Epot= -4.92930e+05 Fmax= 7.52563e+03, atom= 18185
+Step=  295, Dmax= 1.2e-02 nm, Epot= -4.92932e+05 Fmax= 1.04912e+04, atom= 18185
+Step=  296, Dmax= 1.5e-02 nm, Epot= -4.92963e+05 Fmax= 1.12104e+04, atom= 18185
+Step=  298, Dmax= 8.8e-03 nm, Epot= -4.93109e+05 Fmax= 1.73171e+03, atom= 18185
+Step=  299, Dmax= 1.1e-02 nm, Epot= -4.93122e+05 Fmax= 1.39197e+04, atom= 18185
+Step=  300, Dmax= 1.3e-02 nm, Epot= -4.93323e+05 Fmax= 4.72635e+03, atom= 18185
+Step=  302, Dmax= 7.6e-03 nm, Epot= -4.93355e+05 Fmax= 6.52154e+03, atom= 18185
+Step=  303, Dmax= 9.1e-03 nm, Epot= -4.93395e+05 Fmax= 6.92122e+03, atom= 18185
+Step=  304, Dmax= 1.1e-02 nm, Epot= -4.93409e+05 Fmax= 9.27204e+03, atom= 18185
+Step=  305, Dmax= 1.3e-02 nm, Epot= -4.93438e+05 Fmax= 1.00918e+04, atom= 18185
+Step=  307, Dmax= 7.9e-03 nm, Epot= -4.93562e+05 Fmax= 1.59263e+03, atom= 18185
+Step=  308, Dmax= 9.4e-03 nm, Epot= -4.93608e+05 Fmax= 1.23181e+04, atom= 18185
+Step=  309, Dmax= 1.1e-02 nm, Epot= -4.93764e+05 Fmax= 4.50367e+03, atom= 18185
+Step=  311, Dmax= 6.8e-03 nm, Epot= -4.93802e+05 Fmax= 5.52983e+03, atom= 18185
+Step=  312, Dmax= 8.2e-03 nm, Epot= -4.93835e+05 Fmax= 6.56164e+03, atom= 18185
+Step=  313, Dmax= 9.8e-03 nm, Epot= -4.93863e+05 Fmax= 7.89176e+03, atom= 18185
+Step=  314, Dmax= 1.2e-02 nm, Epot= -4.93882e+05 Fmax= 9.51557e+03, atom= 18185
+Step=  315, Dmax= 1.4e-02 nm, Epot= -4.93892e+05 Fmax= 1.13047e+04, atom= 18185
+Step=  317, Dmax= 8.5e-03 nm, Epot= -4.94035e+05 Fmax= 1.25965e+03, atom= 18185
+Step=  318, Dmax= 1.0e-02 nm, Epot= -4.94112e+05 Fmax= 1.36835e+04, atom= 18185
+Step=  319, Dmax= 1.2e-02 nm, Epot= -4.94290e+05 Fmax= 4.40390e+03, atom= 18185
+Step=  321, Dmax= 7.3e-03 nm, Epot= -4.94321e+05 Fmax= 6.38672e+03, atom= 18185
+Step=  322, Dmax= 8.8e-03 nm, Epot= -4.94359e+05 Fmax= 6.61062e+03, atom= 18185
+Step=  323, Dmax= 1.1e-02 nm, Epot= -4.94373e+05 Fmax= 8.92986e+03, atom= 18185
+Step=  324, Dmax= 1.3e-02 nm, Epot= -4.94401e+05 Fmax= 9.78371e+03, atom= 18185
+Step=  326, Dmax= 7.6e-03 nm, Epot= -4.94508e+05 Fmax= 1.38314e+03, atom= 18185
+Step=  327, Dmax= 9.1e-03 nm, Epot= -4.94568e+05 Fmax= 1.21260e+04, atom= 18185
+Step=  328, Dmax= 1.1e-02 nm, Epot= -4.94713e+05 Fmax= 3.96151e+03, atom= 18185
+Step=  330, Dmax= 6.5e-03 nm, Epot= -4.94744e+05 Fmax= 5.74084e+03, atom= 18185
+Step=  331, Dmax= 7.9e-03 nm, Epot= -4.94782e+05 Fmax= 5.85391e+03, atom= 18185
+Step=  332, Dmax= 9.4e-03 nm, Epot= -4.94801e+05 Fmax= 8.11341e+03, atom= 18185
+Step=  333, Dmax= 1.1e-02 nm, Epot= -4.94831e+05 Fmax= 8.58870e+03, atom= 18185
+Step=  335, Dmax= 6.8e-03 nm, Epot= -4.94920e+05 Fmax= 1.48555e+03, atom= 18185
+Step=  336, Dmax= 8.1e-03 nm, Epot= -4.94976e+05 Fmax= 1.05107e+04, atom= 18185
+Step=  337, Dmax= 9.8e-03 nm, Epot= -4.95085e+05 Fmax= 3.99255e+03, atom= 18185
+Step=  339, Dmax= 5.9e-03 nm, Epot= -4.95120e+05 Fmax= 4.66104e+03, atom= 18185
+Step=  340, Dmax= 7.0e-03 nm, Epot= -4.95152e+05 Fmax= 5.76872e+03, atom= 18185
+Step=  341, Dmax= 8.4e-03 nm, Epot= -4.95181e+05 Fmax= 6.69780e+03, atom= 18185
+Step=  342, Dmax= 1.0e-02 nm, Epot= -4.95201e+05 Fmax= 8.31596e+03, atom= 18185
+Step=  343, Dmax= 1.2e-02 nm, Epot= -4.95220e+05 Fmax= 9.64222e+03, atom= 18185
+Step=  345, Dmax= 7.3e-03 nm, Epot= -4.95322e+05 Fmax= 1.18973e+03, atom= 18185
+Step=  346, Dmax= 8.8e-03 nm, Epot= -4.95402e+05 Fmax= 1.16972e+04, atom= 18185
+Step=  347, Dmax= 1.1e-02 nm, Epot= -4.95531e+05 Fmax= 3.89671e+03, atom= 18185
+Step=  349, Dmax= 6.3e-03 nm, Epot= -4.95561e+05 Fmax= 5.40901e+03, atom= 18185
+Step=  350, Dmax= 7.6e-03 nm, Epot= -4.95595e+05 Fmax= 5.80158e+03, atom= 18185
+Step=  351, Dmax= 9.1e-03 nm, Epot= -4.95615e+05 Fmax= 7.60219e+03, atom= 18185
+Step=  352, Dmax= 1.1e-02 nm, Epot= -4.95640e+05 Fmax= 8.53755e+03, atom= 18185
+Step=  353, Dmax= 1.3e-02 nm, Epot= -4.95642e+05 Fmax= 1.07711e+04, atom= 18185
+Step=  354, Dmax= 1.6e-02 nm, Epot= -4.95647e+05 Fmax= 1.24693e+04, atom= 18185
+Step=  356, Dmax= 9.4e-03 nm, Epot= -4.95797e+05 Fmax= 1.39615e+03, atom= 18185
+Step=  357, Dmax= 1.1e-02 nm, Epot= -4.95804e+05 Fmax= 1.53537e+04, atom= 18185
+Step=  358, Dmax= 1.4e-02 nm, Epot= -4.96010e+05 Fmax= 4.62476e+03, atom= 18185
+Step=  360, Dmax= 8.1e-03 nm, Epot= -4.96026e+05 Fmax= 7.41307e+03, atom= 18185
+Step=  361, Dmax= 9.8e-03 nm, Epot= -4.96062e+05 Fmax= 6.99362e+03, atom= 18185
+Step=  363, Dmax= 5.9e-03 nm, Epot= -4.96123e+05 Fmax= 1.69122e+03, atom= 18185
+Step=  364, Dmax= 7.0e-03 nm, Epot= -4.96166e+05 Fmax= 8.66792e+03, atom= 18185
+Step=  365, Dmax= 8.4e-03 nm, Epot= -4.96241e+05 Fmax= 3.83579e+03, atom= 18185
+Step=  367, Dmax= 5.1e-03 nm, Epot= -4.96274e+05 Fmax= 3.62827e+03, atom= 18185
+Step=  368, Dmax= 6.1e-03 nm, Epot= -4.96304e+05 Fmax= 5.36774e+03, atom= 18185
+Step=  369, Dmax= 7.3e-03 nm, Epot= -4.96335e+05 Fmax= 5.38532e+03, atom= 18185
+Step=  370, Dmax= 8.7e-03 nm, Epot= -4.96351e+05 Fmax= 7.56281e+03, atom= 18185
+Step=  371, Dmax= 1.0e-02 nm, Epot= -4.96380e+05 Fmax= 7.92610e+03, atom= 18185
+Step=  373, Dmax= 6.3e-03 nm, Epot= -4.96451e+05 Fmax= 1.41190e+03, atom= 18185
+Step=  374, Dmax= 7.6e-03 nm, Epot= -4.96505e+05 Fmax= 9.71878e+03, atom= 18185
+Step=  375, Dmax= 9.1e-03 nm, Epot= -4.96593e+05 Fmax= 3.72531e+03, atom= 18185
+Step=  377, Dmax= 5.4e-03 nm, Epot= -4.96624e+05 Fmax= 4.30026e+03, atom= 18185
+Step=  378, Dmax= 6.5e-03 nm, Epot= -4.96649e+05 Fmax= 5.36839e+03, atom= 18185
+Step=  379, Dmax= 7.8e-03 nm, Epot= -4.96676e+05 Fmax= 6.19294e+03, atom= 18185
+Step=  380, Dmax= 9.4e-03 nm, Epot= -4.96694e+05 Fmax= 7.72575e+03, atom= 18185
+Step=  381, Dmax= 1.1e-02 nm, Epot= -4.96712e+05 Fmax= 8.92765e+03, atom= 18185
+Step=  383, Dmax= 6.8e-03 nm, Epot= -4.96794e+05 Fmax= 1.11294e+03, atom= 18185
+Step=  384, Dmax= 8.1e-03 nm, Epot= -4.96869e+05 Fmax= 1.08430e+04, atom= 18185
+Step=  385, Dmax= 9.7e-03 nm, Epot= -4.96974e+05 Fmax= 3.61191e+03, atom= 18185
+Step=  387, Dmax= 5.8e-03 nm, Epot= -4.97002e+05 Fmax= 5.01820e+03, atom= 18185
+Step=  388, Dmax= 7.0e-03 nm, Epot= -4.97031e+05 Fmax= 5.37465e+03, atom= 18185
+Step=  389, Dmax= 8.4e-03 nm, Epot= -4.97049e+05 Fmax= 7.05562e+03, atom= 18185
+Step=  390, Dmax= 1.0e-02 nm, Epot= -4.97071e+05 Fmax= 7.90731e+03, atom= 18185
+Step=  391, Dmax= 1.2e-02 nm, Epot= -4.97074e+05 Fmax= 9.99831e+03, atom= 18185
+Step=  392, Dmax= 1.5e-02 nm, Epot= -4.97080e+05 Fmax= 1.15477e+04, atom= 18185
+Step=  394, Dmax= 8.7e-03 nm, Epot= -4.97204e+05 Fmax= 1.31236e+03, atom= 18185
+Step=  395, Dmax= 1.0e-02 nm, Epot= -4.97217e+05 Fmax= 1.42126e+04, atom= 18185
+Step=  396, Dmax= 1.3e-02 nm, Epot= -4.97386e+05 Fmax= 4.31623e+03, atom= 18185
+Step=  398, Dmax= 7.5e-03 nm, Epot= -4.97402e+05 Fmax= 6.84458e+03, atom= 18185
+Step=  399, Dmax= 9.0e-03 nm, Epot= -4.97435e+05 Fmax= 6.51597e+03, atom= 18185
+Step=  401, Dmax= 5.4e-03 nm, Epot= -4.97486e+05 Fmax= 1.53494e+03, atom= 18185
+Step=  402, Dmax= 6.5e-03 nm, Epot= -4.97525e+05 Fmax= 8.07308e+03, atom= 18185
+Step=  403, Dmax= 7.8e-03 nm, Epot= -4.97590e+05 Fmax= 3.51832e+03, atom= 18185
+Step=  405, Dmax= 4.7e-03 nm, Epot= -4.97619e+05 Fmax= 3.40426e+03, atom= 18185
+Step=  406, Dmax= 5.6e-03 nm, Epot= -4.97644e+05 Fmax= 4.93552e+03, atom= 18185
+Step=  407, Dmax= 6.8e-03 nm, Epot= -4.97673e+05 Fmax= 5.03667e+03, atom= 18185
+Step=  408, Dmax= 8.1e-03 nm, Epot= -4.97689e+05 Fmax= 6.96776e+03, atom= 18185
+Step=  409, Dmax= 9.7e-03 nm, Epot= -4.97712e+05 Fmax= 7.39613e+03, atom= 18185
+Step=  410, Dmax= 1.2e-02 nm, Epot= -4.97712e+05 Fmax= 9.88682e+03, atom= 18185
+Step=  411, Dmax= 1.4e-02 nm, Epot= -4.97726e+05 Fmax= 1.08013e+04, atom= 18185
+Step=  413, Dmax= 8.4e-03 nm, Epot= -4.97835e+05 Fmax= 1.67399e+03, atom= 18185
+Step=  415, Dmax= 5.0e-03 nm, Epot= -4.97874e+05 Fmax= 5.76377e+03, atom= 18185
+Step=  416, Dmax= 6.1e-03 nm, Epot= -4.97913e+05 Fmax= 3.20021e+03, atom= 18185
+Step=  417, Dmax= 7.3e-03 nm, Epot= -4.97924e+05 Fmax= 7.52906e+03, atom= 18185
+Step=  418, Dmax= 8.7e-03 nm, Epot= -4.97970e+05 Fmax= 5.38219e+03, atom= 18185
+Step=  420, Dmax= 5.2e-03 nm, Epot= -4.98009e+05 Fmax= 2.33234e+03, atom= 18185
+Step=  421, Dmax= 6.3e-03 nm, Epot= -4.98030e+05 Fmax= 6.95973e+03, atom= 18185
+Step=  422, Dmax= 7.5e-03 nm, Epot= -4.98077e+05 Fmax= 4.15165e+03, atom= 18185
+Step=  424, Dmax= 4.5e-03 nm, Epot= -4.98108e+05 Fmax= 2.54218e+03, atom= 18185
+Step=  425, Dmax= 5.4e-03 nm, Epot= -4.98134e+05 Fmax= 5.45930e+03, atom= 18185
+Step=  426, Dmax= 6.5e-03 nm, Epot= -4.98169e+05 Fmax= 4.17758e+03, atom= 18185
+Step=  427, Dmax= 7.8e-03 nm, Epot= -4.98178e+05 Fmax= 7.35282e+03, atom= 18185
+Step=  428, Dmax= 9.4e-03 nm, Epot= -4.98212e+05 Fmax= 6.52341e+03, atom= 18185
+Step=  430, Dmax= 5.6e-03 nm, Epot= -4.98260e+05 Fmax= 1.76687e+03, atom= 18185
+Step=  431, Dmax= 6.7e-03 nm, Epot= -4.98284e+05 Fmax= 8.22632e+03, atom= 18185
+Step=  432, Dmax= 8.1e-03 nm, Epot= -4.98346e+05 Fmax= 3.71472e+03, atom= 18185
+Step=  434, Dmax= 4.9e-03 nm, Epot= -4.98376e+05 Fmax= 3.47936e+03, atom= 18185
+Step=  435, Dmax= 5.8e-03 nm, Epot= -4.98397e+05 Fmax= 5.12388e+03, atom= 18185
+Step=  436, Dmax= 7.0e-03 nm, Epot= -4.98421e+05 Fmax= 5.23284e+03, atom= 18185
+Step=  437, Dmax= 8.4e-03 nm, Epot= -4.98435e+05 Fmax= 7.16104e+03, atom= 18185
+Step=  438, Dmax= 1.0e-02 nm, Epot= -4.98455e+05 Fmax= 7.75090e+03, atom= 18185
+Step=  440, Dmax= 6.0e-03 nm, Epot= -4.98517e+05 Fmax= 1.15825e+03, atom= 18185
+Step=  441, Dmax= 7.2e-03 nm, Epot= -4.98566e+05 Fmax= 9.59556e+03, atom= 18185
+Step=  442, Dmax= 8.7e-03 nm, Epot= -4.98649e+05 Fmax= 3.23757e+03, atom= 18185
+Step=  444, Dmax= 5.2e-03 nm, Epot= -4.98671e+05 Fmax= 4.49358e+03, atom= 18185
+Step=  445, Dmax= 6.3e-03 nm, Epot= -4.98696e+05 Fmax= 4.75456e+03, atom= 18185
+Step=  446, Dmax= 7.5e-03 nm, Epot= -4.98713e+05 Fmax= 6.37585e+03, atom= 18185
+Step=  447, Dmax= 9.0e-03 nm, Epot= -4.98733e+05 Fmax= 6.94475e+03, atom= 18185
+Step=  448, Dmax= 1.1e-02 nm, Epot= -4.98736e+05 Fmax= 9.08020e+03, atom= 18185
+Step=  449, Dmax= 1.3e-02 nm, Epot= -4.98747e+05 Fmax= 1.01050e+04, atom= 18185
+Step=  451, Dmax= 7.8e-03 nm, Epot= -4.98840e+05 Fmax= 1.46007e+03, atom= 18185
+Step=  452, Dmax= 9.4e-03 nm, Epot= -4.98845e+05 Fmax= 1.23549e+04, atom= 18185
+Step=  453, Dmax= 1.1e-02 nm, Epot= -4.98967e+05 Fmax= 4.29581e+03, atom= 18185
+Step=  455, Dmax= 6.7e-03 nm, Epot= -4.98985e+05 Fmax= 5.65198e+03, atom= 18185
+Step=  456, Dmax= 8.1e-03 nm, Epot= -4.99006e+05 Fmax= 6.31048e+03, atom= 18185
+Step=  457, Dmax= 9.7e-03 nm, Epot= -4.99015e+05 Fmax= 8.01392e+03, atom= 18185
+Step=  458, Dmax= 1.2e-02 nm, Epot= -4.99024e+05 Fmax= 9.21299e+03, atom= 18185
+Step=  460, Dmax= 7.0e-03 nm, Epot= -4.99104e+05 Fmax= 1.07970e+03, atom= 18185
+Step=  461, Dmax= 8.4e-03 nm, Epot= -4.99148e+05 Fmax= 1.13333e+04, atom= 18185
+Step=  462, Dmax= 1.0e-02 nm, Epot= -4.99253e+05 Fmax= 3.49374e+03, atom= 18185
+Step=  464, Dmax= 6.0e-03 nm, Epot= -4.99271e+05 Fmax= 5.43370e+03, atom= 18185
+Step=  465, Dmax= 7.2e-03 nm, Epot= -4.99297e+05 Fmax= 5.25452e+03, atom= 18185
+Step=  466, Dmax= 8.7e-03 nm, Epot= -4.99303e+05 Fmax= 7.60258e+03, atom= 18185
+Step=  467, Dmax= 1.0e-02 nm, Epot= -4.99326e+05 Fmax= 7.79054e+03, atom= 18185
+Step=  469, Dmax= 6.3e-03 nm, Epot= -4.99385e+05 Fmax= 1.48307e+03, atom= 18185
+Step=  470, Dmax= 7.5e-03 nm, Epot= -4.99407e+05 Fmax= 9.59821e+03, atom= 18185
+Step=  471, Dmax= 9.0e-03 nm, Epot= -4.99484e+05 Fmax= 3.75392e+03, atom= 18185
+Step=  473, Dmax= 5.4e-03 nm, Epot= -4.99505e+05 Fmax= 4.22533e+03, atom= 18185
+Step=  474, Dmax= 6.5e-03 nm, Epot= -4.99524e+05 Fmax= 5.37376e+03, atom= 18185
+Step=  475, Dmax= 7.8e-03 nm, Epot= -4.99542e+05 Fmax= 6.11832e+03, atom= 18185
+Step=  476, Dmax= 9.3e-03 nm, Epot= -4.99550e+05 Fmax= 7.70304e+03, atom= 18185
+Step=  477, Dmax= 1.1e-02 nm, Epot= -4.99562e+05 Fmax= 8.84789e+03, atom= 18185
+Step=  479, Dmax= 6.7e-03 nm, Epot= -4.99634e+05 Fmax= 1.12386e+03, atom= 18185
+Step=  480, Dmax= 8.1e-03 nm, Epot= -4.99670e+05 Fmax= 1.07862e+04, atom= 18185
+Step=  481, Dmax= 9.7e-03 nm, Epot= -4.99764e+05 Fmax= 3.57062e+03, atom= 18185
+Step=  483, Dmax= 5.8e-03 nm, Epot= -4.99783e+05 Fmax= 5.00997e+03, atom= 18185
+Step=  484, Dmax= 7.0e-03 nm, Epot= -4.99804e+05 Fmax= 5.30934e+03, atom= 18185
+Step=  485, Dmax= 8.4e-03 nm, Epot= -4.99813e+05 Fmax= 7.04673e+03, atom= 18185
+Step=  486, Dmax= 1.0e-02 nm, Epot= -4.99829e+05 Fmax= 7.81282e+03, atom= 18185
+Step=  488, Dmax= 6.0e-03 nm, Epot= -4.99887e+05 Fmax= 1.06844e+03, atom= 18185
+Step=  489, Dmax= 7.2e-03 nm, Epot= -4.99932e+05 Fmax= 9.64018e+03, atom= 18185
+Step=  490, Dmax= 8.7e-03 nm, Epot= -5.00009e+05 Fmax= 3.15262e+03, atom= 18185
+Step=  492, Dmax= 5.2e-03 nm, Epot= -5.00028e+05 Fmax= 4.54965e+03, atom= 18185
+Step=  493, Dmax= 6.2e-03 nm, Epot= -5.00051e+05 Fmax= 4.67054e+03, atom= 18185
+Step=  494, Dmax= 7.5e-03 nm, Epot= -5.00063e+05 Fmax= 6.42005e+03, atom= 18185
+Step=  495, Dmax= 9.0e-03 nm, Epot= -5.00081e+05 Fmax= 6.85927e+03, atom= 18185
+Step=  497, Dmax= 5.4e-03 nm, Epot= -5.00129e+05 Fmax= 1.13819e+03, atom= 18185
+Step=  498, Dmax= 6.5e-03 nm, Epot= -5.00169e+05 Fmax= 8.41343e+03, atom= 18185
+Step=  499, Dmax= 7.8e-03 nm, Epot= -5.00230e+05 Fmax= 3.10103e+03, atom= 18185
+Step=  501, Dmax= 4.7e-03 nm, Epot= -5.00250e+05 Fmax= 3.78153e+03, atom= 18185
+Step=  502, Dmax= 5.6e-03 nm, Epot= -5.00271e+05 Fmax= 4.49942e+03, atom= 18185
+Step=  503, Dmax= 6.7e-03 nm, Epot= -5.00287e+05 Fmax= 5.41343e+03, atom= 18185
+Step=  504, Dmax= 8.1e-03 nm, Epot= -5.00303e+05 Fmax= 6.50944e+03, atom= 18185
+Step=  505, Dmax= 9.7e-03 nm, Epot= -5.00313e+05 Fmax= 7.76792e+03, atom= 18185
+Step=  506, Dmax= 1.2e-02 nm, Epot= -5.00316e+05 Fmax= 9.40039e+03, atom= 18185
+Step=  508, Dmax= 7.0e-03 nm, Epot= -5.00392e+05 Fmax= 8.58618e+02, atom= 18185
+
+writing lowest energy coordinates.
+
+Steepest Descents converged to Fmax < 1000 in 509 steps
+Potential Energy  = -5.0039178e+05
+Maximum force     =  8.5861847e+02 on atom 18185
+Norm of force     =  1.9056443e+01
+
+GROMACS reminds you: "If it's all right with Dirac, it's all right with me." (Enrico Fermi, on being told that there was experimental evidence He-3 nuclei obey Fermi-Dirac statistics.)
+
+(base) [niyu@localhost-localdomain PG_16DSA]$ vim test.
+test.mol2  test.prm   
+(base) [niyu@localhost-localdomain PG_16DSA]$ vim test.
+test.mol2  test.prm   
+(base) [niyu@localhost-localdomain PG_16DSA]$ pwd
+/home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+(base) [niyu@localhost-localdomain PG_16DSA]$ ls test.
+test.mol2  test.prm   
+(base) [niyu@localhost-localdomain PG_16DSA]$ vim test_final.str  charge -o
+还有 2 个文件等待编辑
+(base) [niyu@localhost-localdomain PG_16DSA]$ ipython 
+import numpy as npPython 3.9.13 (main, Aug 25 2022, 23:26:10) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.31.1 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: import numpy as np
+im 
+In [2]: ii
+---------------------------------------------------------------------------
+NameError                                 Traceback (most recent call last)
+<ipython-input-2-d41e5d425f03> in <module>
+----> 1 ii
+
+NameError: name 'ii' is not defined
+
+In [3]: ii=np.genfromtxt("charge")
+
+In [4]: np.su
+---------------------------------------------------------------------------
+AttributeError                            Traceback (most recent call last)
+<ipython-input-4-04603b385970> in <module>
+----> 1 np.su
+
+~/anaconda3/lib/python3.9/site-packages/numpy/__init__.py in __getattr__(attr)
+    311                 return Tester
+    312 
+--> 313             raise AttributeError("module {!r} has no attribute "
+    314                                  "{!r}".format(__name__, attr))
+    315 
+
+AttributeError: module 'numpy' has no attribute 'su'
+
+In [5]: np.sum(ii)
+Out[5]: -1.1102230246251565e-16
+
+In [6]: exit
+(base) [niyu@localhost-localdomain PG_16DSA]$ vim test_final.str test
+test_final.str  test.mol2       test.prm        
+(base) [niyu@localhost-localdomain PG_16DSA]$ vim test_final.str test
+test_final.str  test.mol2       test.prm        
+(base) [niyu@localhost-localdomain PG_16DSA]$ vim test_final.str molecule_niyu
+molecule_niyu.prm     molecule_niyu_v2.prm  molecule_niyu_v3.itp  molecule_niyu_v3.prm
+(base) [niyu@localhost-localdomain PG_16DSA]$ vim test_final.str molecule_ny.itp  -o
+还有 2 个文件等待编辑
+(base) [niyu@localhost-localdomain PG_16DSA]$ ./em_v4.sh 
+                      :-) GROMACS - gmx grompp, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx grompp -f em.mdp -c step7_2_new.gro -p topol.top -o em_2ste_v4.tpr -r step7_2_new.gro -n lipid_rs_1ste_2.ndx -maxwarn 31
+
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file em.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+Setting the LD random seed to -36323630
+
+Generated 524 of the 528 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+
+Generated 451 of the 528 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'POPG'
+
+Excluding 3 bonded neighbours molecule type 'DSA'
+
+Excluding 3 bonded neighbours molecule type 'STE'
+
+Excluding 1 bonded neighbours molecule type 'SOD'
+
+Excluding 1 bonded neighbours molecule type 'CLA'
+
+Excluding 2 bonded neighbours molecule type 'TIP3'
+Number of degrees of freedom in T-Coupling group rest is 123240.00
+
+The largest distance between excluded atoms is 0.417 nm
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 72x72x60, spacing 0.116 0.116 0.112
+
+Estimate for the relative computational load of the PME mesh part: 0.11
+
+This run will generate roughly 4 Mb of data
+
+There was 1 note
+
+Back Off! I just backed up em_2ste_v4.tpr to ./#em_2ste_v4.tpr.1#
+
+GROMACS reminds you: "It's Because Of the Metric System" (Pulp Fiction)
+
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx mdrun -v -s em_2ste_v4.tpr -c em_2ste_v4.gro -e em_2ste_v4.edr -o em_2ste_v4.trr
+
+
+Back Off! I just backed up md.log to ./#md.log.5#
+Reading file em_2ste_v4.tpr, VERSION 2022.3 (single precision)
+1 GPU selected for this run.
+Mapping of GPU IDs to the 1 GPU task in the 1 rank on this node:
+  PP:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the CPU
+Using 1 MPI thread
+Using 16 OpenMP threads 
+
+
+Back Off! I just backed up em_2ste_v4.trr to ./#em_2ste_v4.trr.1#
+
+Back Off! I just backed up em_2ste_v4.edr to ./#em_2ste_v4.edr.1#
+
+Steepest Descents:
+   Tolerance (Fmax)   =  1.00000e+03
+   Number of steps    =        50000
+Step=    0, Dmax= 1.0e-02 nm, Epot=  9.75330e+10 Fmax= 2.44847e+13, atom= 26166
+Step=    1, Dmax= 1.0e-02 nm, Epot=  5.02295e+09 Fmax= 1.14568e+12, atom= 26209
+Step=    2, Dmax= 1.2e-02 nm, Epot=  6.14448e+08 Fmax= 5.32212e+10, atom= 26166
+Step=    3, Dmax= 1.4e-02 nm, Epot=  1.64149e+08 Fmax= 4.85539e+09, atom= 4820
+Step=    4, Dmax= 1.7e-02 nm, Epot=  2.50660e+07 Fmax= 4.37473e+08, atom= 4812
+Step=    5, Dmax= 2.1e-02 nm, Epot=  4.33015e+06 Fmax= 4.39688e+07, atom= 26209
+Step=    6, Dmax= 2.5e-02 nm, Epot=  6.92205e+05 Fmax= 6.42339e+06, atom= 16629
+Step=    7, Dmax= 3.0e-02 nm, Epot=  9.02121e+02 Fmax= 3.38499e+06, atom= 4812
+Step=    8, Dmax= 3.6e-02 nm, Epot= -6.56203e+04 Fmax= 6.22180e+06, atom= 4812
+Step=    9, Dmax= 4.3e-02 nm, Epot= -1.61244e+05 Fmax= 2.47198e+06, atom= 4812
+Step=   10, Dmax= 5.2e-02 nm, Epot= -2.23616e+05 Fmax= 9.86325e+05, atom= 26225
+Step=   11, Dmax= 6.2e-02 nm, Epot= -2.44715e+05 Fmax= 4.29809e+06, atom= 26225
+Step=   13, Dmax= 3.7e-02 nm, Epot= -2.83830e+05 Fmax= 5.51995e+05, atom= 4812
+Step=   14, Dmax= 4.5e-02 nm, Epot= -2.98755e+05 Fmax= 5.14775e+05, atom= 26225
+Step=   15, Dmax= 5.3e-02 nm, Epot= -3.08204e+05 Fmax= 6.59061e+05, atom= 4822
+Step=   16, Dmax= 6.4e-02 nm, Epot= -3.13035e+05 Fmax= 4.47161e+05, atom= 4822
+Step=   18, Dmax= 3.9e-02 nm, Epot= -3.27977e+05 Fmax= 1.23079e+05, atom= 48226
+Step=   19, Dmax= 4.6e-02 nm, Epot= -3.44510e+05 Fmax= 1.72283e+05, atom= 26228
+Step=   20, Dmax= 5.5e-02 nm, Epot= -3.56563e+05 Fmax= 7.67993e+04, atom= 26226
+Step=   21, Dmax= 6.7e-02 nm, Epot= -3.61980e+05 Fmax= 8.28412e+05, atom= 4822
+Step=   23, Dmax= 4.0e-02 nm, Epot= -3.70392e+05 Fmax= 2.17343e+05, atom= 4822
+Step=   24, Dmax= 4.8e-02 nm, Epot= -3.74847e+05 Fmax= 6.55208e+04, atom= 26225
+Step=   25, Dmax= 5.8e-02 nm, Epot= -3.86786e+05 Fmax= 1.18319e+05, atom= 26225
+Step=   26, Dmax= 6.9e-02 nm, Epot= -3.90329e+05 Fmax= 6.06701e+04, atom= 26225
+Step=   27, Dmax= 8.3e-02 nm, Epot= -3.99584e+05 Fmax= 2.20523e+05, atom= 26225
+Step=   28, Dmax= 9.9e-02 nm, Epot= -4.01213e+05 Fmax= 6.45120e+04, atom= 26225
+Step=   29, Dmax= 1.2e-01 nm, Epot= -4.02687e+05 Fmax= 7.15079e+05, atom= 26225
+Step=   30, Dmax= 1.4e-01 nm, Epot= -4.08808e+05 Fmax= 7.57279e+04, atom= 26225
+Step=   32, Dmax= 8.6e-02 nm, Epot= -4.17396e+05 Fmax= 2.20803e+04, atom= 26205
+Step=   33, Dmax= 1.0e-01 nm, Epot= -4.26657e+05 Fmax= 5.89545e+04, atom= 26205
+Step=   34, Dmax= 1.2e-01 nm, Epot= -4.30555e+05 Fmax= 3.87633e+04, atom= 26225
+Step=   36, Dmax= 7.4e-02 nm, Epot= -4.34946e+05 Fmax= 2.79046e+04, atom= 26225
+Step=   37, Dmax= 8.9e-02 nm, Epot= -4.35747e+05 Fmax= 9.53118e+04, atom= 26225
+Step=   38, Dmax= 1.1e-01 nm, Epot= -4.40563e+05 Fmax= 4.09359e+04, atom= 26225
+Step=   39, Dmax= 1.3e-01 nm, Epot= -4.40991e+05 Fmax= 1.23542e+05, atom= 26225
+Step=   40, Dmax= 1.5e-01 nm, Epot= -4.43223e+05 Fmax= 5.17218e+04, atom= 26225
+Step=   42, Dmax= 9.2e-02 nm, Epot= -4.46842e+05 Fmax= 1.41514e+04, atom= 26205
+Step=   44, Dmax= 5.5e-02 nm, Epot= -4.48004e+05 Fmax= 3.30633e+04, atom= 26225
+Step=   45, Dmax= 6.6e-02 nm, Epot= -4.48638e+05 Fmax= 2.65350e+04, atom= 26225
+Step=   47, Dmax= 4.0e-02 nm, Epot= -4.50429e+05 Fmax= 2.45968e+04, atom= 4732
+Step=   49, Dmax= 2.4e-02 nm, Epot= -4.53090e+05 Fmax= 1.05404e+04, atom= 4732
+Step=   51, Dmax= 1.4e-02 nm, Epot= -4.53857e+05 Fmax= 9.89812e+03, atom= 4732
+Step=   52, Dmax= 1.7e-02 nm, Epot= -4.54240e+05 Fmax= 1.55732e+04, atom= 4732
+Step=   53, Dmax= 2.1e-02 nm, Epot= -4.55011e+05 Fmax= 1.40946e+04, atom= 4732
+Step=   55, Dmax= 1.2e-02 nm, Epot= -4.56185e+05 Fmax= 4.20105e+03, atom= 4732
+Step=   56, Dmax= 1.5e-02 nm, Epot= -4.56694e+05 Fmax= 1.64731e+04, atom= 4732
+Step=   57, Dmax= 1.8e-02 nm, Epot= -4.57943e+05 Fmax= 9.76165e+03, atom= 4732
+Step=   59, Dmax= 1.1e-02 nm, Epot= -4.58663e+05 Fmax= 5.48909e+03, atom= 4732
+Step=   60, Dmax= 1.3e-02 nm, Epot= -4.58845e+05 Fmax= 1.37606e+04, atom= 4732
+Step=   61, Dmax= 1.5e-02 nm, Epot= -4.59810e+05 Fmax= 8.33346e+03, atom= 4732
+Step=   63, Dmax= 9.3e-03 nm, Epot= -4.60450e+05 Fmax= 5.40387e+03, atom= 4732
+Step=   64, Dmax= 1.1e-02 nm, Epot= -4.60745e+05 Fmax= 1.02029e+04, atom= 4732
+Step=   65, Dmax= 1.3e-02 nm, Epot= -4.61295e+05 Fmax= 9.47364e+03, atom= 4732
+Step=   67, Dmax= 8.0e-03 nm, Epot= -4.62057e+05 Fmax= 2.02181e+03, atom= 4733
+Step=   68, Dmax= 9.6e-03 nm, Epot= -4.62638e+05 Fmax= 1.23753e+04, atom= 4732
+Step=   69, Dmax= 1.2e-02 nm, Epot= -4.63791e+05 Fmax= 4.10112e+03, atom= 4732
+Step=   71, Dmax= 6.9e-03 nm, Epot= -4.64137e+05 Fmax= 6.32046e+03, atom= 4732
+Step=   72, Dmax= 8.3e-03 nm, Epot= -4.64558e+05 Fmax= 5.40259e+03, atom= 4732
+Step=   73, Dmax= 1.0e-02 nm, Epot= -4.64612e+05 Fmax= 9.44974e+03, atom= 4732
+Step=   74, Dmax= 1.2e-02 nm, Epot= -4.65152e+05 Fmax= 7.58387e+03, atom= 4732
+Step=   76, Dmax= 7.2e-03 nm, Epot= -4.65845e+05 Fmax= 3.03763e+03, atom= 4732
+Step=   77, Dmax= 8.6e-03 nm, Epot= -4.65896e+05 Fmax= 8.80508e+03, atom= 4732
+Step=   78, Dmax= 1.0e-02 nm, Epot= -4.66561e+05 Fmax= 6.41826e+03, atom= 4732
+Step=   80, Dmax= 6.2e-03 nm, Epot= -4.67130e+05 Fmax= 2.56480e+03, atom= 2827
+Step=   81, Dmax= 7.4e-03 nm, Epot= -4.67176e+05 Fmax= 8.32639e+03, atom= 2827
+Step=   82, Dmax= 8.9e-03 nm, Epot= -4.67916e+05 Fmax= 4.78396e+03, atom= 2827
+Step=   84, Dmax= 5.3e-03 nm, Epot= -4.68311e+05 Fmax= 3.08260e+03, atom= 2827
+Step=   85, Dmax= 6.4e-03 nm, Epot= -4.68468e+05 Fmax= 6.37965e+03, atom= 2827
+Step=   86, Dmax= 7.7e-03 nm, Epot= -4.68899e+05 Fmax= 4.95297e+03, atom= 2827
+Step=   88, Dmax= 4.6e-03 nm, Epot= -4.69314e+05 Fmax= 1.84516e+03, atom= 2827
+Step=   89, Dmax= 5.5e-03 nm, Epot= -4.69593e+05 Fmax= 6.29087e+03, atom= 2827
+Step=   90, Dmax= 6.7e-03 nm, Epot= -4.70082e+05 Fmax= 3.49705e+03, atom= 2827
+Step=   92, Dmax= 4.0e-03 nm, Epot= -4.70378e+05 Fmax= 2.37676e+03, atom= 2827
+Step=   93, Dmax= 4.8e-03 nm, Epot= -4.70620e+05 Fmax= 4.68213e+03, atom= 2827
+Step=   94, Dmax= 5.7e-03 nm, Epot= -4.70934e+05 Fmax= 3.77917e+03, atom= 2827
+Step=   95, Dmax= 6.9e-03 nm, Epot= -4.71033e+05 Fmax= 6.38019e+03, atom= 2827
+Step=   96, Dmax= 8.3e-03 nm, Epot= -4.71341e+05 Fmax= 5.80805e+03, atom= 2827
+Step=   98, Dmax= 5.0e-03 nm, Epot= -4.71796e+05 Fmax= 1.49322e+03, atom= 2827
+Step=   99, Dmax= 6.0e-03 nm, Epot= -4.72043e+05 Fmax= 7.26636e+03, atom= 2827
+Step=  100, Dmax= 7.2e-03 nm, Epot= -4.72611e+05 Fmax= 3.24871e+03, atom= 2827
+Step=  102, Dmax= 4.3e-03 nm, Epot= -4.72847e+05 Fmax= 3.06965e+03, atom= 2827
+Step=  103, Dmax= 5.2e-03 nm, Epot= -4.73029e+05 Fmax= 4.50920e+03, atom= 2827
+Step=  104, Dmax= 6.2e-03 nm, Epot= -4.73251e+05 Fmax= 4.59074e+03, atom= 2827
+Step=  105, Dmax= 7.4e-03 nm, Epot= -4.73343e+05 Fmax= 6.32175e+03, atom= 2827
+Step=  106, Dmax= 8.9e-03 nm, Epot= -4.73515e+05 Fmax= 6.78425e+03, atom= 2827
+Step=  108, Dmax= 5.3e-03 nm, Epot= -4.74047e+05 Fmax= 1.05995e+03, atom= 2827
+Step=  109, Dmax= 6.4e-03 nm, Epot= -4.74357e+05 Fmax= 8.41832e+03, atom= 8288
+Step=  110, Dmax= 7.7e-03 nm, Epot= -4.75051e+05 Fmax= 2.88690e+03, atom= 8288
+Step=  112, Dmax= 4.6e-03 nm, Epot= -4.75222e+05 Fmax= 3.93842e+03, atom= 8288
+Step=  113, Dmax= 5.5e-03 nm, Epot= -4.75403e+05 Fmax= 4.19736e+03, atom= 8288
+Step=  114, Dmax= 6.6e-03 nm, Epot= -4.75510e+05 Fmax= 5.61889e+03, atom= 8288
+Step=  115, Dmax= 8.0e-03 nm, Epot= -4.75658e+05 Fmax= 6.10636e+03, atom= 8288
+Step=  117, Dmax= 4.8e-03 nm, Epot= -4.76077e+05 Fmax= 9.65891e+02, atom= 8288
+
+writing lowest energy coordinates.
+
+Back Off! I just backed up em_2ste_v4.gro to ./#em_2ste_v4.gro.1#
+
+Steepest Descents converged to Fmax < 1000 in 118 steps
+Potential Energy  = -4.7607706e+05
+Maximum force     =  9.6589050e+02 on atom 8288
+Norm of force     =  5.7243007e+01
+
+GROMACS reminds you: "She's Not Bad, She's Just Genetically Mean" (Captain Beefheart)
+
+(base) [niyu@localhost-localdomain PG_16DSA]$ ./nvt_v4.sh 
+                      :-) GROMACS - gmx grompp, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx grompp -f nvt.mdp -c em_2ste_v4.gro -t em_2ste_v4.trr -p topol.top -o nvt_2ste_v4.tpr -r em_2ste_v4.gro -n lipid_rs_1ste_2.ndx -maxwarn 1
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file nvt.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+
+NOTE 2 [file nvt.mdp]:
+  nstcomm < nstcalcenergy defeats the purpose of nstcalcenergy, consider
+  setting nstcomm equal to nstcalcenergy for less overhead
+
+Setting the LD random seed to -288365642
+
+Generated 524 of the 528 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+
+Generated 451 of the 528 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'POPG'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'DSA'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'STE'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'SOD'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CLA'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'TIP3'
+
+turning H bonds into constraints...
+
+Setting gen_seed to 804234701
+
+Velocities were taken from a Maxwell distribution at 302.5 K
+Number of degrees of freedom in T-Coupling group POPG_DSA_STE is 63120.00
+Number of degrees of freedom in T-Coupling group SOD_CLA_TIP3 is 44385.00
+
+The largest distance between excluded atoms is 0.438 nm
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 302.5 K
+
+Calculated rlist for 1x1 atom pair-list as 1.402 nm, buffer size 0.002 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.400 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+Reading Coordinates and Box size from old trajectory
+
+Will read whole trajectory
+
+Velocities generated: ignoring velocities in input trajectory
+trr version: GMX_trn_file (single precision)
+Last frame          0 time  118.000   
+
+Using frame at t = 118 ps
+
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x44, spacing 0.149 0.149 0.153
+
+Estimate for the relative computational load of the PME mesh part: 0.10
+
+NOTE 3 [file nvt.mdp]:
+  This run will generate roughly 5559 Mb of data
+
+
+NOTE 4 [file nvt.mdp]:
+  COM removal frequency is set to (1).
+  Other settings require a global communication frequency of 5.
+  Note that this will require additional global communication steps,
+  which will reduce performance when using multiple ranks.
+  Consider setting nstcomm to a multiple of 5.
+
+
+There were 4 notes
+
+GROMACS reminds you: "I Smell Smoke From a Gun Named Extinction" (Pixies)
+
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx mdrun -v -s nvt_2ste_v4.tpr -c nvt_2ste_v4.gro -e nvt_2ste_v4.edr -o nvt_2ste_v4.trr
+
+
+Back Off! I just backed up md.log to ./#md.log.6#
+Reading file nvt_2ste_v4.tpr, VERSION 2022.3 (single precision)
+Changing nstlist from 5 to 100, rlist from 1.4 to 1.477
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the CPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 16 OpenMP threads 
+
+
+WARNING: This run will generate roughly 5548 Mb of data
+
+starting mdrun 'Title'
+500000 steps,   1000.0 ps.
+step 1900, will finish Fri Feb 24 01:46:12 2023^C
+
+Received the INT signal, stopping within 100 steps
+
+step 2000, will finish Fri Feb 24 01:47:55 2023
+               Core t (s)   Wall t (s)        (%)
+       Time:       39.745        2.484     1599.7
+                 (ns/day)    (hour/ns)
+Performance:      139.172        0.172
+
+GROMACS reminds you: "Safety lights are for dudes" (Ghostbusters 2016)
+
+(base) [niyu@localhost-localdomain PG_16DSA]$ ./nvt_v4.sh 
+                      :-) GROMACS - gmx grompp, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx grompp -f nvt.mdp -c em_2ste_v4.gro -t em_2ste_v4.trr -p topol.top -o nvt_2ste_v4.tpr -r em_2ste_v4.gro -n lipid_rs_1ste_2.ndx -maxwarn 1
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file nvt.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+
+NOTE 2 [file nvt.mdp]:
+  nstcomm < nstcalcenergy defeats the purpose of nstcalcenergy, consider
+  setting nstcomm equal to nstcalcenergy for less overhead
+
+Setting the LD random seed to -537665857
+
+Generated 524 of the 528 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+
+Generated 451 of the 528 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'POPG'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'DSA'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'STE'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'SOD'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CLA'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'TIP3'
+
+turning H bonds into constraints...
+
+Setting gen_seed to -100729041
+
+Velocities were taken from a Maxwell distribution at 302.5 K
+Number of degrees of freedom in T-Coupling group POPG_DSA_STE is 63120.00
+Number of degrees of freedom in T-Coupling group SOD_CLA_TIP3 is 44385.00
+
+The largest distance between excluded atoms is 0.438 nm
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 302.5 K
+
+Calculated rlist for 1x1 atom pair-list as 1.402 nm, buffer size 0.002 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.400 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+Reading Coordinates and Box size from old trajectory
+
+Will read whole trajectory
+
+Velocities generated: ignoring velocities in input trajectory
+trr version: GMX_trn_file (single precision)
+Last frame          0 time  118.000   
+
+Using frame at t = 118 ps
+
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x44, spacing 0.149 0.149 0.153
+
+Estimate for the relative computational load of the PME mesh part: 0.10
+
+NOTE 3 [file nvt.mdp]:
+  This run will generate roughly 5559 Mb of data
+
+
+NOTE 4 [file nvt.mdp]:
+  COM removal frequency is set to (1).
+  Other settings require a global communication frequency of 5.
+  Note that this will require additional global communication steps,
+  which will reduce performance when using multiple ranks.
+  Consider setting nstcomm to a multiple of 5.
+
+
+There were 4 notes
+
+Back Off! I just backed up nvt_2ste_v4.tpr to ./#nvt_2ste_v4.tpr.1#
+
+GROMACS reminds you: "I have no responsibility to live up to what others expect of me. That's their mistake, not my failing." (Richard Feynman)
+
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx mdrun -v -s nvt_2ste_v4.tpr -c nvt_2ste_v4.gro -e nvt_2ste_v4.edr -o nvt_2ste_v4.trr
+
+
+Back Off! I just backed up md.log to ./#md.log.7#
+Reading file nvt_2ste_v4.tpr, VERSION 2022.3 (single precision)
+Changing nstlist from 5 to 100, rlist from 1.4 to 1.477
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the CPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 16 OpenMP threads 
+
+^C
+(base) [niyu@localhost-localdomain PG_16DSA]$ ./nvt_v4.sh 
+                      :-) GROMACS - gmx grompp, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx grompp -f nvt.mdp -c em_2ste_v4.gro -t em_2ste_v4.trr -p topol.top -o nvt_2ste_v4.tpr -r em_2ste_v4.gro -n lipid_rs_1ste_2.ndx -maxwarn 1
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file nvt.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+
+NOTE 2 [file nvt.mdp]:
+  nstcomm < nstcalcenergy defeats the purpose of nstcalcenergy, consider
+  setting nstcomm equal to nstcalcenergy for less overhead
+
+Setting the LD random seed to 2088433662
+
+Generated 524 of the 528 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+
+Generated 451 of the 528 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'POPG'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'DSA'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'STE'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'SOD'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CLA'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'TIP3'
+
+turning H bonds into constraints...
+
+Setting gen_seed to -42039041
+
+Velocities were taken from a Maxwell distribution at 302.5 K
+Number of degrees of freedom in T-Coupling group POPG_DSA_STE is 63120.00
+Number of degrees of freedom in T-Coupling group SOD_CLA_TIP3 is 44385.00
+
+The largest distance between excluded atoms is 0.438 nm
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 302.5 K
+
+Calculated rlist for 1x1 atom pair-list as 1.402 nm, buffer size 0.002 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.400 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+Reading Coordinates and Box size from old trajectory
+
+Will read whole trajectory
+
+Velocities generated: ignoring velocities in input trajectory
+trr version: GMX_trn_file (single precision)
+Last frame          0 time  118.000   
+
+Using frame at t = 118 ps
+
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x44, spacing 0.149 0.149 0.153
+
+Estimate for the relative computational load of the PME mesh part: 0.10
+
+NOTE 3 [file nvt.mdp]:
+  This run will generate roughly 5559 Mb of data
+
+
+NOTE 4 [file nvt.mdp]:
+  COM removal frequency is set to (1).
+  Other settings require a global communication frequency of 5.
+  Note that this will require additional global communication steps,
+  which will reduce performance when using multiple ranks.
+  Consider setting nstcomm to a multiple of 5.
+
+
+There were 4 notes
+
+Back Off! I just backed up nvt_2ste_v4.tpr to ./#nvt_2ste_v4.tpr.2#
+
+GROMACS reminds you: "The Wheels On the Bus Go Round and Round" (J. Richman)
+
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx mdrun -v -s nvt_2ste_v4.tpr -c nvt_2ste_v4.gro -e nvt_2ste_v4.edr -o nvt_2ste_v4.trr
+
+
+Back Off! I just backed up md.log to ./#md.log.8#
+Reading file nvt_2ste_v4.tpr, VERSION 2022.3 (single precision)
+Changing nstlist from 5 to 100, rlist from 1.4 to 1.477
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the CPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 16 OpenMP threads 
+
+
+Back Off! I just backed up nvt_2ste_v4.trr to ./#nvt_2ste_v4.trr.1#
+
+Back Off! I just backed up nvt_2ste_v4.edr to ./#nvt_2ste_v4.edr.1#
+
+WARNING: This run will generate roughly 5548 Mb of data
+
+starting mdrun 'Title'
+500000 steps,   1000.0 ps.
+step 5100: timed with pme grid 56 56 44, coulomb cutoff 1.400: 371.9 M-cycles
+step 5300: timed with pme grid 48 48 40, coulomb cutoff 1.520: 412.9 M-cycles
+step 5500: timed with pme grid 44 44 36, coulomb cutoff 1.658: 467.8 M-cycles
+step 5700: timed with pme grid 48 48 36, coulomb cutoff 1.637: 456.5 M-cycles
+step 5900: timed with pme grid 48 48 40, coulomb cutoff 1.520: 413.6 M-cycles
+step 6100: timed with pme grid 52 52 40, coulomb cutoff 1.473: 401.7 M-cycles
+step 6300: timed with pme grid 52 52 42, coulomb cutoff 1.403: 380.2 M-cycles
+step 6500: timed with pme grid 56 56 44, coulomb cutoff 1.400: 371.9 M-cycles
+              optimal pme grid 56 56 44, coulomb cutoff 1.400
+step 499900, remaining wall clock time:     0 s          
+Writing final coordinates.
+step 500000, remaining wall clock time:     0 s          
+               Core t (s)   Wall t (s)        (%)
+       Time:     8384.617      524.039     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      164.874        0.146
+
+GROMACS reminds you: "A protein is a chain of letters." (Julie Bernauer)
+
+(base) [niyu@localhost-localdomain PG_16DSA]$ chimera md
+md_2ste.sh               md_2ste_v3.part0002.trr  md_2ste_v3_v2.tpr
+md_2ste_v3_16ns.gro      md_2ste_v3.part0002.xtc  md_2ste_v3.xtc
+md_2ste_v3.cpt           md_2ste_v3.pdb           md.log
+md_2ste_v3.edr           md_2ste_v3_prev.cpt      md.mdp
+md_2ste_v3.gro           md_2ste_v3.tpr           mdout.mdp
+md_2ste_v3.log           md_2ste_v3.trr           md.sh
+md_2ste_v3.part0002.edr  md_2ste_v3_v2.cpt        md_v2.sh
+md_2ste_v3.part0002.gro  md_2ste_v3_v2.pdb        md_v3.sh
+md_2ste_v3.part0002.log  md_2ste_v3_v2_prev.cpt   md_v4.sh
+(base) [niyu@localhost-localdomain PG_16DSA]$ chimera md
+md_2ste.sh               md_2ste_v3.part0002.trr  md_2ste_v3_v2.tpr
+md_2ste_v3_16ns.gro      md_2ste_v3.part0002.xtc  md_2ste_v3.xtc
+md_2ste_v3.cpt           md_2ste_v3.pdb           md.log
+md_2ste_v3.edr           md_2ste_v3_prev.cpt      md.mdp
+md_2ste_v3.gro           md_2ste_v3.tpr           mdout.mdp
+md_2ste_v3.log           md_2ste_v3.trr           md.sh
+md_2ste_v3.part0002.edr  md_2ste_v3_v2.cpt        md_v2.sh
+md_2ste_v3.part0002.gro  md_2ste_v3_v2.pdb        md_v3.sh
+md_2ste_v3.part0002.log  md_2ste_v3_v2_prev.cpt   md_v4.sh
+(base) [niyu@localhost-localdomain PG_16DSA]$ chimera^C
+(base) [niyu@localhost-localdomain PG_16DSA]$ chimera nvt_2ste_v4.gro  &
+[1] 1326
+(base) [niyu@localhost-localdomain PG_16DSA]$ ./npt_v4.sh 
+                      :-) GROMACS - gmx grompp, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx grompp -f npt.mdp -c nvt_2ste_v4.gro -t nvt_2ste_v4.trr -p topol.top -o npt_2ste_v4.tpr -r nvt_2ste_v4.gro -n lipid_rs_1ste_2.ndx -maxwarn 1
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file npt.mdp]:
+  With Verlet lists the optimal nstlist is >= 10, with GPUs >= 20. Note
+  that with the Verlet scheme, nstlist has no effect on the accuracy of
+  your simulation.
+
+
+NOTE 2 [file npt.mdp]:
+  nstcomm < nstcalcenergy defeats the purpose of nstcalcenergy, consider
+  setting nstcomm equal to nstcalcenergy for less overhead
+
+
+WARNING 1 [file npt.mdp]:
+  The Berendsen barostat does not generate any strictly correct ensemble,
+  and should not be used for new production simulations (in our opinion).
+  For isotropic scaling we would recommend the C-rescale barostat that also
+  ensures fast relaxation without oscillations, and for anisotropic scaling
+  you likely want to use the Parrinello-Rahman barostat.
+
+Setting the LD random seed to -536908809
+
+Generated 524 of the 528 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+
+Generated 451 of the 528 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'POPG'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'DSA'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'STE'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'SOD'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CLA'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'TIP3'
+
+turning H bonds into constraints...
+
+The center of mass of the position restraint coord's is  3.712  4.058  3.682
+
+The center of mass of the position restraint coord's is  3.712  4.058  3.682
+Number of degrees of freedom in T-Coupling group POPG_DSA_STE is 63120.00
+Number of degrees of freedom in T-Coupling group SOD_CLA_TIP3 is 44385.00
+
+The largest distance between excluded atoms is 0.416 nm
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 302.5 K
+
+Calculated rlist for 1x1 atom pair-list as 1.402 nm, buffer size 0.002 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.400 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+Reading Coordinates, Velocities and Box size from old trajectory
+
+Will read whole trajectory
+trr version: GMX_trn_file (single precision)
+Last frame       5000 time 1000.000   
+
+Using frame at t = 1000 ps
+
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 56x56x44, spacing 0.149 0.149 0.153
+
+Estimate for the relative computational load of the PME mesh part: 0.09
+
+NOTE 3 [file npt.mdp]:
+  This run will generate roughly 5559 Mb of data
+
+
+NOTE 4 [file npt.mdp]:
+  COM removal frequency is set to (1).
+  Other settings require a global communication frequency of 5.
+  Note that this will require additional global communication steps,
+  which will reduce performance when using multiple ranks.
+  Consider setting nstcomm to a multiple of 5.
+
+
+There were 4 notes
+
+There was 1 warning
+
+GROMACS reminds you: "Can't You Make This Thing Go Faster ?" (Black Crowes)
+
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx mdrun -v -s npt_2ste_v4.tpr -c npt_2ste_v4.gro -e npt_2ste_v4.edr -o npt_2ste_v4.trr
+
+
+Back Off! I just backed up md.log to ./#md.log.9#
+Reading file npt_2ste_v4.tpr, VERSION 2022.3 (single precision)
+Changing nstlist from 5 to 100, rlist from 1.4 to 1.477
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the CPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 16 OpenMP threads 
+
+
+WARNING: This run will generate roughly 5549 Mb of data
+
+starting mdrun 'Title'
+500000 steps,   1000.0 ps.
+step 4800: timed with pme grid 56 56 44, coulomb cutoff 1.400: 393.2 M-cycles
+step 5000: timed with pme grid 48 48 40, coulomb cutoff 1.520: 435.0 M-cycles
+step 5200: timed with pme grid 44 44 36, coulomb cutoff 1.658: 496.1 M-cycles
+step 5400: timed with pme grid 48 48 36, coulomb cutoff 1.637: 474.0 M-cycles
+step 5600: timed with pme grid 48 48 40, coulomb cutoff 1.520: 432.1 M-cycles
+step 5800: timed with pme grid 52 52 40, coulomb cutoff 1.473: 424.9 M-cycles
+step 6000: timed with pme grid 52 52 42, coulomb cutoff 1.403: 401.8 M-cycles
+step 6200: timed with pme grid 56 56 44, coulomb cutoff 1.400: 396.7 M-cycles
+              optimal pme grid 56 56 44, coulomb cutoff 1.400
+step 499900, remaining wall clock time:     0 s          ra npt_
+Writing final coordinates.
+step 500000, remaining wall clock time:     0 s          
+               Core t (s)   Wall t (s)        (%)
+       Time:     8849.669      553.104     1600.0
+                 (ns/day)    (hour/ns)
+Performance:      156.210        0.154
+
+GROMACS reminds you: "I Calculate My Birthright" (P.J. Harvey)
+
+[1]+  完成                  chimera nvt_2ste_v4.gro
+(base) [niyu@localhost-localdomain PG_16DSA]$ chimera npt_2ste_v4.gro  &
+[1] 1497
+(base) [niyu@localhost-localdomain PG_16DSA]$ ./md_v4.sh 
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx mdrun -v -s md_2ste_v4.tpr -c md_2ste_v4.gro -e md_2ste_v4.edr -o md_2ste_v4.trr -x md_2ste_v4.xtc -g md_2ste_v4.log -nice 0 -cpo md_2ste_v4.cpt
+
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2022.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -s
+    File 'md_2ste_v4.tpr' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+                      :-) GROMACS - gmx grompp, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx grompp -f md.mdp -c md_2ste_v4.gro -t md_2ste_v4.trr -p topol.top -o md_2ste_v4_v2.tpr -r md_2ste_v4.gro -n lipid_rs_1ste_2.ndx -maxwarn 1
+
+
+-------------------------------------------------------
+Program:     gmx grompp, version 2022.3
+Source file: src/gromacs/commandline/cmdlineparser.cpp (line 271)
+Function:    void gmx::CommandLineParser::parse(int*, char**)
+
+Error in user input:
+Invalid command-line options
+  In command-line option -c
+    File 'md_2ste_v4.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -t
+    File 'md_2ste_v4.trr' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+  In command-line option -r
+    File 'md_2ste_v4.gro' does not exist or is not accessible.
+    The file could not be opened.
+      Reason: No such file or directory
+      (call to fopen() returned error code 2)
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at http://www.gromacs.org/Documentation/Errors
+-------------------------------------------------------
+(base) [niyu@localhost-localdomain PG_16DSA]$ vim md_v4.sh 
+(base) [niyu@localhost-localdomain PG_16DSA]$ ./md_v4.sh 
+                      :-) GROMACS - gmx grompp, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx grompp -f md.mdp -c npt_2ste_v4.gro -t npt_2ste_v4.trr -p topol.top -o md_2ste_v4.tpr -r npt_2ste_v4.gro -n lipid_rs_1ste_2.ndx -maxwarn 1
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file md.mdp]:
+  nstcomm < nstcalcenergy defeats the purpose of nstcalcenergy, consider
+  setting nstcomm equal to nstcalcenergy for less overhead
+
+Setting the LD random seed to 1067407295
+
+Generated 524 of the 528 non-bonded parameter combinations
+Generating 1-4 interactions: fudge = 1
+
+Generated 451 of the 528 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'POPG'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'DSA'
+
+turning H bonds into constraints...
+
+Excluding 3 bonded neighbours molecule type 'STE'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'SOD'
+
+turning H bonds into constraints...
+
+Excluding 1 bonded neighbours molecule type 'CLA'
+
+turning H bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'TIP3'
+
+turning H bonds into constraints...
+Number of degrees of freedom in T-Coupling group POPG_DSA_STE is 63120.00
+Number of degrees of freedom in T-Coupling group SOD_CLA_TIP3 is 44385.00
+
+The largest distance between excluded atoms is 0.418 nm
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 302.5 K
+
+Calculated rlist for 1x1 atom pair-list as 1.221 nm, buffer size 0.021 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.200 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+Reading Coordinates, Velocities and Box size from old trajectory
+
+Will read whole trajectory
+trr version: GMX_trn_file (single precision)
+Last frame       5000 time 1000.000   
+
+Using frame at t = 1000 ps
+
+Starting time for run is 0 ps
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 52x52x44, spacing 0.160 0.160 0.153
+
+Estimate for the relative computational load of the PME mesh part: 0.12
+
+NOTE 2 [file md.mdp]:
+  This run will generate roughly 12289 Mb of data
+
+
+NOTE 3 [file md.mdp]:
+  COM removal frequency is set to (1).
+  Other settings require a global communication frequency of 10.
+  Note that this will require additional global communication steps,
+  which will reduce performance when using multiple ranks.
+  Consider setting nstcomm to a multiple of 10.
+
+
+There were 3 notes
+
+GROMACS reminds you: "Aber wenn der Quarterback kommt, um dir die Brille abzunehmen, sag ihm: Danke, die bleibt wo sie ist" (Wir sind Helden)
+
+                      :-) GROMACS - gmx mdrun, 2022.3 (-:
+
+Executable:   /home/niyu/local/gromacs/bin/gmx
+Data prefix:  /home/niyu/local/gromacs
+Working dir:  /home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+Command line:
+  gmx mdrun -v -s md_2ste_v4.tpr -c md_2ste_v4.gro -e md_2ste_v4.edr -o md_2ste_v4.trr -x md_2ste_v4.xtc -g md_2ste_v4.log -nice 0 -cpo md_2ste_v4.cpt
+
+Reading file md_2ste_v4.tpr, VERSION 2022.3 (single precision)
+Changing nstlist from 10 to 100, rlist from 1.2 to 1.291
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do (non-perturbed) short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the CPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI thread
+Using 16 OpenMP threads 
+
+
+WARNING: This run will generate roughly 12194 Mb of data
+
+starting mdrun 'Title'
+50000000 steps, 100000.0 ps.
+step 5700: timed with pme grid 52 52 44, coulomb cutoff 1.200: 329.0 M-cycles
+step 5900: timed with pme grid 48 48 40, coulomb cutoff 1.298: 349.3 M-cycles
+step 6100: timed with pme grid 44 44 36, coulomb cutoff 1.416: 387.8 M-cycles
+step 6300: timed with pme grid 48 48 36, coulomb cutoff 1.403: 389.9 M-cycles
+step 6500: timed with pme grid 48 48 40, coulomb cutoff 1.298: 350.5 M-cycles
+step 6700: timed with pme grid 52 52 40, coulomb cutoff 1.263: 344.2 M-cycles
+step 6900: timed with pme grid 52 52 42, coulomb cutoff 1.203: 333.1 M-cycles
+step 7100: timed with pme grid 52 52 44, coulomb cutoff 1.200: 335.4 M-cycles
+              optimal pme grid 52 52 44, coulomb cutoff 1.200
+step 49999900, remaining wall clock time:     0 s          
+Writing final coordinates.
+step 50000000, remaining wall clock time:     0 s          
+               Core t (s)   Wall t (s)        (%)
+       Time:   714810.021    44675.671     1600.0
+                         12h24:35
+                 (ns/day)    (hour/ns)
+Performance:      193.394        0.124
+
+GROMACS reminds you: "If you want to change the future, start living as if you're already there." (Lynn Conway)
+
+[1]+  完成                  chimera npt_2ste_v4.gro
+(base) [niyu@localhost-localdomain PG_16DSA]$ top
+top - 16:57:01 up 21:50,  8 users,  load average: 11.45, 3.60, 1.62
+Tasks: 367 total,   2 running, 365 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 99.1 us,  0.7 sy,  0.0 ni,  0.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 16070476 total,  2510812 free,  1339196 used, 12220468 buff/cache
+KiB Swap: 41943036 total, 41894644 free,    48392 used. 14362980 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                                                   
+25661 niyu      20   0 6602368 243944 116088 R  1599  1.5  19:17.61 gmx                                                                                                                       
+ 2496 niyu      20   0 4858336 189340  46400 S   0.3  1.2   0:40.89 gnome-shell                                                                                                               
+ 7203 niyu      20   0  161260   2508    876 S   0.3  0.0   0:01.27 sshd                                                                                                                      
+    1 root      20   0  194104   4964   2936 S   0.0  0.0   0:04.28 systemd                                                                                                                   
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.03 kthreadd                                                                                                                  
+    4 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H                                                                                                              
+    6 root      20   0       0      0      0 S   0.0  0.0   0:00.35 ksoftirqd/0                                                                                                               
+    7 root      rt   0       0      0      0 S   0.0  0.0   0:00.08 migration/0                                                                                                               
+    8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh                                                                                                                    
+    9 root      20   0       0      0      0 S   0.0  0.0   0:10.56 rcu_sched                                                                                                                 
+top - 20:47:56 up 1 day,  1:40,  7 users,  load average: 0.00, 0.02, 0.05
+Tasks: 366 total,   1 running, 362 sleeping,   2 stopped,   1 zombie
+%Cpu(s):  0.2 us,  0.1 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 16070476 total,   184368 free,  1490308 used, 14395800 buff/cache
+KiB Swap: 41943036 total, 41792756 free,   150280 used. 14212640 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                                                   
+27341 niyu      20   0  820744 281780  36584 S   4.7  1.8   9:44.12 python2.7                                                                                                                 
+    1 root      20   0  194104   5008   2996 S   0.0  0.0   0:05.02 systemd                                                                                                                   
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.04 kthreadd                                                                                                                  
+    4 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H                                                                                                              
+    6 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/0                                                                                                               
+    7 root      rt   0       0      0      0 S   0.0  0.0   0:00.08 migration/0                                                                                                               
+    8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh                                                                                                                    
+    9 root      20   0       0      0      0 S   0.0  0.0   0:13.01 rcu_sched                                                                                                                 
+   10 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 lru-add-drain                                                                                                             
+   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.28 watchdog/0                                                                                                                
+top - 20:48:29 up 1 day,  1:41,  7 users,  load average: 0.00, 0.02, 0.chdog/1                                                                                                                
+Tasks: 367 total,   1 running, 363 sleeping,   2 stopped,   1 zombie
+top - 20:48:41 up 1 day,  1:41,  7 users,  load average: 0.00, 0.02, 0.ftirqd/1                                                                                                               
+Tasks: 367 total,   2 running, 362 sleeping,   2 stopped,   1 zombie
+%Cpu(s):  0.4 us,  0.0 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,rker/1:0H                                                                                                              
+KiB Mem : 16070476 total,   184640 free,  1490020 used, 14395816 buff/c
+KiB Swap: 41943036 total, 41792756 free,   150280 used. 14212920 avail 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ 
+27341 niyu      20   0  820744 281780  36584 S   6.6  1.8   9:47.01 
+    9 root      20   0       0      0      0 R   0.3  0.0   0:13.02 
+ 1279 root      20   0  574292   3524   2976 S   0.3  0.0   0:09.37 
+ 3149 niyu      20   0  162236   2412   1504 S   0.3  0.0   2:32.04 
+    1 root      20   0  194104   5008   2996 S   0.0  0.0   0:05.02 
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.04 
+    4 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 
+    6 root      20   0       0      0      0 S   0.0  0.0   0:00.44 
+    7 root      rt   0       0      0      0 S   0.0  0.0   0:00.08 
+    8 root      20   0       0      0      0 S   0.0  0.0   0:00.00 
+   10 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 
+   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.28 
+   12 root      rt   0       0      0      0 S   0.0  0.0   0:00.20 
+   13 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 
+   14 root      20   0       0      0      0 S   0.0  0.0   0:00.00 
+   15 root      20   0       0      0      0 S   0.0  0.0   0:00.98 
+   16 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 
+(base) [niyu@localhost-localdomain PG_16DSA]$ history
+   18  cd 1_size_my_berger_mdp_cutoff_test/
+   19  ls
+   20  cd 1_8nm_PGSA_mymdp/
+   21  ls
+   22  cd charmm-gui-6989648975/
+   23  ls
+   24  cd gromacs/
+   25  ls
+   26  cd analysis/
+   27  ls
+   28  cd 3_C16/
+   29  ls
+   30  cd ..
+   31  ls
+   32  cd 2_C16/
+   33  ls
+   34  cd ..
+   35  ls
+   36  cd 3_C16/
+   37  ls
+   38  vim test.sh
+   39  vim test1.sh 
+   40  vim test.sh
+   41  cd ..
+   42  ls
+   43  mkdir 4_C16
+   44  cp 3_C16/*sep*.pdb 4_C16/
+   45  ls
+   46  cd 4_C16/
+   47  ls
+   48  pwd
+   49  ls
+   50  vim gmx_density_batch_command.sh 
+   51  cd ..
+   52  ls
+   53  cd 3_C16/
+   54  ls
+   55  vim test.sh
+   56  cd ../4_C16/
+   57  ls
+   58  vim gmx_density_batch_command.sh 
+   59  ls
+   60  vim gmx_density_batch_command.sh 
+   61  chmod +x gmx_density_batch_command.sh 
+   62  chown niyu gmx_density_batch_command.sh 
+   63  expect gmx_density_batch_command.sh 
+   64  vim step7_1_sep4.pdb
+   65  gmx make_ndx step7_1_sep4.pdb -o 207.ndx
+   66  gmx make_ndx -f step7_1_sep4.pdb -o 207.ndx
+   67  ls
+   68  vim gmx_density_batch_command.sh 
+   69  vim gmx_density_batch_command.sh 
+   70  cp ../3_C16/test.sh .
+   71  ls
+   72  expect test.sh 
+   73  vim test.sh 
+   74  expect test.sh 
+   75  cd ..
+   76  lks
+   77  ls
+   78  cp step7_1.tpr 4_C16/
+   79  cd 4_C16/
+   80  ls
+   81  expect test.sh 
+   82  ls
+   83  vim gmx_density_batch_command.sh 
+   84  expect gmx_density_batch_command.sh 
+   85  ls
+   86  rm *dens.xvg
+   87  ls
+   88  rm *dens
+   89  rm *#
+   90  ls
+   91  ls -l | grep "^-" | wc -l
+   92  vim gmx_density_batch_command.sh 
+   93  ls
+   94  expect gmx_density_batch_command.sh 
+   95                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ls
+   96  ls
+   97  ls -l | grep "^-" | wc -l
+   98  ls
+   99  vim gmx_density_batch_command.sh 
+  100  pwd
+  101  ls
+  102  expect gmx_density208_batch_command.sh 
+  103  expect gmx_density208_batch_command.sh 
+  104  top
+  105  top
+  106  sl
+  107  ls
+  108  cd 
+  109  ls
+  110  cd workspace/
+  111  ls
+  112  cd DSA/
+  113  ls
+  114  ls
+  115  cd 
+  116  lsa
+  117  ls
+  118  cd workspace/
+  119  ls
+  120  cd 2_molecular_probe/
+  121  ls
+  122  cd 1_POPG_SA/
+  123  ls
+  124  cd 1_modeling_simulation_parameter_test/
+  125  ls
+  126  cd ..
+  127  ls
+  128  cd ..
+  129  ls
+  130  cd 1_POPG_SA/
+  131  ls
+  132  cd bak/
+  133  ls
+  134  cd ..
+  135  ls
+  136  cd ..
+  137  ls
+  138  cd bak/
+  139  ls
+  140  cd 3-POPG/
+  141  ls
+  142  cd 1/
+  143  ls
+  144  cd ..
+  145  ls
+  146  cd ..
+  147  ls
+  148  cd 4_reporduction/
+  149  ls
+  150  cd bak/
+  151  ls
+  152  cd ..
+  153  ls
+  154  cd ..
+  155  ls
+  156  cd ..
+  157  ls
+  158  conda env list
+  159                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+  160  cd 
+  161  ls
+  162  cd workspace/
+  163  ls
+  164  cd ..
+  165  ls
+  166  cd anaconda3/
+  167  ls
+  168  ll
+  169  cd ..
+  170  ls
+  171  cd tools/
+  172  ls
+  173  cd ..
+  174  ls
+  175  cd software/
+  176  ls
+  177  cd ..
+  178  ls
+  179  ls
+  180  ls
+  181  cd software/
+  182  ls
+  183  cd charmm/
+  184  ls
+  185  tar zxvf c47b1.tar.gz 
+  186  lsd
+  187  ls
+  188  cd charmm/
+  189  ls
+  190  ls
+  191  cd ..
+  192  ls
+  193  cd ..
+  194  ls
+  195  cd gromacs/
+  196  ls
+  197  cd gromacs-2022.3
+  198  ls
+  199  cd ../../
+  200  las
+  201  ls
+  202  cd charmm/
+  203  ls
+  204  cd 
+  205  ls
+  206  cd local/
+  207  ls
+  208  mkdir charmm
+  209  ls
+  210  cd gromacs/
+  211  ls
+  212  cd ..
+  213  ls
+  214  cd charmm/
+  215  ls
+  216  pwd
+  217  cd 
+  218  ls
+  219  cd software/
+  220  ls
+  221  cd charmm/
+  222  ls
+  223  cd charmm/
+  224  ls
+  225  ./configure --debug --prefix=/home/niyu/local/charmm
+  226  cmake --version
+  227  gmx -h
+  228  ls
+  229  cd
+  230  ls
+  231  cd /
+  232  ls
+  233  cd bin/
+  234  ls
+  235  cmake --version
+  236  cmake -version
+  237  pwd
+  238  cd 
+  239  ls
+  240  cd software/
+  241  ls
+  242  d charmm/
+  243  ls
+  244  cd charmm/
+  245  ls
+  246  cd charmm/
+  247  ls
+  248  ./configure --debug --prefix=/home/niyu/local/charmm --cmake=/bin/cmake3
+  249  ls
+  250  cd ..
+  251  ls
+  252  rm -rf charmm/
+  253  ls
+  254  tar zxvf c47b1.tar.gz 
+  255  ls
+  256  cd charmm/
+  257  ls
+  258  ./configure --debug --prefix=/home/niyu/local/charmm --cmake=/bin/cmake3
+  259  ls
+  260  cd build/
+  261  ls
+  262  cd cmake/
+  263  ls
+  264  pwd
+  265  make
+  266  make install
+  267  cd 
+  268  ls
+  269  cd local/
+  270  ls
+  271  cd charmm/
+  272  ls
+  273  cd t
+  274  cd test/
+  275  ls
+  276  ./test.com cmake
+  277  ls
+  278  vim output
+  279  ./test.com cmake
+  280  ls
+  281  cd ..
+  282  ls
+  283  ls
+  284  cd test/
+  285  ls
+  286  vim test.com 
+  287  cd output/
+  288  ls
+  289  cd ..
+  290  ls
+  291  cd ..
+  292  ls
+  293  ls
+  294  cd bin
+  295  ls
+  296  vim charmm 
+  297  ls
+  298  cd ..
+  299  ls
+  300                                                                    
+  301  ls
+  302  make test
+  303  ls
+  304  cd test/
+  305  ls
+  306  make test
+  307  cd ..
+  308  ls
+  309  cd test/
+  310  ls
+  311  ssh -Y -p 5 coral@210.45.75.194
+  312  ssh -Y -p 6 coral@210.45.75.194
+  313  ls
+  314  cd ..
+  315  ls
+  316  cd test/
+  317  ls
+  318  cd ..
+  319  cd ..
+  320  ls
+  321  cd charmm/
+  322  ls
+  323  cd test/
+  324  ls
+  325  cd output/
+  326  ls
+  327  cd ..
+  328  ls
+  329  cd scratch/
+  330  ls
+  331  cd ..
+  332  ls
+  333  cd ..
+  334  ls
+  335  cd bin/
+  336  ls
+  337  ./charmm 
+  338  ./charmm  --h
+  339  ./charmm  --help
+  340  ./charmm  -h
+  341  ./charmm  -help
+  342  pwd
+  343  vim ~/.bashrc
+  344  pwd
+  345  vim ~/.bashrc
+  346  source ~/.bashrc
+  347  charmm
+  348  ls
+  349  cd ..
+  350  ls
+  351  cd ..
+  352  ls
+  353  cd charmm/
+  354  ls
+  355  cd bin/
+  356  ls
+  357  cd ..
+  358  ls
+  359  cd
+  360  ls
+  361  cd workspace/
+  362  ls
+  363  cd 2_molecular_probe/
+  364  ls
+  365  cd 1_POPG_SA/
+  366  ls
+  367  cd 1_modeling_simulation_parameter_test/
+  368  LS
+  369  LS
+  370  ls
+  371  cd 1_size_my_berger_mdp_cutoff_test/
+  372  ls
+  373  cd 1_8nm_PGSA_mymdp/
+  374  ls
+  375  cd charmm-gui-6989648975/
+  376  ls
+  377  cd gromacs/
+  378  ls
+  379  cd POPG_
+  380  cd POPG_DSA_new/
+  381  ls
+  382  vim md_2ste_v3_16ns.gro 
+  383  vim md_2ste_v3_16ns.gro 
+  384  chimera  md_2ste_v3_16ns.gro 
+  385  chimera  md_2ste_v3_16ns.gro 
+  386  top
+  387  cd ..
+  388  cd -
+  389  cd posi/
+  390  ls
+  391  vim x600.pdb 
+  392  chimera x600.pdb 
+  393  vim plot_resu_thickness.py 
+  394  python plot_resu_thickness.py
+  395  ls
+  396  ls
+  397  vim run_density.sh
+  398  top
+  399  ls
+  400  ls
+  401  ls
+  402  ls ../#md_2ste_v3.pdb.1# 
+  403  ll ../#md_2ste_v3.pdb.1# 
+  404  ls ../#md_2ste_v3.pdb.2# 
+  405  vim run_density.sh
+  406  vim run_density.sh
+  407  ./run_density.sh 
+  408  ls
+  409  vim plot_resu_thickness.py
+  410  python plot_resu_thickness.py 
+  411  vim plot_resu_thickness.py 
+  412  vim plot_resu_thickness.py 
+  413  python plot_resu_thickness.py 
+  414  ls
+  415  ls
+  416  chimera x365.pdb 
+  417  cd ..
+  418  cd ..
+  419  ls
+  420  ls
+  421  cd ..
+  422  ls
+  423  cd
+  424  ls
+  425  conda activate ffpenv
+  426  ffparam-gui 
+  427  cd 
+  428  ls
+  429  cd software/
+  430  ls
+  431  cd omnia/
+  432  ls
+  433  cd 
+  434  ls
+  435  cd tools/
+  436  ls
+  437  cd omnia-timeseries-python
+  438  ls
+  439  pip install -e .
+  440  ls
+  441  cd 
+  442  ls
+  443  cd software/
+  444  ls
+  445  cd omnia/
+  446  ls
+  447  pip install git+https://github.com/equinor/omnia-timeseries-python.git@main
+  448  pip install omnia_timeseries_sdk\
+  449  pip install omnia_timeseries_sdk
+  450  conda install -c omnia omnia
+  451  conda install -c omnia omnia
+  452  conda install -c omnia omnia
+  453  conda create -n ffpenv python=3.7
+  454  ffparam-gui
+  455  ffparam-gui
+  456  cd
+  457  ls
+  458  cd workspace/
+  459  ls
+  460  cd 2_molecular_probe/
+  461  ls
+  462  cd 1_POPG_SA/
+  463  ls
+  464  cd 1_modeling_simulation_parameter_test/
+  465  ls
+  466  cd 1_size_my_berger_mdp_cutoff_test/
+  467  ls
+  468  cd 1_8nm_PGSA_mymdp/
+  469  ls
+  470  cd charmm-gui-6989648975/
+  471  ls
+  472  cd gromacs/
+  473  ls
+  474  cd POPG_DSA_208/
+  475  ls
+  476  ls
+  477  ls
+  478  bash
+  479  scp -P 11 chengp@210.45.74.51:/home/chengp/work/guassian_test/final/molecule_scan_c15c12c11*.log    .
+  480  ls
+  481  cd charges/
+  482  vim qm_watint_test.txt 
+  483  cd cha
+  484  ll mm_watint_test.txt 
+  485  vim mm_watint_test.txt 
+  486  ls
+  487  vim test.da 
+  488  vim test.da  mm_watint_test.txt  -o
+  489  vim qm_watint_test.txt 
+  490  vim qm_watint_test.txt 
+  491  vim mm_watint_test.txt 
+  492  vim qm_watint_test.txt  mm_watint_test.txt  -o
+  493  vim test.da 
+  494  ls
+  495  cd ..
+  496  ls
+  497  cd ..
+  498  ls
+  499  cd ffparam_v1.1.0/
+  500* 
+  501  ./em_v4.sh 
+  502  pwd
+  503  vim test_final.str  charge -o
+  504  ipython 
+  505  vim test_final.str molecule_ny.itp  -o
+  506  ./em_v4.sh 
+  507  ./nvt_v4.sh 
+  508  ./nvt_v4.sh 
+  509  ./nvt_v4.sh 
+  510  chimera nvt_2ste_v4.gro  &
+  511  ./npt_v4.sh 
+  512  chimera npt_2ste_v4.gro  &
+  513  ./md_v4.sh 
+  514  vim md_v4.sh 
+  515  ./md_v4.sh 
+  516  top
+  517  history
+(base) [niyu@localhost-localdomain PG_16DSA]$ 
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+                                                                                                                                                                                              
