@@ -1,0 +1,2102 @@
+[ny@localhost ~]$ cd 
+[ny@localhost ~]$ ls
+anaconda3  Documents  Music     Public     Videos
+bak        Downloads  perl5     software   workspace
+Desktop    local      Pictures  Templates  Zotero
+[ny@localhost ~]$ cd workspace/
+[ny@localhost workspace]$ ls
+1-speedup_membrane  3_teacher_task   DSA_para
+2_molecular_probe   check_v2.tar.gz  scriptlog
+[ny@localhost workspace]$ cd 1-speedup_membrane/
+[ny@localhost 1-speedup_membrane]$ ls
+model_membrane  result  test  tutorial
+[ny@localhost 1-speedup_membrane]$ cd ..,
+bash: cd: ..,: 没有那个文件或目录
+[ny@localhost 1-speedup_membrane]$ ls
+model_membrane  result  test  tutorial
+[ny@localhost 1-speedup_membrane]$ cd 2
+bash: cd: 2: 没有那个文件或目录
+[ny@localhost 1-speedup_membrane]$ ls
+model_membrane  result  test  tutorial
+[ny@localhost 1-speedup_membrane]$ cd 2-
+bash: cd: 2-: 没有那个文件或目录
+[ny@localhost 1-speedup_membrane]$ cd ..
+[ny@localhost workspace]$ ls
+1-speedup_membrane  3_teacher_task   DSA_para
+2_molecular_probe   check_v2.tar.gz  scriptlog
+[ny@localhost workspace]$ cd 2_molecular_probe/
+[ny@localhost 2_molecular_probe]$ ls
+1-modeling     2-FFparameter  4-reproduction
+2-ffparameter  3-POPG         5_POPG_SA
+[ny@localhost 2_molecular_probe]$ cd 2-ffparameter/
+[ny@localhost 2-ffparameter]$ ls
+12-DSA  2-FFparameter  check_v2         code.sh      ffparam
+16-DSA  5-DSA          check_v2.tar.gz  DTPA-BSA-Gd  SA
+[ny@localhost 2-ffparameter]$ cd
+[ny@localhost ~]$ ls
+anaconda3  Documents  Music     Public     Videos
+bak        Downloads  perl5     software   workspace
+Desktop    local      Pictures  Templates  Zotero
+[ny@localhost ~]$ cd workspace/
+[ny@localhost workspace]$ ls
+1-speedup_membrane  3_teacher_task   DSA_para
+2_molecular_probe   check_v2.tar.gz  scriptlog
+[ny@localhost workspace]$ cd DSA_para/
+[ny@localhost DSA_para]$ ls
+doxyl_test_pes_v2.mol2  Param_Opt  ParamOpt_Tutorial.tgz
+[ny@localhost DSA_para]$ mkdir DSA
+[ny@localhost DSA_para]$ cd DSA/
+[ny@localhost DSA]$ mv ~/Downloads/STE208_16dsa_DOXYL_0224\ \(1\).zip  .
+[ny@localhost DSA]$ ls
+STE208_16dsa_DOXYL_0224 (1).zip
+[ny@localhost DSA]$ mv STE208_16dsa_DOXYL_0224\ \(1\).zip  STE_new.zip
+[ny@localhost DSA]$ unzip STE_new.zip 
+Archive:  STE_new.zip
+  inflating: STE208_16dsa_DOXYL_0224.pdb  
+  inflating: STE_208_5DSA_DOXYL_0224.pdb  
+[ny@localhost DSA]$ ls
+STE208_16dsa_DOXYL_0224.pdb  STE_208_5DSA_DOXYL_0224.pdb  STE_new.zip
+[ny@localhost DSA]$ vim STE208_16dsa_DOXYL_0224.pdb 
+[ny@localhost DSA]$ vim STE_208_5DSA_DOXYL_0224.pdb 
+[ny@localhost DSA]$ vim STE208_16dsa_DOXYL_0224.pdb 
+[ny@localhost DSA]$ pwd
+/home/ny/workspace/DSA_para/DSA
+[ny@localhost DSA]$ scp STE
+STE208_16dsa_DOXYL_0224.pdb  STE_new.zip
+STE_208_5DSA_DOXYL_0224.pdb  
+[ny@localhost DSA]$ scp STE
+STE208_16dsa_DOXYL_0224.pdb  STE_new.zip
+STE_208_5DSA_DOXYL_0224.pdb  
+[ny@localhost DSA]$ scp STE
+STE208_16dsa_DOXYL_0224.pdb  STE_new.zip
+STE_208_5DSA_DOXYL_0224.pdb  
+[ny@localhost DSA]$ scp -P 9 STE*.pdb niyu@210.45.75.194:/home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+niyu@210.45.75.194's password: 
+STE208_16dsa_DOXYL_0224.pdb          100% 5492     2.1MB/s   00:00    
+STE_208_5DSA_DOXYL_0224.pdb          100% 5490     2.1MB/s   00:00    
+[ny@localhost DSA]$ ls
+STE208_16dsa_DOXYL_0224.pdb  STE_208_5DSA_DOXYL_0224.pdb  STE_new.zip
+[ny@localhost DSA]$ history
+   38  vim step7_production.mdp 
+   39  vim step6.6_equilibration.mdp 
+   40  cd ..
+   41  ls
+   42  cd ..
+   43  ls
+   44  cd charmm-gui-6865851637/
+   45  ls
+   46  cd gromacs/
+   47  ls
+   48  vim step5_input.pdb 
+   49  vim step5_input.gro 
+   50  ls
+   51  cd ..
+   52  ls
+   53  pwd
+   54  vim step5_input.inp
+   55  vim step5_input_minimization.str
+   56  ls
+   57  pwd
+   58  cd ..
+   59  ls
+   60  pwd
+   61  scp -P 9 -r charmm-gui-6865851637/ niyu@210.45.75.194:/home/niyu/workspace/3_teacher_task/1_pure_bilayer/3_pops/1_model
+   62  ls
+   63  pwd
+   64  cd ../../
+   65  ls
+   66  cd ..
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd 1_popc/
+   71  ls
+   72  cd 2_298.15K/
+   73  ls
+   74  cd 1_default_para/
+   75  ls
+   76  cd 1_model/
+   77  ls
+   78  tar zxvf charmm-gui\ \(18\).tgz 
+   79  ls
+   80  pwd
+   81  scp -P 9 -r charmm-gui-6867356179/ niyu@210.45.75.194:/home/niyu/workspace/3_teacher_task/1_pure_bilayer/1_popc/2_298.15K/1_default_para/1_model
+   82  ls
+   83  cd charmm-gui-6867356179/\
+   84  ls
+   85  cd charmm-gui-6867356179/
+   86  ls
+   87  pwd
+   88  cd gromacs/
+   89  ls
+   90  vim step5_input.gro
+   91  ls
+   92  pwd
+   93  cd ..
+   94  ls
+   95  cd 
+   96  ls
+   97  cd workspace/
+   98  lsa
+   99  ls
+  100  cd 3_teacher_task/
+  101  ls
+  102  cd 1_pure_bilayer/
+  103  ls
+  104  cd 2_popg/
+  105  ls
+  106  cd 1_298.15K/
+  107  ls
+  108  cd 1_deafult_para/
+  109  ls
+  110  cd
+  111  ls
+  112  cd workspace/3_teacher_task/
+  113  ls
+  114  cd 1_pure_bilayer/
+  115  ls
+  116  cd 2_popg/
+  117  ls
+  118  cd 1_298.15K/
+  119  ls
+  120  cd 1_deafult_para/
+  121  ls
+  122  cd 1_model/
+  123  ls
+  124  tar zxvf charmm-gui\ \(19\).tgz 
+  125  ls
+  126  cd charmm-gui-6867730920/
+  127  ls
+  128  pwd
+  129  ls
+  130  cd ..
+  131  ls
+  132  pwd
+  133  scp -P 9 -r charmm-gui-6867730920 niyu@210.45.75.194:/home/niyu/workspace/3_teacher_task/1_pure_bilayer/2_popg/1_298.15K/1_default_para/1_model
+  134  ls
+  135  cd ..
+  136  l
+  137  cd 
+  138  ls
+  139  cd workspace/
+  140  ls
+  141  cd 2_molecular_probe/
+  142  cd ..
+  143  ls
+  144  rm -r 4_reproduction/
+  145  ls
+  146  cd 2_molecular_probe/
+  147  ls
+  148  cd 4-reproduction/
+  149  ls
+  150  mkdir 5DXP
+  151  ls
+  152  mv 5DXP/ 1_5DXP
+  153  ls
+  154  mv 1_noposre 2_posre 1_5DXP/
+  155  ls
+  156  top
+  157  cd .
+  158  cd ..
+  159  ls
+  160  cd 3-POPG/
+  161  ls
+  162  cd ..
+  163  ls
+  164  cd 3_teacher_task/
+  165  ls
+  166  cd 1_pure_bilayer/
+  167  ls
+  168  cd 1_popc/
+  169  ls
+  170  cd 1_303.15K/
+  171  ls
+  172  cd 2_my_para/
+  173  ls
+  174  cd 1_model/
+  175  ls
+  176  cd ..
+  177  ls
+  178  cd 2_simulation/
+  179  ls
+  180  cd ..
+  181  ls
+  182  cd 1_model/
+  183  ls
+  184  cd c
+  185  cd charmm-gui-6864379735/
+  186  ls
+  187  cd gromacs/
+  188  ls
+  189  cd 
+  190  ls
+  191  cd workspace/
+  192  ls
+  193  cd  3_teacher_task/
+  194  ls
+  195  cd 1_pure_bilayer/
+  196  ls
+  197  cd ..
+  198  ls
+  199  cd ..
+  200  ls
+  201  mkdir 4_reproduction
+  202  ls
+  203  cd 4_reproduction/
+  204  l
+  205  ls
+  206  su niyu
+  207  cd 
+  208  ls
+  209  ssh -P 9 niyu@210.45.75.194
+  210  ssh -p 9 niyu@210.45.75.194
+  211  ls
+  212  xmgrace density_spin-label_z_popc_symm_z_mod.xvg
+  213  xmgrace 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  214  ls
+  215  xmgrace 2_15*density_popc_c20_z_popc_symm_z_mod.xvg
+  216  xmgarce 2_2_c20_popc_symm_density.xvg 2_2_c22_popc_symm_density.xvg 2_2_c25_popc_symm_density.xvg 2_2_c27_popc_symm_density.xvg 2_2_c29_popc_symm_density.xvg 2_2_po4_popc_symm_density.xvg 2_2_popc_popc_symm_density.xvg
+  217  xmgrace 2_2_c20_popc_symm_density.xvg 2_2_c22_popc_symm_density.xvg 2_2_c25_popc_symm_density.xvg 2_2_c27_popc_symm_density.xvg 2_2_c29_popc_symm_density.xvg 2_2_po4_popc_symm_density.xvg 2_2_popc_popc_symm_density.xvg
+  218  xmgrace 2_2_c20_popc_symm_density.xvg 2_2_c22_popc_symm_density.xvg 2_2_c25_popc_symm_density.xvg 2_2_c27_popc_symm_density.xvg 2_2_c29_popc_symm_density.xvg 2_2_po4_popc_symm_density.xvg
+  219  xmgrace 2_2_c20_popc_symm_density.xvg 2_2_c22_popc_symm_density.xvg 2_2_c25_popc_symm_density.xvg 2_2_c27_popc_symm_density.xvg 2_2_c29_popc_symm_density.xvg
+  220  ls
+  221  xmgrace 2_10*density_popc_c20_z_popc_symm_z.xvg
+  222  ls
+  223  xmgrace 2_10*density_popc_c20_z_popc_symm_z.xvg 2_2_po4_popc_symm_density.xvg 2_2_popc_popc_symm_density.xvg
+  224  xmgrace 2_2_po4_popc_symm_density.xvg
+  225  xmgrace 2_2_popc_popc_symm_density.xvg
+  226  xmgrace 2_10*density_popc_c20_z_popc_symm_z.xvg
+  227  ls
+  228  mv test.xvg 2_10*density_popc_c20_z_popc_symm_z.xvg 2_10*density_popc_c20_z_popc_symm_z_mod.xvg
+  229  mv test.xvg 2_10*density_popc_c20_z_popc_symm_z_mod.xvg
+  230  ls
+  231  xmgrace 2_10*density_popc_c20_z_popc_symm_z_mod.xvg 2_2_popc_popc_symm_density.xvg 2_2_po4_popc_symm_density.xvg
+  232  xmgrace 2_10*density_popc_c20_z_popc_symm_z_mod.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  233  ls
+  234  xmgrace 2_10*density_popc_c20_z_popc_symm_z_mod.xvg
+  235  xmgrace 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_po4_z_popc_symm.xvg 
+  236  ls
+  237  xmgrace 2_10*density_popc_c20_z_popc_symm_z_mod.xvg 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_po4_z_popc_symm.xvg
+  238  ls
+  239  xmgrace -param drwapara2.par 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_po4_z_popc_symm.xvg 2_10*density_popc_c20_z_popc_symm_z_mod.xvg
+  240  ls
+  241  ols
+  242  ls
+  243  ld
+  244  ls
+  245  pwd
+  246  ls
+  247  chown ny 2_density_popc_p8_z_popc_symm.xvg
+  248  sudo chown ny 2_density_popc_p8_z_popc_symm.xvg
+  249  ls
+  250  chmod 777 2_density_popc_p8_z_popc_symm.xvg
+  251  ls
+  252  cd ..
+  253  ls
+  254  mkdir dlat
+  255  ls
+  256  cd d
+  257  ls
+  258  cd dlat/
+  259  kls
+  260  ls
+  261  d ..
+  262  ls
+  263  cd ..
+  264  ls
+  265  cp md_0_1.tpr md_0_1.xtc ./dlat/
+  266  ls
+  267  cd d
+  268  cd dlat/
+  269  ls
+  270  cd ..
+  271  ls
+  272  mv dlat/ thickness
+  273  ls
+  274  cd thickness/
+  275  ls
+  276  pwd
+  277  ls
+  278  pwd
+  279  ls
+  280  pwd
+  281  ls
+  282  chmod 777 thickness/
+  283  sudo chmod 777 thickness/
+  284  ls
+  285  chown ny thickness/
+  286  sudo chown ny thickness/
+  287  lks
+  288  ls
+  289  pwd
+  290  ls
+  291  cd thickness/
+  292  ls
+  293  pwd
+  294  ls
+  295  cd ..
+  296  ls
+  297  pwd
+  298  ls
+  299  pwd
+  300  ls
+  301  chown ny dhh/
+  302  sudo chown ny dhh/
+  303  ls
+  304  chmod 777 dhh/
+  305  ls
+  306  cd dhh/
+  307  ls
+  308  cd ..
+  309  ls
+  310  cd thickness/
+  311  ls
+  312  cp gmx_density_batch_command.sh /home/niyu/workspace/2_molecular_probe/4-reproduction/2_posre/ttv2/dhh
+  313  sudo cp gmx_density_batch_command.sh /home/niyu/workspace/2_molecular_probe/4-reproduction/2_posre/ttv2/dhh
+  314  ls
+  315  cd ..
+  316  ls
+  317  rm -r dhh/
+  318  ls
+  319  rm -rf dhh/
+  320  ls
+  321  pwd
+  322  ls
+  323  chown ny dhh/
+  324  sudo chown ny dhh/
+  325  ls
+  326  chmod 777 dhh/
+  327  ls
+  328  cd dhh/
+  329  ls
+  330  pwd
+  331  ls
+  332  file --mime-encoding md_0_1_1000_sep399_P_dens.xvg
+  333  ls
+  334  enca -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  335  yum install enca
+  336  sudo yum install enca
+  337  enca -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  338  sudo enca -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  339  ls
+  340  file --mime-encoding md_0_1_1000_sep399_P_dens.xvg
+  341  enca -L none -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  342  sudo enca -L none -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  343  file --mime-encoding md_0_1_1000_sep399_P_dens.xvg
+  344  sudo enca -L none -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  345  file --mime-encoding md_0_1_1000_sep399_P_dens.xvg
+  346  enca 'ls'
+  347  enca --version
+  348  enca -x utf-8 *
+  349  sudo enca -x utf-8 *
+  350  ls
+  351  file --mime-encoding md_0_1_1000_sep399_P_dens.xvg
+  352  vim md_0_1_1000_sep399_P_dens.xvg
+  353  ls
+  354  rm test_md_0_1_1000_sep0_P_dens.xvg
+  355  ls
+  356  sudo rm test_md_0_1_1000_sep0_P_dens.xvg
+  357  ls
+  358  pwd
+  359  ls
+  360  cdw
+  361  cd workspace/
+  362  ls
+  363  cd 2_molecular_probe/
+  364  lsx
+  365  cls
+  366  ls
+  367  cd 4-reproduction/
+  368  ls
+  369  cd 1_5DXP/
+  370  ls
+  371  cd 2_posre/
+  372  ls
+  373  cd ttv2/
+  374  ls
+  375  cd dp/
+  376  ls
+  377  pwd
+  378  ls
+  379  chmod 777 2_density_spin-label_z_popc_symm_z.xvg
+  380  ls
+  381  sudo chmod 777 2_density_spin-label_z_popc_symm_z.xvg
+  382  ls
+  383  ll
+  384  chown +X 2_density_spin-label_z_popc_symm_z.xvg
+  385  chown +x 2_density_spin-label_z_popc_symm_z.xvg
+  386  chown ny 2_density_spin-label_z_popc_symm_z.xvg
+  387  sudo chown ny 2_density_spin-label_z_popc_symm_z.xvg
+  388  ls
+  389  xmgrace 2_15*density_spin-label_z_popc_symm_z.xvg
+  390  xmgrace tes.xvg 
+  391  pwd
+  392  ]ls
+  393  ls
+  394  chown niyu 2_density_popc_c20_z_popc_symm.xvg
+  395  sudo chown niyu 2_density_popc_c20_z_popc_symm.xvg
+  396  ls
+  397  chmod 777 2_density_popc_c20_z_popc_symm.xvg
+  398  ls
+  399  sudo chmod 777 2_density_popc_c20_z_popc_symm.xvg
+  400  ls
+  401  mv tes.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  402  ls
+  403  mv test.xvg 2_15*density_popc_c20_z_popc_symm_z_mod.xvg
+  404  ls
+  405  xmgrace 2_15*density_popc_c20_z_popc_symm_z_mod.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  406  pwd
+  407  ls
+  408  xmgrace 2_density_popc_water_z_popc_symm.xvg 2_density_popc_popc_z_popc_symm.xvg density_popc_c20_z_popc_symm_z_mod.xvg
+  409  xmgrace 2_density_popc_water_z_popc_symm.xvg 2_density_popc_popc_z_popc_symm.xvg 2_15*density_popc_c20_z_popc_symm_z_mod.xvg
+  410  xmgrace 2_15*density_popc_c20_z_popc_symm_z_mod.xvg
+  411  xmgrace 2_15*density_spin-label_z_popc_symm_z_mod.xvg 2_density_popc_water_z_popc_symm.xvg 2_density_popc_popc_z_popc_symm.xvg
+  412  ls
+  413  xmgrace drawpara.par 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_water_z_popc_symm.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  414  xmgrace -param drawpara.par 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_water_z_popc_symm.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  415  ls
+  416  chmod 777 *
+  417  sudo chmod 777 *
+  418  ls
+  419  chown ny *
+  420  sudo chown ny *
+  421  ls
+  422  xmgrace -param drawpara.par 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_water_z_popc_symm.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  423  xmgrace density_spin-label_z_popc_symm_z_mod.xvg
+  424  xmgrace 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  425  xmgrace -para drawpara.par 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_water_z_popc_symm.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  426  ls
+  427  pwd
+  428  ls
+  429  xmgrace 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  430  su
+  431  ls
+  432  cd 
+  433  ls
+  434  cd Downloads/
+  435  ls
+  436  top
+  437  ls
+  438  top 
+  439  ls
+  440  cd  software/
+  441  ls
+  442  cd amber/
+  443  ls
+  444  pwd
+  445  ssh -p 212 coral@210.45.74.51
+  446  ssh -Y -p  212 coral@210.45.74.51
+  447  ssh -Y -p  21 coral@210.45.74.51
+  448  ssh -Y -p  11 coral@210.45.74.51
+  449  ssh -Y -p 9 niyu@210.45.75.194
+  450  zy
+  451  ssh -Y -p 212 coral@210.45.74.541
+  452  ssh -Y -p 212 coral@210.45.74.51
+  453  ssh -Y -p 9 niyu@210.45.75.194
+  454  ssh -Y -p 9 niyu@210.45.75.194
+  455  ssh -p 9 niyu@210.45.75.194
+  456  ssh -p 9 niyu@210.45.75.194
+  457  su niyu
+  458  ls
+  459  cd workspace/
+  460  ls
+  461  cd 2_molecular_probe/
+  462  ls
+  463  mkdir 5_POPG_SA
+  464  las
+  465  ls
+  466  cd 5_POPG_SA/
+  467  ls
+  468  pwd
+  469  ls
+  470  scp -P 9 -r niyu@210.45.75.194:/home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_8nm_PGSA_mymdp .
+  471  ls
+  472  cd ..
+  473  ls
+  474  cd 5_POPG_SA/
+  475  ls
+  476  mv 1_8nm_PGSA_mymdp /home/niyu/workspace/2_molecular_probe/1_POPG_SA
+  477  sudo mv 1_8nm_PGSA_mymdp /home/niyu/workspace/2_molecular_probe/1_POPG_SA
+  478  ls
+  479  cd 
+  480  ls
+  481  cd software/
+  482  ls
+  483  cd gridmat-md/
+  484  ls
+  485  cd gridmat-md-master/
+  486  ls
+  487  ls
+  488  ssh -p 9 niyu@210.45.75.194
+  489  ssh -Y -p 9 niyu@210.45.75.194
+  490  ls
+  491  cd workspace/
+  492  ls
+  493  cd 2_molecular_probe/
+  494  ls
+  495  cd 5_POPG_SA/
+  496  ls
+  497  cd 1_rvdw_switch_test/
+  498  ls
+  499  cd ..
+  500  ls
+  501  cd ..
+  502  ls
+  503  cd 5_POPG_SA/
+  504  ls
+  505  cd 1 1_rvdw_switch_test/
+  506  ls
+  507  cd 1_rvdw_switch_test/
+  508  ls
+  509  cd 3_1.0/
+  510  ls
+  511  cd analysis/
+  512  ls
+  513  cd 1_C16/
+  514  ls
+  515  cd 2_density/
+  516  ls
+  517  cd..
+  518  ls
+  519  cd ..
+  520  ls
+  521  ssh niyu@210.45.75.194 -p 9
+  522  ssh -Y niyu@210.45.75.194 -p 9
+  523  cshcsh
+  524  cd 
+  525  cd workspace/
+  526  ls
+  527  top
+  528  ls
+  529  cd
+  530  ssh -Y -p 9 niyu@210.45.75.194
+  531  ssh -Y -p 9 niyu@210.45.75.194
+  532  cd workspace/
+  533  sl
+  534  ls
+  535  ssh -Y -p 9 niyu@210.45.75.194
+  536  ssh -Y -p niyu@210.45.74.51
+  537  ssh -Y -p niyu@210.45.75.194
+  538  ssh -Y -p 9 niyu@210.45.75.194
+  539  ls
+  540  cd 2_molecular_probe/
+  541  ls
+  542  cd 4-reproduction/
+  543  ls
+  544  cd 1_noposre/
+  545  ls
+  546  cd supporting-files-for-10.1021.jp310638f/
+  547  ls
+  548  cd dp/
+  549  ls
+  550  cd ..
+  551  ls
+  552  cd ..
+  553  ls
+  554  cd ..
+  555  ls
+  556  cd 2_posre/
+  557  ls
+  558  cd ttv2/
+  559  ls
+  560  cd dp/
+  561  ls
+  562  cd ..
+  563  ls
+  564  cd ghh
+  565  cd dhh/
+  566  ls
+  567  vim gmx_density_batch_command.sh
+  568  ls
+  569  cd ..
+  570  ls
+  571  cd msd
+  572  ls
+  573  vim gene_make_ndx.sh
+  574  vim plot_diff.py
+  575  cd ..
+  576  ls
+  577  cd thickness
+  578  ls
+  579  cd ..
+  580  ls
+  581  cd ..
+  582  ls
+  583  cd ..
+  584  ls
+  585  cd 3_discorr_noposre/
+  586  ls
+  587  cd 3_discorr_noposre/
+  588  ls
+  589  cd dp/
+  590  ls
+  591  cd ..
+  592  ls
+  593  cd ..
+  594  ls
+  595  cd ..
+  596  ls
+  597  cd 4_discorr_posre/
+  598  ls
+  599  cd dp/
+  600  ls
+  601  cd ..
+  602  ls
+  603  cd ..
+  604  ls
+  605  cd ..
+  606  l;s
+  607  cd ..
+  608  ls
+  609  cd ..
+  610  ls
+  611  cd ..
+  612  ls
+  613  cd 
+  614  ls
+  615  cd workspace/
+  616  ls
+  617  cd 3_teacher_task/
+  618  ls
+  619  cd 1_pure_bilayer/
+  620  ls
+  621  cd ..
+  622  ls
+  623  cd ..
+  624  ls
+  625  cd 2_molecular_probe/
+  626  ls
+  627  cd 4-reproduction/
+  628  ls
+  629  cd 1_5DXP/
+  630  ls
+  631  pwd
+  632  cd 1_noposre/
+  633  ls
+  634  cd supporting-files-for-10.1021.jp310638f/
+  635  ls
+  636  cd dp/
+  637  ls
+  638  cd ..
+  639  ls
+  640  cd ..
+  641  ls
+  642  cd ..
+  643  ls
+  644  cd 2_posre/
+  645  ls
+  646  cd ttv2/\
+  647  ls
+  648  cd thickness/
+  649  ls
+  650  cd dhh/
+  651  ls
+  652  vim dhh.ipynb
+  653  cd ..
+  654  ls
+  655  cd thickness/
+  656  ls
+  657  pwd
+  658  cd ..
+  659  ls
+  660  cd dhh/
+  661  ls
+  662  vim md_0_1_1000_sep399_P_dens.xvg
+  663  vim md_0_1_1000_sep39.pdb
+  664  vim gmx_density_batch_command.sh
+  665  vim p8_only.ndx
+  666  vim md_0_1_1000_sep54_P_dens.xvg
+  667  vim gmx_density_batch_command.sh
+  668   ssh -Y -p 9 niyu@210.45.75.194
+  669  ssh -Y -p 9 niyu@210.45.75.194
+  670  conda info --envs
+  671  conbda activate cgenff_charmm2gmx_py3
+  672  conda activate cgenff_charmm2gmx_py3
+  673  ls
+  674  cd
+  675  s
+  676  ls
+  677  cd workspace/
+  678  ls
+  679  cd DSA_para/
+  680  ls
+  681  cd ..
+  682  ls
+  683  cd 2_molecular_probe/
+  684  ls
+  685  cd 1-modeling/
+  686  ls
+  687  cd 5_D
+  688  cd 5-DSA/
+  689  ls
+  690  cd ..
+  691  ls
+  692  cd ..
+  693  ls
+  694  cd ..
+  695  ls
+  696  cd ..
+  697  ls
+  698  cd to
+  699  cd software/
+  700  ls
+  701  cd ..
+  702  ls
+  703  cd workspace/
+  704  ls
+  705  cd DSA_para/
+  706  ls
+  707  cd Param_Opt/
+  708  ls
+  709  cd ..
+  710  ls
+  711  cd ..
+  712  ls
+  713  cd 2_molecular_probe/
+  714  lk,s
+  715  ls
+  716  cd 3-POPG/
+  717  ls
+  718  cd ..
+  719  ls
+  720  cd 2-
+  721  ls
+  722  cd 5_POPG_SA/
+  723  ls
+  724  cd 1_rvdw_switch_test/
+  725  ls
+  726  cd ..
+  727  ls
+  728  cd ..
+  729  ls
+  730  cd 1-modeling/
+  731  ls
+  732  cd 16-DSA/
+  733  lks
+  734  ls
+  735  cd ..
+  736  ls
+  737  cd ..
+  738  ls
+  739  cd ..
+  740  ls
+  741  cd 3_teacher_task/
+  742  ls
+  743  cd 1_pure_bilayer/
+  744  ls
+  745  cd 2_popg/
+  746  ls
+  747  cd
+  748  ls
+  749  cd workspace/
+  750  ls
+  751  sl
+  752  ls
+  753  cd 2_molecular_probe/
+  754  ls
+  755  cd 2-FFparameter/
+  756  ls
+  757  cd ffparam/
+  758  ls
+  759  cd 1_dsa_final/
+  760  ls
+  761  cd 
+  762  ls
+  763  cd workspace/
+  764  ls
+  765  cd 2_molecular_probe/
+  766  ls
+  767  cd 2-ffparameter/
+  768  ls
+  769  cd 16-DSA/
+  770  ls
+  771  cd 1_16DSA/
+  772  ls
+  773  cd ..
+  774  mkdir DSA
+  775  cd DSA/
+  776  ls
+  777  pwd
+  778  cp ./*.sh .
+  779  cp ./*.py .
+  780  cp ../*.py .
+  781  cp ../charmm36_ljpme-jul2021.ff . -r
+  782  scp -r -P 9 niyu@210.45.74.51:/home/niyu/tools/dsa_final_2/test_final.str .
+  783  scp -r -P 9 niyu@210.45.74.51:/hoiyu/tools/dsa_final_2/test_final.str .
+  784  scp -r -P 9 niyu@210.45.74.5.194:/home/niyu/tools/dsa_final_2/test_final.str .
+  785  scp -r -P 9 niyu@210.45.75.194:/home/niyu/tools/dsa_final_2/test_final.str .
+  786  scp -r -P 9 niyu@210.45.75.194:/home/niyu/tools/dsa_final_2/test.mol2 .
+  787  ls
+  788  vim test.mol2 
+  789  vim test_final.str 
+  790  python cgenff_charmm2gmx_py3_nx2.py   TEST test.mol2  test_final.str  charmm36_ljpme-jul2021.ff/
+  791  exit
+  792  cd /
+  793  ls\
+  794  ls
+  795  cd home/
+  796  ls
+  797  cd 
+  798  ls
+  799  cd workspace/
+  800  ls
+  801  cd 2_molecular_probe/
+  802  ls
+  803  cd 2-FFparameter/
+  804  ls
+  805  cd 5-DSA/
+  806  ls
+  807  vim 5-DSA_v1.str 5-DSA_v2.str -o
+  808  cd /
+  809  ls
+  810  cd home/
+  811  ls
+  812  su niyu
+  813  conda info --envs
+  814  conda activate cgenff_charmm2gmx
+  815  ls
+  816  cd 
+  817  ls
+  818  cd workspace/
+  819  ls
+  820  cd 2_molecular_probe/
+  821  ls
+  822  cd 2-FFparameter/
+  823  ls
+  824  cd ..
+  825  cd 2-ffparameter/
+  826  ls
+  827  cd 16-DSA/
+  828  ls
+  829  cd DSA/
+  830  ls
+  831  python cgenff_charmm2gmx_py3_nx2.py  TEST test.mol2 test_final.str charmm36_ljpme-jul2021.ff/
+  832  vim charmm36_ljpme-jul2021.ff/
+  833  cp ../1_16DSA/
+  834  exit
+  835  conda create -n ffpenv python=3.7
+  836  conda install -n ffpenv -c conda-forge rdkit freeglut libblas liblapack
+  837  cd cd
+  838  cd 
+  839  ls
+  840  cd software/
+  841  ls
+  842  git clone https://github.com/equinor/omnia-timeseries-python
+  843  ls
+  844  mkdir ffparam
+  845  ls
+  846  dc ffparam/\
+  847  cd ffparam/
+  848  ls
+  849  conda create -n ffpenv python=3.7
+  850  conda update -n base -c conda-forge conda
+  851  conda install -n ffpenv -c conda-forge rdkit freeglut libblas liblapack
+  852  conda install -n ffpenv -c anaconda paramiko pillow
+  853  conda install -n ffpenv -c psi4 psi4
+  854  conda install -n ffpenv -c omnia openmm
+  855  conda activate ffpenv
+  856  ls
+  857  cd 
+  858  cd /
+  859  ls
+  860  cd 
+  861  ls
+  862  cd software/
+  863  ls
+  864  cd ffparam/
+  865  ls
+  866  cd ..
+  867  ls
+  868  cd anaconda/
+  869  ls
+  870  cd ..
+  871  ls
+  872  cd a
+  873  cd anaconda/
+  874  ls
+  875  cd 
+  876  ls
+  877  cd anaconda3/
+  878  ls
+  879  cd envs/
+  880  ls
+  881  cd ffpenv/
+  882  ls
+  883  ffparam-gui
+  884  sudo find / -name ffparam_v1.0.0.tar.gz
+  885  ls
+  886  cd 
+  887  ls
+  888  cd software/
+  889  ls
+  890  cd ffparam/
+  891  ls
+  892  cp ~/Downloads/ffparam_v1.1.0.tar.gz .
+  893  ls
+  894  tar -xvzf ffparam_v1.0.0.tar.gz
+  895  tar zxvf ffparam_v1.1.0.tar.gz 
+  896  ls
+  897  tar -xvzf ffparam_v1.1.0.tar.gz 
+  898  tar vxf ffparam_v1.1.0.tar.gz 
+  899  ls
+  900  cd ffparam_v1.1.0/
+  901  ls
+  902  python setup.py install
+  903  ls
+  904  python setup.py install
+  905  conda install -n ffpenv -c conda-forge pyside2
+  906  python setup.py install
+  907  ffparam-gui
+  908  conda install -c omnia omnia
+  909  ffparam-gui
+  910  bash
+  911  ssh -Y -p 9 niyu@210.45.75.194
+  912  ssh -Y -P 9 niyu@210.45.75.194
+  913  ssh -P 9 niyu@210.45.75.194
+  914  ssh niyu@210.45.75.194 -P 23
+  915  ssh -Y niyu@210.45.75.194 -P 23
+  916  ssh -Y niyu@210.45.75.194 
+  917  ssh niyu@210.45.75.194 -p 23
+  918  ssh niyu@210.45.75.194 -p 9
+  919  ssh -Y niyu@210.45.75.194 -p 9
+  920  cd /home/ny/anaconda3/envs/ffpenv/lib/python3.7/site-pacparameter/ffparam/
+  921  cd /home/ny/anaconda3/envs
+  922  cd ffpenv/
+  923  cd lib
+  924  ls
+  925  cd python3.7/
+  926  ls'
+  927  ls
+  928  cd site-packages/
+  929  ls
+  930  cd ffparam-1.0.0-py3.7.egg/
+  931  ls
+  932  cd ffparam/
+  933  ls
+  934  cd script_core/
+  935  ls
+  936  cp mcsa.py  mcsa_bk.py
+  937  vim mcsa.py  
+  938  cp mcsa.py  mcsa_coral.py
+  939  cp mcsa_bk.py  mcsa.py 
+  940  ls
+  941  rm mcsa_coral.py 
+  942  rm mcsa_bk.py 
+  943  ls
+  944  cd
+  945  ls
+  946  cd workspace/
+  947  ls
+  948  cd 2_molecular_probe/
+  949  ls
+  950  cd 2-FFparameter/
+  951  ls
+  952  cd ffparam/
+  953  ls
+  954  cd 1_dsa_final/
+  955  ls
+  956  ll mm_watint_test.txt 
+  957  ls
+  958  cd charges/
+  959  ls
+  960  ll mm_watint_test.txt 
+  961  vim mm_watint_test.txt 
+  962  ll mm_watint_test.txt 
+  963  cd ..
+  964  ll mm_watint_test.txt 
+  965  ll test_mcsa.log 
+  966  ll mm_watint_test.txt 
+  967  cd qmfiles/
+  968  ll *.log
+  969  ls *.txt
+  970  cd ..
+  971  ls
+  972  ll mm_watint_test.txt 
+  973  ls mm*
+  974  ll mm*.txt
+  975  cd charges/
+  976  ll
+  977  vim mm_watint_test.txt  ../mm_watint_test.txt  -o
+  978  ll mm_watint_test.txt 
+  979  cd ..
+  980  ll
+  981  ls
+  982  cd charges/
+  983  ls
+  984  vim mm_watint_test.txt 
+  985  ll mm_watint_test.txt 
+  986  ls
+  987  cd 
+  988  ls
+  989  cd workspace/
+  990  ls
+  991  cd 2_molecular_probe/
+  992  ls
+  993  cd 2-FFparameter/
+  994  ls
+  995  cd ffparam/
+  996  ls
+  997  cd 1_dsa_final/
+  998  ls
+  999  conda activate ffpenv
+ 1000  ffparam-gui 
+ 1001  cd 
+ 1002  ls
+ 1003  cd workspace/
+ 1004  ls
+ 1005  cd 1-speedup_membrane/
+ 1006  ls
+ 1007  cd ..,
+ 1008  ls
+ 1009  cd 2
+ 1010  ls
+ 1011  cd 2-
+ 1012  cd ..
+ 1013  ls
+ 1014  cd 2_molecular_probe/
+ 1015  ls
+ 1016  cd 2-ffparameter/
+ 1017  ls
+ 1018  cd
+ 1019  ls
+ 1020  cd workspace/
+ 1021  ls
+ 1022  cd DSA_para/
+ 1023  ls
+ 1024  mkdir DSA
+ 1025  cd DSA/
+ 1026  mv ~/Downloads/STE208_16dsa_DOXYL_0224\ \(1\).zip  .
+ 1027  ls
+ 1028  mv STE208_16dsa_DOXYL_0224\ \(1\).zip  STE_new.zip
+ 1029  unzip STE_new.zip 
+ 1030  ls
+ 1031  vim STE208_16dsa_DOXYL_0224.pdb 
+ 1032  vim STE_208_5DSA_DOXYL_0224.pdb 
+ 1033  vim STE208_16dsa_DOXYL_0224.pdb 
+ 1034  pwd
+ 1035  scp -P 9 STE*.pdb niyu@210.45.75.194:/home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+ 1036  ls
+ 1037  history
+[ny@localhost DSA]$ ls
+STE208_16dsa_DOXYL_0224.pdb  STE_208_5DSA_DOXYL_0224.pdb  STE_new.zip
+[ny@localhost DSA]$ cd 
+[ny@localhost ~]$ ls
+anaconda3  Documents  Music     Public     Videos
+bak        Downloads  perl5     software   workspace
+Desktop    local      Pictures  Templates  Zotero
+[ny@localhost ~]$ cd workspace/
+[ny@localhost workspace]$ ls
+1-speedup_membrane  3_teacher_task   DSA_para
+2_molecular_probe   check_v2.tar.gz  scriptlog
+[ny@localhost workspace]$ cd 2_molecular_probe/
+[ny@localhost 2_molecular_probe]$ ls
+1-modeling     2-FFparameter  4-reproduction
+2-ffparameter  3-POPG         5_POPG_SA
+[ny@localhost 2_molecular_probe]$ cd 1-modeling/
+[ny@localhost 1-modeling]$ ls
+12-DSA  16-DSA  5-DSA  DTPA-BSA-Gd
+[ny@localhost 1-modeling]$ cd DTPA-BSA-Gd/
+[ny@localhost DTPA-BSA-Gd]$ ls
+[ny@localhost DTPA-BSA-Gd]$ ls
+[ny@localhost DTPA-BSA-Gd]$ history                                                                                                                                                           
+   50  ls                                                                                                                                                                                     
+   51  cd ..                                                                                                                                                                                  
+   52  ls                                                                                                                                                                                     
+   53  pwd                                                                                                                                                                                    
+   54  vim step5_input.inp                                                                                                                                                                    
+   55  vim step5_input_minimization.str                                                                                                                                                       
+   56  ls                                                                                                                                                                                     
+   57  pwd                                                                                                                                                                                    
+   58  cd ..                                                                                                                                                                                  
+   59  ls                                                                                                                                                                                     
+   60  pwd                                                                                                                                                                                    
+   61  scp -P 9 -r charmm-gui-6865851637/ niyu@210.45.75.194:/home/niyu/workspace/3_teacher_task/1_pure_bilayer/3_pops/1_model                                                                
+   62  ls                                                                                                                                                                                     
+   63  pwd                                                                                                                                                                                    
+   64  cd ../../                                                                                                                                                                              
+   65  ls                                                                                                                                                                                     
+   66  cd ..
+   67  ls
+   68  cd ..
+   69  ls
+   70  cd 1_popc/
+   71  ls
+   72  cd 2_298.15K/
+   73  ls
+   74  cd 1_default_para/
+   75  ls
+   76  cd 1_model/
+   77  ls
+   78  tar zxvf charmm-gui\ \(18\).tgz 
+   79  ls
+   80  pwd
+   81  scp -P 9 -r charmm-gui-6867356179/ niyu@210.45.75.194:/home/niyu/workspace/3_teacher_task/1_pure_bilayer/1_popc/2_298.15K/1_default_para/1_model
+   82  ls
+   83  cd charmm-gui-6867356179/\
+   84  ls
+   85  cd charmm-gui-6867356179/
+   86  ls
+   87  pwd
+   88  cd gromacs/
+   89  ls
+   90  vim step5_input.gro
+   91  ls
+   92  pwd
+   93  cd ..
+   94  ls
+   95  cd 
+   96  ls
+   97  cd workspace/
+   98  lsa
+   99  ls
+  100  cd 3_teacher_task/
+  101  ls
+  102  cd 1_pure_bilayer/
+  103  ls
+  104  cd 2_popg/
+  105  ls
+  106  cd 1_298.15K/
+  107  ls
+  108  cd 1_deafult_para/
+  109  ls
+  110  cd
+  111  ls
+  112  cd workspace/3_teacher_task/
+  113  ls
+  114  cd 1_pure_bilayer/
+  115  ls
+  116  cd 2_popg/
+  117  ls
+  118  cd 1_298.15K/
+  119  ls
+  120  cd 1_deafult_para/
+  121  ls
+  122  cd 1_model/
+  123  ls
+  124  tar zxvf charmm-gui\ \(19\).tgz 
+  125  ls
+  126  cd charmm-gui-6867730920/
+  127  ls
+  128  pwd
+  129  ls
+  130  cd ..
+  131  ls
+  132  pwd
+  133  scp -P 9 -r charmm-gui-6867730920 niyu@210.45.75.194:/home/niyu/workspace/3_teacher_task/1_pure_bilayer/2_popg/1_298.15K/1_default_para/1_model
+  134  ls
+  135  cd ..
+  136  l
+  137  cd 
+  138  ls
+  139  cd workspace/
+  140  ls
+  141  cd 2_molecular_probe/
+  142  cd ..
+  143  ls
+  144  rm -r 4_reproduction/
+  145  ls
+  146  cd 2_molecular_probe/
+  147  ls
+  148  cd 4-reproduction/
+  149  ls
+  150  mkdir 5DXP
+  151  ls
+  152  mv 5DXP/ 1_5DXP
+  153  ls
+  154  mv 1_noposre 2_posre 1_5DXP/
+  155  ls
+  156  top
+  157  cd .
+  158  cd ..
+  159  ls
+  160  cd 3-POPG/
+  161  ls
+  162  cd ..
+  163  ls
+  164  cd 3_teacher_task/
+  165  ls
+  166  cd 1_pure_bilayer/
+  167  ls
+  168  cd 1_popc/
+  169  ls
+  170  cd 1_303.15K/
+  171  ls
+  172  cd 2_my_para/
+  173  ls
+  174  cd 1_model/
+  175  ls
+  176  cd ..
+  177  ls
+  178  cd 2_simulation/
+  179  ls
+  180  cd ..
+  181  ls
+  182  cd 1_model/
+  183  ls
+  184  cd c
+  185  cd charmm-gui-6864379735/
+  186  ls
+  187  cd gromacs/
+  188  ls
+  189  cd 
+  190  ls
+  191  cd workspace/
+  192  ls
+  193  cd  3_teacher_task/
+  194  ls
+  195  cd 1_pure_bilayer/
+  196  ls
+  197  cd ..
+  198  ls
+  199  cd ..
+  200  ls
+  201  mkdir 4_reproduction
+  202  ls
+  203  cd 4_reproduction/
+  204  l
+  205  ls
+  206  su niyu
+  207  cd 
+  208  ls
+  209  ssh -P 9 niyu@210.45.75.194
+  210  ssh -p 9 niyu@210.45.75.194
+  211  ls
+  212  xmgrace density_spin-label_z_popc_symm_z_mod.xvg
+  213  xmgrace 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  214  ls
+  215  xmgrace 2_15*density_popc_c20_z_popc_symm_z_mod.xvg
+  216  xmgarce 2_2_c20_popc_symm_density.xvg 2_2_c22_popc_symm_density.xvg 2_2_c25_popc_symm_density.xvg 2_2_c27_popc_symm_density.xvg 2_2_c29_popc_symm_density.xvg 2_2_po4_popc_symm_density.xvg 2_2_popc_popc_symm_density.xvg
+  217  xmgrace 2_2_c20_popc_symm_density.xvg 2_2_c22_popc_symm_density.xvg 2_2_c25_popc_symm_density.xvg 2_2_c27_popc_symm_density.xvg 2_2_c29_popc_symm_density.xvg 2_2_po4_popc_symm_density.xvg 2_2_popc_popc_symm_density.xvg
+  218  xmgrace 2_2_c20_popc_symm_density.xvg 2_2_c22_popc_symm_density.xvg 2_2_c25_popc_symm_density.xvg 2_2_c27_popc_symm_density.xvg 2_2_c29_popc_symm_density.xvg 2_2_po4_popc_symm_density.xvg
+  219  xmgrace 2_2_c20_popc_symm_density.xvg 2_2_c22_popc_symm_density.xvg 2_2_c25_popc_symm_density.xvg 2_2_c27_popc_symm_density.xvg 2_2_c29_popc_symm_density.xvg
+  220  ls
+  221  xmgrace 2_10*density_popc_c20_z_popc_symm_z.xvg
+  222  ls
+  223  xmgrace 2_10*density_popc_c20_z_popc_symm_z.xvg 2_2_po4_popc_symm_density.xvg 2_2_popc_popc_symm_density.xvg
+  224  xmgrace 2_2_po4_popc_symm_density.xvg
+  225  xmgrace 2_2_popc_popc_symm_density.xvg
+  226  xmgrace 2_10*density_popc_c20_z_popc_symm_z.xvg
+  227  ls
+  228  mv test.xvg 2_10*density_popc_c20_z_popc_symm_z.xvg 2_10*density_popc_c20_z_popc_symm_z_mod.xvg
+  229  mv test.xvg 2_10*density_popc_c20_z_popc_symm_z_mod.xvg
+  230  ls
+  231  xmgrace 2_10*density_popc_c20_z_popc_symm_z_mod.xvg 2_2_popc_popc_symm_density.xvg 2_2_po4_popc_symm_density.xvg
+  232  xmgrace 2_10*density_popc_c20_z_popc_symm_z_mod.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  233  ls
+  234  xmgrace 2_10*density_popc_c20_z_popc_symm_z_mod.xvg
+  235  xmgrace 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_po4_z_popc_symm.xvg 
+  236  ls
+  237  xmgrace 2_10*density_popc_c20_z_popc_symm_z_mod.xvg 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_po4_z_popc_symm.xvg
+  238  ls
+  239  xmgrace -param drwapara2.par 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_po4_z_popc_symm.xvg 2_10*density_popc_c20_z_popc_symm_z_mod.xvg
+  240  ls
+  241  ols
+  242  ls
+  243  ld
+  244  ls
+  245  pwd
+  246  ls
+  247  chown ny 2_density_popc_p8_z_popc_symm.xvg
+  248  sudo chown ny 2_density_popc_p8_z_popc_symm.xvg
+  249  ls
+  250  chmod 777 2_density_popc_p8_z_popc_symm.xvg
+  251  ls
+  252  cd ..
+  253  ls
+  254  mkdir dlat
+  255  ls
+  256  cd d
+  257  ls
+  258  cd dlat/
+  259  kls
+  260  ls
+  261  d ..
+  262  ls
+  263  cd ..
+  264  ls
+  265  cp md_0_1.tpr md_0_1.xtc ./dlat/
+  266  ls
+  267  cd d
+  268  cd dlat/
+  269  ls
+  270  cd ..
+  271  ls
+  272  mv dlat/ thickness
+  273  ls
+  274  cd thickness/
+  275  ls
+  276  pwd
+  277  ls
+  278  pwd
+  279  ls
+  280  pwd
+  281  ls
+  282  chmod 777 thickness/
+  283  sudo chmod 777 thickness/
+  284  ls
+  285  chown ny thickness/
+  286  sudo chown ny thickness/
+  287  lks
+  288  ls
+  289  pwd
+  290  ls
+  291  cd thickness/
+  292  ls
+  293  pwd
+  294  ls
+  295  cd ..
+  296  ls
+  297  pwd
+  298  ls
+  299  pwd
+  300  ls
+  301  chown ny dhh/
+  302  sudo chown ny dhh/
+  303  ls
+  304  chmod 777 dhh/
+  305  ls
+  306  cd dhh/
+  307  ls
+  308  cd ..
+  309  ls
+  310  cd thickness/
+  311  ls
+  312  cp gmx_density_batch_command.sh /home/niyu/workspace/2_molecular_probe/4-reproduction/2_posre/ttv2/dhh
+  313  sudo cp gmx_density_batch_command.sh /home/niyu/workspace/2_molecular_probe/4-reproduction/2_posre/ttv2/dhh
+  314  ls
+  315  cd ..
+  316  ls
+  317  rm -r dhh/
+  318  ls
+  319  rm -rf dhh/
+  320  ls
+  321  pwd
+  322  ls
+  323  chown ny dhh/
+  324  sudo chown ny dhh/
+  325  ls
+  326  chmod 777 dhh/
+  327  ls
+  328  cd dhh/
+  329  ls
+  330  pwd
+  331  ls
+  332  file --mime-encoding md_0_1_1000_sep399_P_dens.xvg
+  333  ls
+  334  enca -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  335  yum install enca
+  336  sudo yum install enca
+  337  enca -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  338  sudo enca -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  339  ls
+  340  file --mime-encoding md_0_1_1000_sep399_P_dens.xvg
+  341  enca -L none -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  342  sudo enca -L none -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  343  file --mime-encoding md_0_1_1000_sep399_P_dens.xvg
+  344  sudo enca -L none -x utf-8 md_0_1_1000_sep399_P_dens.xvg
+  345  file --mime-encoding md_0_1_1000_sep399_P_dens.xvg
+  346  enca 'ls'
+  347  enca --version
+  348  enca -x utf-8 *
+  349  sudo enca -x utf-8 *
+  350  ls
+  351  file --mime-encoding md_0_1_1000_sep399_P_dens.xvg
+  352  vim md_0_1_1000_sep399_P_dens.xvg
+  353  ls
+  354  rm test_md_0_1_1000_sep0_P_dens.xvg
+  355  ls
+  356  sudo rm test_md_0_1_1000_sep0_P_dens.xvg
+  357  ls
+  358  pwd
+  359  ls
+  360  cdw
+  361  cd workspace/
+  362  ls
+  363  cd 2_molecular_probe/
+  364  lsx
+  365  cls
+  366  ls
+  367  cd 4-reproduction/
+  368  ls
+  369  cd 1_5DXP/
+  370  ls
+  371  cd 2_posre/
+  372  ls
+  373  cd ttv2/
+  374  ls
+  375  cd dp/
+  376  ls
+  377  pwd
+  378  ls
+  379  chmod 777 2_density_spin-label_z_popc_symm_z.xvg
+  380  ls
+  381  sudo chmod 777 2_density_spin-label_z_popc_symm_z.xvg
+  382  ls
+  383  ll
+  384  chown +X 2_density_spin-label_z_popc_symm_z.xvg
+  385  chown +x 2_density_spin-label_z_popc_symm_z.xvg
+  386  chown ny 2_density_spin-label_z_popc_symm_z.xvg
+  387  sudo chown ny 2_density_spin-label_z_popc_symm_z.xvg
+  388  ls
+  389  xmgrace 2_15*density_spin-label_z_popc_symm_z.xvg
+  390  xmgrace tes.xvg 
+  391  pwd
+  392  ]ls
+  393  ls
+  394  chown niyu 2_density_popc_c20_z_popc_symm.xvg
+  395  sudo chown niyu 2_density_popc_c20_z_popc_symm.xvg
+  396  ls
+  397  chmod 777 2_density_popc_c20_z_popc_symm.xvg
+  398  ls
+  399  sudo chmod 777 2_density_popc_c20_z_popc_symm.xvg
+  400  ls
+  401  mv tes.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  402  ls
+  403  mv test.xvg 2_15*density_popc_c20_z_popc_symm_z_mod.xvg
+  404  ls
+  405  xmgrace 2_15*density_popc_c20_z_popc_symm_z_mod.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  406  pwd
+  407  ls
+  408  xmgrace 2_density_popc_water_z_popc_symm.xvg 2_density_popc_popc_z_popc_symm.xvg density_popc_c20_z_popc_symm_z_mod.xvg
+  409  xmgrace 2_density_popc_water_z_popc_symm.xvg 2_density_popc_popc_z_popc_symm.xvg 2_15*density_popc_c20_z_popc_symm_z_mod.xvg
+  410  xmgrace 2_15*density_popc_c20_z_popc_symm_z_mod.xvg
+  411  xmgrace 2_15*density_spin-label_z_popc_symm_z_mod.xvg 2_density_popc_water_z_popc_symm.xvg 2_density_popc_popc_z_popc_symm.xvg
+  412  ls
+  413  xmgrace drawpara.par 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_water_z_popc_symm.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  414  xmgrace -param drawpara.par 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_water_z_popc_symm.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  415  ls
+  416  chmod 777 *
+  417  sudo chmod 777 *
+  418  ls
+  419  chown ny *
+  420  sudo chown ny *
+  421  ls
+  422  xmgrace -param drawpara.par 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_water_z_popc_symm.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  423  xmgrace density_spin-label_z_popc_symm_z_mod.xvg
+  424  xmgrace 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  425  xmgrace -para drawpara.par 2_density_popc_popc_z_popc_symm.xvg 2_density_popc_water_z_popc_symm.xvg 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  426  ls
+  427  pwd
+  428  ls
+  429  xmgrace 2_15*density_spin-label_z_popc_symm_z_mod.xvg
+  430  su
+  431  ls
+  432  cd 
+  433  ls
+  434  cd Downloads/
+  435  ls
+  436  top
+  437  ls
+  438  top 
+  439  ls
+  440  cd  software/
+  441  ls
+  442  cd amber/
+  443  ls
+  444  pwd
+  445  ssh -p 212 coral@210.45.74.51
+  446  ssh -Y -p  212 coral@210.45.74.51
+  447  ssh -Y -p  21 coral@210.45.74.51
+  448  ssh -Y -p  11 coral@210.45.74.51
+  449  ssh -Y -p 9 niyu@210.45.75.194
+  450  zy
+  451  ssh -Y -p 212 coral@210.45.74.541
+  452  ssh -Y -p 212 coral@210.45.74.51
+  453  ssh -Y -p 9 niyu@210.45.75.194
+  454  ssh -Y -p 9 niyu@210.45.75.194
+  455  ssh -p 9 niyu@210.45.75.194
+  456  ssh -p 9 niyu@210.45.75.194
+  457  su niyu
+  458  ls
+  459  cd workspace/
+  460  ls
+  461  cd 2_molecular_probe/
+  462  ls
+  463  mkdir 5_POPG_SA
+  464  las
+  465  ls
+  466  cd 5_POPG_SA/
+  467  ls
+  468  pwd
+  469  ls
+  470  scp -P 9 -r niyu@210.45.75.194:/home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_8nm_PGSA_mymdp .
+  471  ls
+  472  cd ..
+  473  ls
+  474  cd 5_POPG_SA/
+  475  ls
+  476  mv 1_8nm_PGSA_mymdp /home/niyu/workspace/2_molecular_probe/1_POPG_SA
+  477  sudo mv 1_8nm_PGSA_mymdp /home/niyu/workspace/2_molecular_probe/1_POPG_SA
+  478  ls
+  479  cd 
+  480  ls
+  481  cd software/
+  482  ls
+  483  cd gridmat-md/
+  484  ls
+  485  cd gridmat-md-master/
+  486  ls
+  487  ls
+  488  ssh -p 9 niyu@210.45.75.194
+  489  ssh -Y -p 9 niyu@210.45.75.194
+  490  ls
+  491  cd workspace/
+  492  ls
+  493  cd 2_molecular_probe/
+  494  ls
+  495  cd 5_POPG_SA/
+  496  ls
+  497  cd 1_rvdw_switch_test/
+  498  ls
+  499  cd ..
+  500  ls
+  501  cd ..
+  502  ls
+  503  cd 5_POPG_SA/
+  504  ls
+  505  cd 1 1_rvdw_switch_test/
+  506  ls
+  507  cd 1_rvdw_switch_test/
+  508  ls
+  509  cd 3_1.0/
+  510  ls
+  511  cd analysis/
+  512  ls
+  513  cd 1_C16/
+  514  ls
+  515  cd 2_density/
+  516  ls
+  517  cd..
+  518  ls
+  519  cd ..
+  520  ls
+  521  ssh niyu@210.45.75.194 -p 9
+  522  ssh -Y niyu@210.45.75.194 -p 9
+  523  cshcsh
+  524  cd 
+  525  cd workspace/
+  526  ls
+  527  top
+  528  ls
+  529  cd
+  530  ssh -Y -p 9 niyu@210.45.75.194
+  531  ssh -Y -p 9 niyu@210.45.75.194
+  532  cd workspace/
+  533  sl
+  534  ls
+  535  ssh -Y -p 9 niyu@210.45.75.194
+  536  ssh -Y -p niyu@210.45.74.51
+  537  ssh -Y -p niyu@210.45.75.194
+  538  ssh -Y -p 9 niyu@210.45.75.194
+  539  ls
+  540  cd 2_molecular_probe/
+  541  ls
+  542  cd 4-reproduction/
+  543  ls
+  544  cd 1_noposre/
+  545  ls
+  546  cd supporting-files-for-10.1021.jp310638f/
+  547  ls
+  548  cd dp/
+  549  ls
+  550  cd ..
+  551  ls
+  552  cd ..
+  553  ls
+  554  cd ..
+  555  ls
+  556  cd 2_posre/
+  557  ls
+  558  cd ttv2/
+  559  ls
+  560  cd dp/
+  561  ls
+  562  cd ..
+  563  ls
+  564  cd ghh
+  565  cd dhh/
+  566  ls
+  567  vim gmx_density_batch_command.sh
+  568  ls
+  569  cd ..
+  570  ls
+  571  cd msd
+  572  ls
+  573  vim gene_make_ndx.sh
+  574  vim plot_diff.py
+  575  cd ..
+  576  ls
+  577  cd thickness
+  578  ls
+  579  cd ..
+  580  ls
+  581  cd ..
+  582  ls
+  583  cd ..
+  584  ls
+  585  cd 3_discorr_noposre/
+  586  ls
+  587  cd 3_discorr_noposre/
+  588  ls
+  589  cd dp/
+  590  ls
+  591  cd ..
+  592  ls
+  593  cd ..
+  594  ls
+  595  cd ..
+  596  ls
+  597  cd 4_discorr_posre/
+  598  ls
+  599  cd dp/
+  600  ls
+  601  cd ..
+  602  ls
+  603  cd ..
+  604  ls
+  605  cd ..
+  606  l;s
+  607  cd ..
+  608  ls
+  609  cd ..
+  610  ls
+  611  cd ..
+  612  ls
+  613  cd 
+  614  ls
+  615  cd workspace/
+  616  ls
+  617  cd 3_teacher_task/
+  618  ls
+  619  cd 1_pure_bilayer/
+  620  ls
+  621  cd ..
+  622  ls
+  623  cd ..
+  624  ls
+  625  cd 2_molecular_probe/
+  626  ls
+  627  cd 4-reproduction/
+  628  ls
+  629  cd 1_5DXP/
+  630  ls
+  631  pwd
+  632  cd 1_noposre/
+  633  ls
+  634  cd supporting-files-for-10.1021.jp310638f/
+  635  ls
+  636  cd dp/
+  637  ls
+  638  cd ..
+  639  ls
+  640  cd ..
+  641  ls
+  642  cd ..
+  643  ls
+  644  cd 2_posre/
+  645  ls
+  646  cd ttv2/\
+  647  ls
+  648  cd thickness/
+  649  ls
+  650  cd dhh/
+  651  ls
+  652  vim dhh.ipynb
+  653  cd ..
+  654  ls
+  655  cd thickness/
+  656  ls
+  657  pwd
+  658  cd ..
+  659  ls
+  660  cd dhh/
+  661  ls
+  662  vim md_0_1_1000_sep399_P_dens.xvg
+  663  vim md_0_1_1000_sep39.pdb
+  664  vim gmx_density_batch_command.sh
+  665  vim p8_only.ndx
+  666  vim md_0_1_1000_sep54_P_dens.xvg
+  667  vim gmx_density_batch_command.sh
+  668   ssh -Y -p 9 niyu@210.45.75.194
+  669  ssh -Y -p 9 niyu@210.45.75.194
+  670  conda info --envs
+  671  conbda activate cgenff_charmm2gmx_py3
+  672  conda activate cgenff_charmm2gmx_py3
+  673  ls
+  674  cd
+  675  s
+  676  ls
+  677  cd workspace/
+  678  ls
+  679  cd DSA_para/
+  680  ls
+  681  cd ..
+  682  ls
+  683  cd 2_molecular_probe/
+  684  ls
+  685  cd 1-modeling/
+  686  ls
+  687  cd 5_D
+  688  cd 5-DSA/
+  689  ls
+  690  cd ..
+  691  ls
+  692  cd ..
+  693  ls
+  694  cd ..
+  695  ls
+  696  cd ..
+  697  ls
+  698  cd to
+  699  cd software/
+  700  ls
+  701  cd ..
+  702  ls
+  703  cd workspace/
+  704  ls
+  705  cd DSA_para/
+  706  ls
+  707  cd Param_Opt/
+  708  ls
+  709  cd ..
+  710  ls
+  711  cd ..
+  712  ls
+  713  cd 2_molecular_probe/
+  714  lk,s
+  715  ls
+  716  cd 3-POPG/
+  717  ls
+  718  cd ..
+  719  ls
+  720  cd 2-
+  721  ls
+  722  cd 5_POPG_SA/
+  723  ls
+  724  cd 1_rvdw_switch_test/
+  725  ls
+  726  cd ..
+  727  ls
+  728  cd ..
+  729  ls
+  730  cd 1-modeling/
+  731  ls
+  732  cd 16-DSA/
+  733  lks
+  734  ls
+  735  cd ..
+  736  ls
+  737  cd ..
+  738  ls
+  739  cd ..
+  740  ls
+  741  cd 3_teacher_task/
+  742  ls
+  743  cd 1_pure_bilayer/
+  744  ls
+  745  cd 2_popg/
+  746  ls
+  747  cd
+  748  ls
+  749  cd workspace/
+  750  ls
+  751  sl
+  752  ls
+  753  cd 2_molecular_probe/
+  754  ls
+  755  cd 2-FFparameter/
+  756  ls
+  757  cd ffparam/
+  758  ls
+  759  cd 1_dsa_final/
+  760  ls
+  761  cd 
+  762  ls
+  763  cd workspace/
+  764  ls
+  765  cd 2_molecular_probe/
+  766  ls
+  767  cd 2-ffparameter/
+  768  ls
+  769  cd 16-DSA/
+  770  ls
+  771  cd 1_16DSA/
+  772  ls
+  773  cd ..
+  774  mkdir DSA
+  775  cd DSA/
+  776  ls
+  777  pwd
+  778  cp ./*.sh .
+  779  cp ./*.py .
+  780  cp ../*.py .
+  781  cp ../charmm36_ljpme-jul2021.ff . -r
+  782  scp -r -P 9 niyu@210.45.74.51:/home/niyu/tools/dsa_final_2/test_final.str .
+  783  scp -r -P 9 niyu@210.45.74.51:/hoiyu/tools/dsa_final_2/test_final.str .
+  784  scp -r -P 9 niyu@210.45.74.5.194:/home/niyu/tools/dsa_final_2/test_final.str .
+  785  scp -r -P 9 niyu@210.45.75.194:/home/niyu/tools/dsa_final_2/test_final.str .
+  786  scp -r -P 9 niyu@210.45.75.194:/home/niyu/tools/dsa_final_2/test.mol2 .
+  787  ls
+  788  vim test.mol2 
+  789  vim test_final.str 
+  790  python cgenff_charmm2gmx_py3_nx2.py   TEST test.mol2  test_final.str  charmm36_ljpme-jul2021.ff/
+  791  exit
+  792  cd /
+  793  ls\
+  794  ls
+  795  cd home/
+  796  ls
+  797  cd 
+  798  ls
+  799  cd workspace/
+  800  ls
+  801  cd 2_molecular_probe/
+  802  ls
+  803  cd 2-FFparameter/
+  804  ls
+  805  cd 5-DSA/
+  806  ls
+  807  vim 5-DSA_v1.str 5-DSA_v2.str -o
+  808  cd /
+  809  ls
+  810  cd home/
+  811  ls
+  812  su niyu
+  813  conda info --envs
+  814  conda activate cgenff_charmm2gmx
+  815  ls
+  816  cd 
+  817  ls
+  818  cd workspace/
+  819  ls
+  820  cd 2_molecular_probe/
+  821  ls
+  822  cd 2-FFparameter/
+  823  ls
+  824  cd ..
+  825  cd 2-ffparameter/
+  826  ls
+  827  cd 16-DSA/
+  828  ls
+  829  cd DSA/
+  830  ls
+  831  python cgenff_charmm2gmx_py3_nx2.py  TEST test.mol2 test_final.str charmm36_ljpme-jul2021.ff/
+  832  vim charmm36_ljpme-jul2021.ff/
+  833  cp ../1_16DSA/
+  834  exit
+  835  conda create -n ffpenv python=3.7
+  836  conda install -n ffpenv -c conda-forge rdkit freeglut libblas liblapack
+  837  cd cd
+  838  cd 
+  839  ls
+  840  cd software/
+  841  ls
+  842  git clone https://github.com/equinor/omnia-timeseries-python
+  843  ls
+  844  mkdir ffparam
+  845  ls
+  846  dc ffparam/\
+  847  cd ffparam/
+  848  ls
+  849  conda create -n ffpenv python=3.7
+  850  conda update -n base -c conda-forge conda
+  851  conda install -n ffpenv -c conda-forge rdkit freeglut libblas liblapack
+  852  conda install -n ffpenv -c anaconda paramiko pillow
+  853  conda install -n ffpenv -c psi4 psi4
+  854  conda install -n ffpenv -c omnia openmm
+  855  conda activate ffpenv
+  856  ls
+  857  cd 
+  858  cd /
+  859  ls
+  860  cd 
+  861  ls
+  862  cd software/
+  863  ls
+  864  cd ffparam/
+  865  ls
+  866  cd ..
+  867  ls
+  868  cd anaconda/
+  869  ls
+  870  cd ..
+  871  ls
+  872  cd a
+  873  cd anaconda/
+  874  ls
+  875  cd 
+  876  ls
+  877  cd anaconda3/
+  878  ls
+  879  cd envs/
+  880  ls
+  881  cd ffpenv/
+  882  ls
+  883  ffparam-gui
+  884  sudo find / -name ffparam_v1.0.0.tar.gz
+  885  ls
+  886  cd 
+  887  ls
+  888  cd software/
+  889  ls
+  890  cd ffparam/
+  891  ls
+  892  cp ~/Downloads/ffparam_v1.1.0.tar.gz .
+  893  ls
+  894  tar -xvzf ffparam_v1.0.0.tar.gz
+  895  tar zxvf ffparam_v1.1.0.tar.gz 
+  896  ls
+  897  tar -xvzf ffparam_v1.1.0.tar.gz 
+  898  tar vxf ffparam_v1.1.0.tar.gz 
+  899  ls
+  900  cd ffparam_v1.1.0/
+  901  ls
+  902  python setup.py install
+  903  ls
+  904  python setup.py install
+  905  conda install -n ffpenv -c conda-forge pyside2
+  906  python setup.py install
+  907  ffparam-gui
+  908  conda install -c omnia omnia
+  909  ffparam-gui
+  910  bash
+  911  ssh -Y -p 9 niyu@210.45.75.194
+  912  ssh -Y -P 9 niyu@210.45.75.194
+  913  ssh -P 9 niyu@210.45.75.194
+  914  ssh niyu@210.45.75.194 -P 23
+  915  ssh -Y niyu@210.45.75.194 -P 23
+  916  ssh -Y niyu@210.45.75.194 
+  917  ssh niyu@210.45.75.194 -p 23
+  918  ssh niyu@210.45.75.194 -p 9
+  919  ssh -Y niyu@210.45.75.194 -p 9
+  920  cd /home/ny/anaconda3/envs/ffpenv/lib/python3.7/site-pacparameter/ffparam/
+  921  cd /home/ny/anaconda3/envs
+  922  cd ffpenv/
+  923  cd lib
+  924  ls
+  925  cd python3.7/
+  926  ls'
+  927  ls
+  928  cd site-packages/
+  929  ls
+  930  cd ffparam-1.0.0-py3.7.egg/
+  931  ls
+  932  cd ffparam/
+  933  ls
+  934  cd script_core/
+  935  ls
+  936  cp mcsa.py  mcsa_bk.py
+  937  vim mcsa.py  
+  938  cp mcsa.py  mcsa_coral.py
+  939  cp mcsa_bk.py  mcsa.py 
+  940  ls
+  941  rm mcsa_coral.py 
+  942  rm mcsa_bk.py 
+  943  ls
+  944  cd
+  945  ls
+  946  cd workspace/
+  947  ls
+  948  cd 2_molecular_probe/
+  949  ls
+  950  cd 2-FFparameter/
+  951  ls
+  952  cd ffparam/
+  953  ls
+  954  cd 1_dsa_final/
+  955  ls
+  956  ll mm_watint_test.txt 
+  957  ls
+  958  cd charges/
+  959  ls
+  960  ll mm_watint_test.txt 
+  961  vim mm_watint_test.txt 
+  962  ll mm_watint_test.txt 
+  963  cd ..
+  964  ll mm_watint_test.txt 
+  965  ll test_mcsa.log 
+  966  ll mm_watint_test.txt 
+  967  cd qmfiles/
+  968  ll *.log
+  969  ls *.txt
+  970  cd ..
+  971  ls
+  972  ll mm_watint_test.txt 
+  973  ls mm*
+  974  ll mm*.txt
+  975  cd charges/
+  976  ll
+  977  vim mm_watint_test.txt  ../mm_watint_test.txt  -o
+  978  ll mm_watint_test.txt 
+  979  cd ..
+  980  ll
+  981  ls
+  982  cd charges/
+  983  ls
+  984  vim mm_watint_test.txt 
+  985  ll mm_watint_test.txt 
+  986  ls
+  987  cd 
+  988  ls
+  989  cd workspace/
+  990  ls
+  991  cd 2_molecular_probe/
+  992  ls
+  993  cd 2-FFparameter/
+  994  ls
+  995  cd ffparam/
+  996  ls
+  997  cd 1_dsa_final/
+  998  ls
+  999  conda activate ffpenv
+ 1000  ffparam-gui 
+ 1001  cd 
+ 1002  ls
+ 1003  cd workspace/
+ 1004  ls
+ 1005  cd 1-speedup_membrane/
+ 1006  ls
+ 1007  cd ..,
+ 1008  ls
+ 1009  cd 2
+ 1010  ls
+ 1011  cd 2-
+ 1012  cd ..
+ 1013  ls
+ 1014  cd 2_molecular_probe/
+ 1015  ls
+ 1016  cd 2-ffparameter/
+ 1017  ls
+ 1018  cd
+ 1019  ls
+ 1020  cd workspace/
+ 1021  ls
+ 1022  cd DSA_para/
+ 1023  ls
+ 1024  mkdir DSA
+ 1025  cd DSA/
+ 1026  mv ~/Downloads/STE208_16dsa_DOXYL_0224\ \(1\).zip  .
+ 1027  ls
+ 1028  mv STE208_16dsa_DOXYL_0224\ \(1\).zip  STE_new.zip
+ 1029  unzip STE_new.zip 
+ 1030  ls
+ 1031  vim STE208_16dsa_DOXYL_0224.pdb 
+ 1032  vim STE_208_5DSA_DOXYL_0224.pdb 
+ 1033  vim STE208_16dsa_DOXYL_0224.pdb 
+ 1034  pwd
+ 1035  scp -P 9 STE*.pdb niyu@210.45.75.194:/home/niyu/workspace/2_molecular_probe/1_POPG_SA/1_modeling_simulation_parameter_test/1_size_my_berger_mdp_cutoff_test/1_8nm_PGSA_mymdp/charmm-gui-6989648975/gromacs/PG_16DSA
+ 1036  ls
+ 1037  history
+ 1038  ls
+ 1039  cd 
+ 1040  ls
+ 1041  cd workspace/
+ 1042  ls
+ 1043  cd 2_molecular_probe/
+ 1044  ls
+ 1045  cd 1-modeling/
+ 1046  ls
+ 1047  cd DTPA-BSA-Gd/
+ 1048  ls
+ 1049  history
+[ny@localhost DTPA-BSA-Gd]$ 
